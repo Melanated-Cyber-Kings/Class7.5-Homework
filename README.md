@@ -94,7 +94,7 @@ git checkout -b Cameron-Cleveland-Homework-Branch
 git checkout -b Campanella-Godfrey-Jr-Homework-Branch
 ```
 ```bash
-git checkout -b Larvarious McDonald-Homework-Branch
+git checkout -b Larvarious-McDonald-Homework-Branch
 ```
 
    
