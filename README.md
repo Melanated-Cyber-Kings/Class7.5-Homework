@@ -70,7 +70,7 @@ git pull origin "name of your branch goes here"
 git checkout -b Van-Ngila-Homework-Branch
 ```
 ```bash
-git checkout -b >Adedji-Adeyemi-Homework-Branch
+git checkout -b Adedji-Adeyemi-Homework-Branch
 ```
 ```bash
 git checkout -b Daniel-Bryce-Homework-Branch
