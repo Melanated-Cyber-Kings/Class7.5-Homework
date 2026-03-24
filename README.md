@@ -67,34 +67,34 @@ git pull origin "name of your branch goes here"
 3. Create your branches and switch into it immediately. (I have created the names as I want you to create your branches)
 
 ```bash
-git checkout -b Van-Ngila-Homework-Branch
+git checkout -b Van-Ngila-Homework-Branch-7.5
 ```
 ```bash
-git checkout -b Adedji-Adeyemi-Homework-Branch
+git checkout -b Adedji-Adeyemi-Homework-Branch-7.5
 ```
 ```bash
-git checkout -b Daniel-Bryce-Homework-Branch
+git checkout -b Daniel-Bryce-Homework-Branch-7.5
 ```
 ```bash
-git checkout -b ST-Tucker-Homework-Branch
+git checkout -b ST-Tucker-Homework-Branch-7.5
 ```
 ```bash
-git checkout -b Thomas-Bell-Homework-Branch
+git checkout -b Thomas-Bell-Homework-Branch-7.5
 ```
 ```bash
-git checkout -b Voloxar-Karsze-Homework-Branch
+git checkout -b Voloxar-Karsze-Homework-Branch-7.5
 ```
 ```bash
-git checkout -b Shawn-Mosby-Homework-Branch
+git checkout -b Shawn-Mosby-Homework-Branch-7.5
 ```
 ```bash
-git checkout -b Cameron-Cleveland-Homework-Branch
+git checkout -b Cameron-Cleveland-Homework-Branch-7.5
 ```
 ```bash
-git checkout -b Campanella-Godfrey-Jr-Homework-Branch
+git checkout -b Campanella-Godfrey-Jr-Homework-Branch-7.5
 ```
 ```bash
-git checkout -b Larvarious-McDonald-Homework-Branch
+git checkout -b Larvarious-McDonald-Homework-Branch-7.5
 ```
 
    
