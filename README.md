@@ -1,6 +1,11 @@
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Contributors](https://img.shields.io/badge/Contributors-11-blue?style=for-the-badge)
+![Homework](https://img.shields.io/badge/Homework-Weekly-orange?style=for-the-badge)
+![GCP](https://img.shields.io/badge/GCP-Learning-yellow?style=for-the-badge)
+
 # ☁️ GCP Class 7.5 Homework week by week 📝
 
-## Week 1
+### Week 1
 
 <a href="https://github.com/ThomasBell-dev/GCP-Class_Notes7.5/tree/main/01_week">Wk1 Repo</a>
 
