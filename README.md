@@ -2,10 +2,10 @@
 
 ## Week 1
 
-<a href="https://github.com/ThomasBell-dev/GCP-Class_Notes7.5/tree/main/01_week">Repo</a>
+<a href="https://github.com/ThomasBell-dev/GCP-Class_Notes7.5/tree/main/01_week">HW Repo</a>
 
 <details>
-    <summary>Instructions</summary>
+    <summary>HW Instructions</summary>
 
 Follow the instructor's guidance for how to make a homepage with a VM.
 
