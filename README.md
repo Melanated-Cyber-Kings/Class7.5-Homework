@@ -2,15 +2,18 @@
 
 ## Week 1
 
-<a href="https://github.com/ThomasBell-dev/GCP-Class_Notes7.5/tree/main/01_week">HW Repo</a>
+<a href="https://github.com/ThomasBell-dev/GCP-Class_Notes7.5/tree/main/01_week">Wk1 Repo</a>
 
 <details>
     <summary>HW Instructions</summary>
 
 Follow the instructor's guidance for how to make a homepage with a VM.
 
-If you use GCP CLI then: gcloud init
-You need to select default Region and project.
+If you use GCP CLI then:
+```bash
+gcloud init
+```
+> You need to select default Region and project.
 
 Show your work:
 
@@ -53,7 +56,7 @@ curl -s localhost/metadata | jq .
 
 ### SEIR-I Lab 1 Gate Philosophy
 
-Real engineers never say: --> “It works on my screen.”
+Real engineers never say: --> **It works on my screen!**
 
 They prove:
 The service is reachable
