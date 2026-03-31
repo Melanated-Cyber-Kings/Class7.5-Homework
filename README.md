@@ -1,119 +1,111 @@
-# Class7.5-Homework
+# ☁️ GCP Class 7.5 Homework week by week 📝
 
-Class 7.5 2026 Homework Submissions Repo for THEO WAF 
+## Week 1
 
-<h1 align="center">AWS CLASS 7.5 HOMEWORK</h1>
+<details>
+    <summary>Instructions</summary>
 
+Follow the instructor's guidance for how to make a homepage with a VM.
 
-**Group Leader #1:** 
-<br>
-<a href="https://github.com/BashiM1">Mahamed Bashir</a>
+If you use GCP CLI then: gcloud init
+You need to select default Region and project.
 
-<br>
+Show your work:
 
-**Group Leader #2:** 
-<br>
-<a href="https://github.com/Brimah-Khalil-Kamara">Brimah Khalil Kamara</a>
+1. Browser proof
+   Open: http://<EXTERNAL_IP>/
 
-<br>
-
-
-
-**Group Members:**
-
-<br>
-
-**1:** <a href="https://github.com/waseeconsulting-git">Van Ngila</a> 
-
-**2:** <a href="https://github.com/anthonyadeconsulting-source">Adedji Adeyemi</a> 
-
-**3:** <a href="https://github.com/DBs-art">Daniel Bryce</a> 
-
-**4:** <a href="https://https://github.com/statuc30721">ST Tucker</a> 
-
-**5:** <a href="https://github.com/ThomasBell-dev/GCP-Class_Notes7.5">Thomas Bell</a> 
-
-**6:** <a href="https://github.com/theswordpt-git">Voloxar Karsze</a> 
-
-**7:** <a href="https://github.com/Lew228">Shawn Mosby</a> 
-
-**8:** <a href="https://github.com/Cameron-Cleveland">Cameron Cleveland</a> 
-
-**9:** <a href="https://github.com/BennyCampCloud">Campanella Godfrey Jr</a>
-
-**10:** <a href="https://github.com/LarvariousM">Larvarious McDonald</a>
-
-
-<br>
-
-<h2 align="center">📌 Instructions</h2>
-
-<br>
-
-1. Pull or clone the Class7.5 Homework Repo on your gitbash terminal to your git on your local machine. You will only be allowed to pull once you have cloned the repo. 
-
+2. at the end of the lesson, SSH into your VM and curl it
 
 ```bash
-git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
+curl localhost
 ```
 
 ```bash
-git pull origin "name of your branch goes here"
+curl -s localhost | head
 ```
 
+3. Service Proof
+    > systemctl status nginx --no-pager
 
-2. Navigate to the cloned repo location in your gitbash terminal and create folders Week 1, Week 2, and so on. These are the folders that will have your homework in
+✨ Bonus: For the fearless who want some head.
 
-3. Create your branches and switch into it immediately. (I have created the names as I want you to create your branches)
+If you want the page to refresh every 10 seconds (extra dopamine):
+
+Add this inside <head>:
+<meta http-equiv="refresh" content="10">
+
+> If you use supera.sh then....
+
+1. Machine proof
 
 ```bash
-git checkout -b Van-Ngila-Homework-Branch-7.5
+curl -s localhost/healthz
 ```
+
+2. Engineer proof
+
 ```bash
-git checkout -b Adedji-Adeyemi-Homework-Branch-7.5
+curl -s localhost/metadata | jq .
 ```
+
+### SEIR-I Lab 1 Gate Philosophy
+
+Real engineers never say: --> “It works on my screen.”
+
+They prove:
+The service is reachable
+The health endpoint works
+The metadata endpoint returns valid JSON
+The deployed infrastructure identifies itself
+
+So the gate script checks exactly those things.
+
+Lab 1 Gate Script
+Find it here: --> https://github.com/BalericaAI/SEIR-1/blob/main/weekly_lessons/weeka/script/gate_gcp_vm_http_ok.sh
+
+> NOTE!!!! You need to find the IP and change it!
+
+Run it like this!
+
 ```bash
-git checkout -b Daniel-Bryce-Homework-Branch-7.5
-```
-```bash
-git checkout -b ST-Tucker-Homework-Branch-7.5
-```
-```bash
-git checkout -b Thomas-Bell-Homework-Branch-7.5
-```
-```bash
-git checkout -b Voloxar-Karsze-Homework-Branch-7.5
-```
-```bash
-git checkout -b Shawn-Mosby-Homework-Branch-7.5
-```
-```bash
-git checkout -b Cameron-Cleveland-Homework-Branch-7.5
-```
-```bash
-git checkout -b Campanella-Godfrey-Jr-Homework-Branch-7.5
-```
-```bash
-git checkout -b Larvarious-McDonald-Homework-Branch-7.5
+VM_IP=34.82.55.21 ./gate_gcp_vm_http_ok.sh
 ```
 
-   
-5. Create Readme.md files in each folder you created above this will be the file that you will document your homework in and that will be presented to THEO, so make sure it's readable and that someone who wouldnt know how to do the homework/project can follow with little to no difficulty.
+Remember, 34.82.55.21 is an example!! That's not your IP! You have to find your own IP! Don't ask the teach about this!!
 
-6. Once you have done this any homework you have already done begin to tansfer it into these folders that you created above to your git on your local machine.
+Example output:
 
-   
+```json
+Lab 1 Gate Result: PASS
 
+PASS: Homepage reachable (HTTP 200)
+PASS: /healthz endpoint returned 'ok'
+PASS: /metadata returned valid JSON
+PASS: metadata contains instance_name
+PASS: metadata contains region
+```
 
+Files created:
+gate_result.json
+badge.txt
 
-<br>
+Example gate_result.json
 
+```json
+{
+    "lab": "SEIR-I Lab 1",
+    "target": "34.82.55.21",
+    "status": "PASS",
+    "details": [
+        "PASS: Homepage reachable (HTTP 200)",
+        "PASS: /healthz endpoint returned 'ok'",
+        "PASS: /metadata returned valid JSON"
+    ],
+    "failures": []
+}
+```
 
+</details>
 
-
-
-
-
-
-
-
+---
