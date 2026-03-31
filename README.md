@@ -2,6 +2,8 @@
 
 ## Week 1
 
+<a href="https://github.com/ThomasBell-dev/GCP-Class_Notes7.5/tree/main/01_week">Repo</a>
+
 <details>
     <summary>Instructions</summary>
 
