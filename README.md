@@ -125,7 +125,7 @@ Example gate_result.json
 <a href="https://github.com/ThomasBell-dev/GCP-Class_Notes7.5/tree/main/02_week">Wk2 Repo</a>
 
 <details>
-<summary>Wk2 Instructions</summary>
+    <summary>HW Instructions</summary>
 
 SEIR-I Lab 2 (GCP Terraform) — Iowa VM + Startup Script + Port 80
 
