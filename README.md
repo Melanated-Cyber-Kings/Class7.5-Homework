@@ -1,5 +1,4 @@
 
-```markdown
 [![GCP](https://img.shields.io/badge/GCP-Minimal?style=flat-square&logo=google-cloud&color=4285F4)](https://cloud.google.com/)
 [![Terraform](https://img.shields.io/badge/Terraform-Minimal?style=flat-square&logo=terraform&color=7B42BC)](https://www.terraform.io/)
 [![Status](https://img.shields.io/badge/Status-Active-Minimal?style=flat-square&color=2ea44f)](#)
@@ -84,4 +83,3 @@ terraform destroy -auto-approve
 
 ---
 *Note: All infrastructure in this repository is designed to be ephemeral. `terraform destroy` is enforced post-validation to maintain zero idle cloud spend.*
-```
