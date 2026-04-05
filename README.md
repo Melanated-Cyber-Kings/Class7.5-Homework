@@ -3,9 +3,11 @@
 [![Terraform](https://img.shields.io/badge/Terraform-Minimal?style=flat-square&logo=terraform&color=7B42BC)](https://www.terraform.io/)
 [![Status](https://img.shields.io/badge/Status-Active-Minimal?style=flat-square&color=2ea44f)](#)
 
-# GCP Operations & IaC Runbooks
+# 7.5 GCP & IaC Runbooks
 
 **Group Leader #1:** [M-Bash](https://github.com/M-Bash) | Cohort 7.5
+<br>
+
 **Group Leader #2:** [Brimah](https://github.com/Brimah-Khalil-Kamara) | Cohort 7.5
 
 Infrastructure-as-Code (IaC) deployments and grading validations for GCP. Tracks the transition from imperative provisioning to declarative state management.
