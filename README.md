@@ -4,7 +4,7 @@
 [![Terraform](https://img.shields.io/badge/Terraform-%23c6a0f6.svg?style=for-the-badge&logo=terraform&logoColor=24273a)](https://www.terraform.io/)
 [![Status](https://img.shields.io/badge/Status-Active_Maintenance-%23a6da95.svg?style=for-the-badge&logoColor=24273a)](#)
 
-# GCP Operations & IaC Runbooks
+# SEIR-1 7.5 - GCP Ops & IaC Runbooks
 
 **Group Leader #1:** [M-Bash](https://github.com/M-Bash) | Cohort 7.5<br>
 **Group Leader #2:** [Brimah](https://github.com/Brimah-Khalil-Kamara) | Cohort 7.5<br>
