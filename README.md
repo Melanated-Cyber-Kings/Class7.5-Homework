@@ -9,7 +9,7 @@
 **Group Leader #1:** [M-Bash](https://github.com/M-Bash) | Cohort 7.5<br>
 **Group Leader #2:** [Brimah](https://github.com/Brimah-Khalil-Kamara) | Cohort 7.5<br>
 
-*Infrastructure-as-Code (IaC) deployments and grading validations for GCP. Tracks the transition from imperative provisioning to declarative state management.*
+*Declarative GCP infrastructure configurations. Implements ephemeral compute, automated health routing, and CI-gated compliance validation.*
 
 </div>
 
