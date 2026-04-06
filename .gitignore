@@ -110,8 +110,20 @@ terraform.tfvars.json
 ############################################################
 # GOOGLE CLOUD PLATFORM (GCP)
 ############################################################
-# GCP credentials (NEVER commit)
-*.json
+# Block GCP credential JSON files (safe patterns)
+*service-account*.json
+*service_account*.json
+*credentials*.json
+*cred*.json
+*sa-key*.json
+*sa_key*.json
+*gcp-key*.json
+*gcp_key*.json
+
+# Allow all other JSON files
+!*.json
+
+# GCP credential formats (non-JSON)
 *.p12
 *.key
 *.pem
@@ -144,14 +156,23 @@ logs/
 ############################################################
 # MISC PROJECT-SPECIFIC
 ############################################################
-# Ignore screenshots or large binary artifacts
-screenshots/
-*.png
-*.jpg
-*.jpeg
+
 
 # Ignore local test files
 test-output/
 tmp/
 temp/
 scratch/
+
+
+############################################################
+# SCREENSHOTS
+############################################################
+
+# Ignore screenshots only in screenshots/ folder
+screenshots/
+
+# Allow PNG/JPG everywhere else
+!*.png
+!*.jpg
+!*.jpeg
