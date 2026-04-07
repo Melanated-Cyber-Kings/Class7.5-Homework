@@ -2,7 +2,7 @@
 
 Class 7.5 2026 Homework Submissions Repo for THEO WAF 
 
-<h1 align="center">AWS CLASS 7.5 HOMEWORK</h1>
+<h1 align="center">GCP CLASS 7.5 HOMEWORK</h1>
 
 
 **Group Leader #1:** 
