@@ -3,6 +3,7 @@
 This repository contains all individual and group homework submissions for Class 7.5 in the TheoWAF program. It provides a structured, well‑documented record of weekly assignments, collaborative work, and technical deliverables completed throughout the course.
 
 The goal of this repository is to maintain a clear, professional, and academically sound submission format that supports grading, review, and long‑term reference.
+
 🎯 Repository Purpose
 
 This project is intended to:
@@ -38,6 +39,7 @@ Group-Homework/
 
 Contains collaborative assignments completed with classmates.
 Each submission includes documentation of group roles, approach, and deliverables.
+
 📘 Submission Standards
 
 All submissions in this repository should:
@@ -76,6 +78,7 @@ All submissions adhere to course policies regarding:
     Ethical use of tools and automation
 
 No proprietary, confidential, or unauthorized materials are included.
+
 🧰 Technical Scope
 
 Assignments in this course may involve:
@@ -97,6 +100,7 @@ Assignments in this course may involve:
     Logging, monitoring, and troubleshooting
 
 This repository is structured to support these topics while maintaining clean version control practices.
+
 📄 Contribution Notes
 
 This repository is used for coursework and grading.
@@ -111,6 +115,7 @@ If updates or corrections are needed:
     Avoid committing temporary files, logs, or system artifacts
 
 A .gitignore is included to enforce clean repository hygiene.
+
 📌 Final Notes
 
 This repository is designed to reflect professionalism, clarity, and technical discipline.
