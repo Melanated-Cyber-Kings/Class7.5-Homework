@@ -52,6 +52,47 @@ N/A - Theo gave time off (Birthday week & Illinois in NCAA Final Four)
 
 - Week 5
 
+Reading, Videos, and Labs
+
+GCP:
+Professional Cloud Architect Prep Book (megafile) == Chapters 1-4 & Chapter 8
+GCP Terraform Book (megafile) = Chapters 1 & 2
+GCP Masterclass (Udemy) == Videos & Labs #19 - 43 (sections 5 & 6)
+
+
+Linux:
+Linux Command Line (megafile) == chapters 1-4
+Linux Fundamentals (killercoda.com) == Lessons 1-8
+
+Git:
+Learning Git (megafile) == Chapters 1-3
+Git Fundamentals (killercoda.com) = Lessons 1-4
+
+
+Class Practice
+
+Re-run the in-class lab from Friday and Saturday’s recordings, taking screenshots along the way. Take a screenshot of every step in the Terraform IVPAD sequence, showing the resulting output of each command. After running terraform destroy, and confirming resources have been torn down in GCP, run the following command within quotation marks in Git Bash for Windows, or Terminal for Mac/Linux: “date && hostename && whoami”
+
+
+Deliverables
+Screenshots:
+Terraform init
+Terraform validate
+Terraform plan
+Terraform apply
+Terraform destroy
+“Date && hostename && whoami” 
+
+
+Be A Man Extra Credit:
+Using the Terraform files from this week's classes, export what's described when "Terraform plan" is run into a file. Then, create a new folder in Terminal/Git Bash titled "<insertDateHere>_weekB_hw", go into that folder, and move the Terraform Plan output into that folder. Finally, use Git to push the Terraform plan output to GitHub. Your group leader will share/show how to create a GitHub repository. The GitHub repository must start with “TheoU_7.5_BaM_weekB”.
+
+
+Deliverables:
+Screenshots
+Above screenshots
+Terraform Plan output, in a .txt or .json format
+Student’s GitHub repo link
 
 
 
