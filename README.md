@@ -1,12 +1,14 @@
 Class7.5 SIER-Homework
 
-- Week 1 
+## Week 1 
 
-[SHOW CHOCO INSTALLED IMAGE LIST]
+Installed Choco List on My PC
+
+<img width="500" height="1000" alt="choco list" src="https://github.com/user-attachments/assets/6270e523-4767-4639-811d-98a3b923f613" />
 
 
 
-- Week 2 
+## Week 2 
 
 [Deploy a VM instance with supera.sh script and check the success of your deployment with the “gate” script given]
 
@@ -24,11 +26,12 @@ badge.txt
 <img width="800" height="800" alt="badge txt" src="https://github.com/user-attachments/assets/3d5db433-572c-4eac-b226-a64c1876df72" />
 
 [gate_gcp_vm_http_ok.sh ](week1/gate_gcp_vm_http_ok.sh)
+
 [gate_result.json](week1/gate_result.json)
 
 
 
-- Week 3
+## Week 3
 
 "Udemy GCP MasterClass: Section 10"
 
@@ -63,11 +66,17 @@ HANDS-ON: Static vs Ephermeral IP Address
 
 
 
-- Week 4
+## Week 4
 
-N/A - Theo gave time off (Birthday week & Illinois in NCAA Final Four)
+N/A - Theo gave time off (Birthday week & Illinois in NCAA Final Four) 🥳🎉
 
-- Week 5
+![yoda-star-wars](https://github.com/user-attachments/assets/26820918-e6b0-4927-9ec6-75cba95ed4d6)
+
+
+![IlliniFan](https://github.com/user-attachments/assets/bfb9a831-9a37-4d93-b7e0-944df19448be)
+
+
+## Week 5
 
 Reading, Videos, and Labs
 
