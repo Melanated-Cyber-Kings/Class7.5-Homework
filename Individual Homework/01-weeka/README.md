@@ -116,7 +116,7 @@ Before creating any resources, you must enable the Compute Engine API.
 2. Look for the **"Raw"** button at the top of the code view
 3. Click the **"Copy raw file"** icon (next to Raw button)
 
-**Why this method?** *"The reason why you do this is it's perfect copy. There's no possibility of copying a white space... If you just click here, you don't have to think. It's easy. Your brain is still functioning."*
+**Why this method?** *"The reason why you do this is it's perfect copy. There's no possibility of copying a white space... If you just click here, you don't have to think."*
 
 ### Apply the Script
 1. Go back to VM creation screen
@@ -332,33 +332,6 @@ whoami      # Display current username
 - Using incompatible browser
 - OS Login metadata setting enabled
 - Project policy restrictions (create new project to test)
-
----
-
-## Class Philosophy & Mindset
-
-### Destroy Impostor Syndrome
-> *"This class is specifically designed to destroy impostor syndrome. One of the big things is to destroy impostor syndrome. I tried various methods... and now here, this is in full effect."*
-
-### Repetition is Learning
-> *"In the cloud, everything is really repeatable. It's the same thing again and again and again and again. It's nothing like, 'Oh, this is new.' It's the same damn process. Especially for infrastructure. It's always the same."*
-
----
-
-## Homework / Next Steps
-
-### Before Next Class
-1. ✅ Tear down your VM (if you haven't already)
-2. ✅ Complete software installation (Git, VS Code, Python, gcloud CLI)
-3. ✅ Join your assigned group (watch for Aaron's spreadsheet)
-4. 🔄 Practice the lab 2-3 more times until it's muscle memory
-5. 📝 Take notes in Obsidian (build your knowledge base)
-
-### Preview: Week A Continued
-- More startup script variations
-- Introduction to templates
-- gcloud CLI commands
-- Python scripts for automation
 
 ---
 
