@@ -23,7 +23,7 @@ Virtual Machine Creation Proof<br/>
 
 badge.txt<br/>
 
-<img width="800" height="800" alt="badge txt" src="https://github.com/user-attachments/assets/3d5db433-572c-4eac-b226-a64c1876df72" />
+<img width="500" height="500" alt="badge txt" src="https://github.com/user-attachments/assets/3d5db433-572c-4eac-b226-a64c1876df72" />
 
 [gate_gcp_vm_http_ok.sh ](week1/gate_gcp_vm_http_ok.sh)
 
@@ -36,6 +36,15 @@ badge.txt<br/>
 ### "Udemy GCP MasterClass: Section 10"
 
 **LAB: VPC IPs Distribution**
+
+I've created two external static IP addresses, one is regional and the other is a global static IP address.<br/>
+
+<img width="600" height="600" alt="01-externalstaticips" src="https://github.com/user-attachments/assets/66c96162-11ce-42a5-9d72-94a0e2dc0548" />
+
+In this diagram, I've created three VM instances. One has no external IP address, one has an external IP address, and the third one has a static IP address assigned to it.
+
+<img width="600" height="600" alt="02-staticipsassignedtovm" src="https://github.com/user-attachments/assets/6a6aa09c-0599-443b-a539-128f2896a361" />
+
 
 **LAB: Network Firewalls in GCP**
 
