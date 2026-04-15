@@ -219,12 +219,3 @@ They prove:
     The deployment is automated and reproducible
 
 This lab reinforces those principles.
-Academic Integrity Notice
-
-This repository is provided for educational use within the SEIR‑I program.
-
-    No proprietary or confidential material is included
-
-    All scripts and examples are original or instructor‑provided
-
-    Students are responsible for adhering to academic honesty policies
