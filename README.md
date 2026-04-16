@@ -127,6 +127,9 @@ N/A - Theo gave us time off (Birthday week & Illinois in NCAA Final Four) ðŸ¥³ðŸ
 
 ![IlliniFan](https://github.com/user-attachments/assets/bfb9a831-9a37-4d93-b7e0-944df19448be)
 
+<img width="225" height="225" alt="images (1)" src="https://github.com/user-attachments/assets/2fada686-e531-4450-918f-d6607e7b935e" />
+
+
 
 ## Week 5
 
