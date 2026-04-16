@@ -154,9 +154,8 @@ This lab demonstrates how to implement and manage firewall rules within Google C
 ## 🚀 Step 1: Create a VPC
 
 1. Navigate to:
-
-add SS
-
+   
+<img width="935" height="224" alt="image" src="https://github.com/user-attachments/assets/23b038bd-dc74-45d5-ab23-cc092ca77c98" />
 
 ---
 
@@ -164,7 +163,7 @@ add SS
 
 3. Configure:
 - **Name**: `name-demo`
-
+<img width="841" height="387" alt="image" src="https://github.com/user-attachments/assets/e62598fd-b351-4905-8196-38ae8cf62dfd" />  
 ---
 
 ## 🌐 Step 2: Create Subnets
@@ -173,37 +172,41 @@ Create three subnets with the following configurations:
 
 | Subnet Name       | IP Range   |
 |------------------|-----------|
-| name-webserver   | 10.0.0.1  |
-| name-db          | 10.0.1.1  |
-| name-service     | 10.0.2.1  |
+| name-webserver   | 10.0.1.0/24  |
+| name-db          | 10.0.2.0/24  |
+| name-service     | 10.0.3.0/24  |
 
 > 📌 Ensure naming conventions are consistent across all resources.
+
+<img width="741" height="711" alt="image" src="https://github.com/user-attachments/assets/ed5d8cbc-12b5-4815-a582-772560a2795b" />
 
 ---
 
 ## 🔥 Step 3: Create Firewall Rule (Allow)
 
 1. Navigate to:
-
-   
-add SS
+<img width="743" height="114" alt="image" src="https://github.com/user-attachments/assets/378b4992-24f9-4411-ab2d-f38d0af4af6f" />
 
 ---
 
 2. Click **Create Firewall Rule**
 
-3. Configure:
+2.5. Configure:
 
+- **Name**: `name-fw-demo`
 - **Network**: `name-demo`
 - **Priority**: `1000`
 - **Direction of Traffic**: Ingress
 - **Action on Match**: Allow
 - **Targets (Tags)**: `db`, `webserver`, `services`
 - **Source IP Ranges**: `0.0.0.0/0`
-
-### Allowed Protocols:
+  ### Allowed Protocols:
 - **TCP**: `22` (SSH)
 - **Other Protocols**: `ICMP`
+
+<img width="752" height="807" alt="image" src="https://github.com/user-attachments/assets/fb9a9168-32b8-42c4-9442-d2a2457da083" />
+<img width="720" height="601" alt="image" src="https://github.com/user-attachments/assets/f06be50d-f204-4d52-949f-e4aa001392c7" />
+<img width="740" height="645" alt="image" src="https://github.com/user-attachments/assets/1bbf4ebc-ae80-4fb4-bd15-f22d62919fc6" />
 
 ---
 
@@ -222,6 +225,7 @@ Create three VM instances using the following naming convention:
   - Match subnet naming
   - Example:
     - `name-db` → `name-instance-db`
+<img width="943" height="307" alt="image" src="https://github.com/user-attachments/assets/7a257545-2879-4db7-9f96-53f703609be8" />
 
 ---
 
@@ -236,7 +240,11 @@ Create three VM instances using the following naming convention:
 - `services`
 
 > 📌 These tags link firewall rules to the correct instances.
+<img width="912" height="490" alt="image" src="https://github.com/user-attachments/assets/7f184dce-33dc-4c7d-9f8e-073d4f54392b" />
+<img width="715" height="655" alt="image" src="https://github.com/user-attachments/assets/4551e982-2c54-44ef-b1fc-cdf2356757ef" />
 
+
+<img width="1227" height="341" alt="image" src="https://github.com/user-attachments/assets/bc6bc75e-786d-4c6a-b2f3-49e43880fea0" />
 ---
 
 ## 🔄 Step 5: Test Connectivity
