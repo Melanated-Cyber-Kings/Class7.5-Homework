@@ -1,4 +1,4 @@
-
+# Class7.5 SIER Homework
 
 **Weekly Directory**
 
@@ -175,7 +175,7 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 
 
 
-### Lesson 1 Quiz<br/>
+### Lesson 1 Quiz
 
 <img width="600" height="600" alt="lesson1quiz" src="https://github.com/user-attachments/assets/f36d2d77-c81f-4c46-b521-a8224d0f5c9c" />
 
@@ -203,7 +203,7 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 
 <img width="600" height="600" alt="03-lesson3-deletingdirectories" src="https://github.com/user-attachments/assets/52b9e09a-fbf7-4d3d-b91c-907b1cd60168" />
 
-### Lesson 3 Quiz<br/>
+### Lesson 3 Quiz
 
 <img width="600" height="600" alt="lesson3quiz" src="https://github.com/user-attachments/assets/4eca6e60-1091-4906-b8db-809165bf0c32" />
 
@@ -220,6 +220,71 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 <img width="600" height="600" alt="04-lesson4-vimcreatefile" src="https://github.com/user-attachments/assets/84204702-db6f-4dde-844a-3e7f35e3248e" />
 
 ### Lesson 5
+
+<img width="600" height="600" alt="05-lesson5-pipes" src="https://github.com/user-attachments/assets/db92eb59-f624-4e1d-bc39-4d3f709915bf" />
+
+<img width="600" height="600" alt="05-lesson5-pipes-redirectfiles" src="https://github.com/user-attachments/assets/6f5dc4ca-e263-4a38-b82e-abe67fcedcab" />
+
+<img width="600" height="600" alt="05-lesson5-pipes-inputredirection" src="https://github.com/user-attachments/assets/123e97f4-8e5d-4c60-8132-3278de7d246b" />
+
+### Lesson 5 Quiz
+
+<img width="600" height="600" alt="lesson5quiz" src="https://github.com/user-attachments/assets/fe7c796a-d91e-467d-ae5b-b017569082e4" />
+
+<img width="600" height="600" alt="lesson5quiz2" src="https://github.com/user-attachments/assets/c1f4e9be-7e8f-432e-b4a0-992d4c84201a" />
+
+<img width="600" height="600" alt="lesson5quiz3" src="https://github.com/user-attachments/assets/c6820f21-396f-43ca-bdbd-4f5572efc22e" />
+
+### Lesson 6
+
+<img width="600" height="600" alt="06-lesson6-catandvim" src="https://github.com/user-attachments/assets/2b618ea8-3478-40c5-8790-1d1dd75bb0a8" />
+
+<img width="600" height="600" alt="06-lesson6-readlessandmore" src="https://github.com/user-attachments/assets/9031d105-5fb6-48a9-8a9b-3631179f2ba5" />
+
+<img width="600" height="600" alt="06-lesson6-printpartfile" src="https://github.com/user-attachments/assets/83c923d2-c005-41e8-94a2-29ed99b975bf" />
+
+<img width="600" height="600" alt="06-lesson6-printpartfile2" src="https://github.com/user-attachments/assets/0388ac24-5359-40c3-ae0c-8165ab10ab7a" />
+
+### Lesson 6 Quiz
+
+<img width="600" height="600" alt="lesson6quiz" src="https://github.com/user-attachments/assets/6a49f3ea-69b8-40d5-80e1-c7ba6d4c4093" />
+
+<img width="600" height="600" alt="lesson6quiz2" src="https://github.com/user-attachments/assets/faa0f8f0-096b-4e3c-8c07-cf530f6cd958" />
+
+### Lesson 7
+
+<img width="600" height="600" alt="07-lesson7-copyandmovefiles" src="https://github.com/user-attachments/assets/a68872cd-ceb6-400d-a8a7-d52d92f23dfb" />
+
+<img width="600" height="600" alt="07-lesson7-copyandmovefiles2" src="https://github.com/user-attachments/assets/1f8850bf-ce01-4e1c-b8ab-42958a280bc9" />
+
+<img width="600" height="600" alt="07-lesson7-copyandmovefiles3" src="https://github.com/user-attachments/assets/5e24f85b-e213-4b31-b9df-666945248eba" />
+
+<img width="600" height="600" alt="07-lesson7-copyandmovefiles4" src="https://github.com/user-attachments/assets/425df99b-6497-4c3b-a01a-1c88568ba3c1" />
+
+<img width="600" height="600" alt="07-lesson7-copyandmovefiles5" src="https://github.com/user-attachments/assets/c60b3f4d-f41a-489b-9342-0a4e0c21faf1" />
+
+<img width="600" height="600" alt="07-lesson7-copyandmovefiles6" src="https://github.com/user-attachments/assets/ff17980b-32e2-459e-997e-4dcdb165616a" />
+
+### Lesson 8
+
+<img width="600" height="600" alt="08-lesson8-topcommand" src="https://github.com/user-attachments/assets/cafaad44-d128-4e47-bd5c-c0dcf6fa4616" />
+
+<img width="600" height="600" alt="08-lesson8-modifydefaultview" src="https://github.com/user-attachments/assets/8025ed9a-60f7-4d13-b574-a5483de12fba" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
