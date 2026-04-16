@@ -1,4 +1,4 @@
-# Class7.5 SIER-Homework
+<img width="2880" height="1650" alt="03-lesson3-navigatingtorootdirectory" src="https://github.com/user-attachments/assets/7e6f75d2-2cfc-4eac-8b02-d52c42c563ed" /># Class7.5 SIER-Homework
 
 **Weekly Directory**
 
@@ -165,7 +165,7 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 
 <img width="600" height="600" alt="05-lesson1-formatting" src="https://github.com/user-attachments/assets/42e397d9-83e5-4cf2-bfc7-401f678d5928" />
 
-<img width="2880" height="1650" alt="06-lesson1-otherlsoptionsandhelp" src="https://github.com/user-attachments/assets/d6f7c5a8-9b79-463e-8b69-42d113674f7a" />
+<img width="600" height="600" alt="06-lesson1-otherlsoptionsandhelp" src="https://github.com/user-attachments/assets/d6f7c5a8-9b79-463e-8b69-42d113674f7a" />
 
 <img width="600" height="600" alt="06-lesson1-otherlsoptionsandhelp2" src="https://github.com/user-attachments/assets/08c39064-c818-4875-9f2e-d74eacf3a5a2" />
 
@@ -183,7 +183,57 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 
 <img width="600" height="600" alt="lesson1quiz3" src="https://github.com/user-attachments/assets/673570a0-b318-4a18-816c-34f11c782d29" />
 
-### 
+### Lesson 2
+
+<img width="600" height="600" alt="02-lesson2-mancommand" src="https://github.com/user-attachments/assets/575447aa-ed0d-42d0-9c3a-ddd701f1d6cd" />
+
+<img width="600" height="600" alt="02-lesson2-manintro" src="https://github.com/user-attachments/assets/10ba35d8-7a5a-44b6-8345-09be1142c51e" />
+
+### Lesson 3
+
+<img width="600" height="600" alt="03-lesson3-createdirectories" src="https://github.com/user-attachments/assets/1fe7d799-8634-4caa-a723-c7fcf4329c87" />
+
+<img width="600" height="600" alt="03-lesson3-createdirectories2" src="https://github.com/user-attachments/assets/f5f4298d-354f-42c4-b006-8d6544a79922" />
+
+<img width="600" height="600" alt="03-lesson3-navigatingdirectories" src="https://github.com/user-attachments/assets/cc323605-0da6-48ba-a5ec-c5249057f58b" />
+
+<img width="600" height="600" alt="03-lesson3-navigatingdirectories2" src="https://github.com/user-attachments/assets/be4d54a5-0a54-4bf2-b5d1-d1fc04d07959" />
+
+<img width="600" height="600" alt="03-lesson3-navigatingtorootdirectory" src="https://github.com/user-attachments/assets/b0afd77f-d2d6-4b07-8ff6-69801379d12c" />
+
+<img width="600" height="600" alt="03-lesson3-deletingdirectories" src="https://github.com/user-attachments/assets/52b9e09a-fbf7-4d3d-b91c-907b1cd60168" />
+
+### Lesson 3 Quiz<br/>
+
+<img width="600" height="600" alt="lesson3quiz" src="https://github.com/user-attachments/assets/4eca6e60-1091-4906-b8db-809165bf0c32" />
+
+<img width="600" height="600" alt="lesson3quiz1" src="https://github.com/user-attachments/assets/bc1e17a5-419b-42cb-89a1-6d64a9e6f70b" />
+
+<img width="600" height="600" alt="lesson3quiz2" src="https://github.com/user-attachments/assets/1782c8c7-3746-4f67-bcab-7e8a9bd54550" />
+
+### Lesson 4
+
+<img width="600" height="600" alt="04-lesson4-creatingfiles" src="https://github.com/user-attachments/assets/49db88d0-b7fc-4ff5-81da-5375beace3d1" />
+
+<img width="600" height="600" alt="04-lesson4-deletingfiles" src="https://github.com/user-attachments/assets/d4089857-fa61-41af-b7eb-69df8bee9a61" />
+
+<img width="600" height="600" alt="04-lesson4-vimcreatefile" src="https://github.com/user-attachments/assets/84204702-db6f-4dde-844a-3e7f35e3248e" />
+
+### Lesson 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 **Git**:
