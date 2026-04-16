@@ -1,4 +1,4 @@
-# Class7.5 SIER-Homework
+<img width="2880" height="1650" alt="lesson1quiz3" src="https://github.com/user-attachments/assets/bf51e820-e7e4-44a7-bd8a-1e4952664edf" /># Class7.5 SIER-Homework
 
 **Weekly Directory**
 
@@ -145,6 +145,45 @@ GCP Masterclass (Udemy) == Videos & Labs #19 - 43 (sections 5 & 6)
 Linux Command Line (megafile) == chapters 1-4
 Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 
+### Lesson 1
+
+
+
+<img width="600" height="600" alt="01-lesson1-listfiles" src="https://github.com/user-attachments/assets/92633b6f-48d1-44f1-8a9b-83f4cc48251e" />
+
+<img width="600" height="600" alt="01 2-lesson1-listfiles-getmoreinfo" src="https://github.com/user-attachments/assets/32cf4e7f-99ea-48b8-9e0e-d9d08443cb21" />
+
+<img width="600" height="600" alt="02-lesson1-listallfiles" src="https://github.com/user-attachments/assets/2df55479-71e9-4458-a719-84d1c5d8d453" />
+
+<img width="600" height="600" alt="03-lesson1-sortingfiles1" src="https://github.com/user-attachments/assets/1a70fe87-6db6-4382-a9be-e154731bcd49" />
+
+<img width="600" height="600" alt="03-lesson1-sortingfiles2" src="https://github.com/user-attachments/assets/950ec665-0fec-43fe-8087-6d36def8d56f" />
+
+<img width="600" height="600" alt="03-lesson1-sortingfiles3" src="https://github.com/user-attachments/assets/3eda1725-b73c-4e3e-81c1-6866fd70ac49" />
+
+<img width="600" height="600" alt="04-lesson1-sortingfilebysize1" src="https://github.com/user-attachments/assets/c2617f17-26e3-4cc9-b518-a03625c3ba0d" />
+
+<img width="600" height="600" alt="05-lesson1-formatting" src="https://github.com/user-attachments/assets/42e397d9-83e5-4cf2-bfc7-401f678d5928" />
+
+<img width="2880" height="1650" alt="06-lesson1-otherlsoptionsandhelp" src="https://github.com/user-attachments/assets/d6f7c5a8-9b79-463e-8b69-42d113674f7a" />
+
+<img width="600" height="600" alt="06-lesson1-otherlsoptionsandhelp2" src="https://github.com/user-attachments/assets/08c39064-c818-4875-9f2e-d74eacf3a5a2" />
+
+<img width="600" height="600" alt="06-lesson1-otherlsoptionsandhelp3" src="https://github.com/user-attachments/assets/02242a74-4d88-46d1-8b56-657c277b16b3" />
+
+<img width="600" height="600" alt="06-lesson1-otherlsoptionsandhelp4" src="https://github.com/user-attachments/assets/3a92fb5e-f179-4c28-98ee-8ae40d754837" />
+
+
+
+### Lesson 1 Quiz<br/>
+
+<img width="600" height="600" alt="lesson1quiz" src="https://github.com/user-attachments/assets/f36d2d77-c81f-4c46-b521-a8224d0f5c9c" />
+
+<img width="600" height="600" alt="lesson1quiz2" src="https://github.com/user-attachments/assets/c37e11ea-c522-4564-92d0-7c2085ef30df" />
+
+<img width="600" height="600" alt="lesson1quiz3" src="https://github.com/user-attachments/assets/673570a0-b318-4a18-816c-34f11c782d29" />
+
+### 
 
 
 **Git**:
