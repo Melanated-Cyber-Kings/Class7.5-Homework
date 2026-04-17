@@ -1,0 +1,65 @@
+# ==================================================
+# Terraform / GCP Academic Lab .gitignore
+# ==================================================
+
+# Terraform working directories
+**/.terraform/
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Variable files containing local values / secrets
+*.tfvars
+*.tfvars.json
+
+# Allow safe example file
+!terraform.tfvars.example
+
+# Terraform plans
+*.tfplan
+plan.out
+
+# Provider lock file (optional for academic repos)
+.terraform.lock.hcl
+
+# CLI config / credentials
+.terraformrc
+terraform.rc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.bak
+*~
+
+# ==================================================
+# Keep these tracked
+# ==================================================
+!README.md
+!graphics/
+!graphics/*.png
+!*.tf
