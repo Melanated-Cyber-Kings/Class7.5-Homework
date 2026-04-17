@@ -42,7 +42,7 @@ You can also create the bucket through the GCP Console by navigating to the Stor
 [NOTE] Document the bucket name and project ID for future reference, as you will need them for the Terraform backend configuration.
 
 ```bash
-gcloud storage buckets create gs://awesome-majestic-terraform-state --project=class75-st-tucker
+gcloud storage buckets create gs://awesome-majestic-terraform-state --project=<project_ID>
 ```
 ## Authentication and Backend Setup Steps
 
