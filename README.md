@@ -150,12 +150,24 @@ I created a VM instance in GCP
 <img width="600" height="600" alt="01-createvminstance" src="https://github.com/user-attachments/assets/ef4ccfc0-1b0a-4ed6-ba9e-8dd296fd8890" />
 
 
-Then, I chekced the version of Python3 on the VM Instance, and installed GIT on there as well and verified the version.
+Then, I checked the version of Python3 on the VM Instance, and installed GIT on there as well and verified the version.
 
 <img width="600" height="600" alt="02-installpackagesonvm" src="https://github.com/user-attachments/assets/559ba1ad-dde6-4994-8a0f-b2de1a3db975" />
 
-
 **Lab : Edit Running Compute Engine**
+
+In my current VM instance, I clicked on the edit button and add an extra 200 GB disk. <br/>
+
+<img width="600" height="600" alt="04-adddiskonrunningvm" src="https://github.com/user-attachments/assets/743bcedb-d909-4d65-ac6a-4c657de737af" />
+
+However, I was limited to what I could edit on a running VM instance, so I stopped the VM instance so I could change the name.<br/>
+
+<img width="600" height="600" alt="05-editstoppedvminstance" src="https://github.com/user-attachments/assets/c110d076-afd1-413d-881b-550f423922d6" />
+
+I also changed the machine type from E2 to N2.<br/>
+
+<img width="600" height="600" alt="06-changedmachinetype" src="https://github.com/user-attachments/assets/73d662ce-f709-4dce-b99c-dfe822b111d9" />
+
 
 **Lab : Create Custom Machine in GCP**
 
