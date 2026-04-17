@@ -189,6 +189,11 @@ terraform apply
 
 You should see the output confirming that the VPC network has been created successfully. You can verify the creation of the VPC network in the GCP Console under the VPC Network section.
 
+Here is an example of what your GCP bucket can potentially look like in the GCP console web page after running the terraform apply command:
+
+![gcp-console-bucket](./graphics/gcp-bucket-with-tfstate.png)
+
+
 ## Teardown of Infrastructure
 To tear down the infrastructure that you have created with Terraform, you can use the terraform destroy command. This command will destroy all the resources that were created by your Terraform configuration files.
 
