@@ -23,12 +23,12 @@
 
 Script Result Proof<br/>
 
-<img width="800" height="800" alt="Script Result Proof" src="https://github.com/user-attachments/assets/4076063c-9c94-45d6-8049-8ffd212efe66" />
+<img width="600" height="600" alt="Script Result Proof" src="https://github.com/user-attachments/assets/4076063c-9c94-45d6-8049-8ffd212efe66" />
 
 
 Virtual Machine Creation Proof<br/>
 
-<img width="800" height="800" alt="VM Proof" src="https://github.com/user-attachments/assets/8a1d68b4-0406-4f0f-83b1-6838c07197fd" />
+<img width="600" height="600" alt="VM Proof" src="https://github.com/user-attachments/assets/8a1d68b4-0406-4f0f-83b1-6838c07197fd" />
 
 badge.txt<br/>
 
@@ -93,6 +93,78 @@ Once, I edited the VMs with the correct network tags, I was able to successfully
 
 
 **LAB: VPC Network in GCP**
+
+In the below diagram, I created a vpc network with automatic subnets.
+
+<img width="600" height="600" alt="07-createautovpcnetwork" src="https://github.com/user-attachments/assets/d879d794-05b8-4fbc-84aa-081c0f5456d0" />
+
+I also included in automatic firewall rules and attached them to this VPC network.
+
+<img width="600" height="600" alt="08-autofirewallrules" src="https://github.com/user-attachments/assets/f98f02ca-151c-436b-9ce2-cca381f3fad4" />
+
+Auto VPC Subnets
+
+<img width="600" height="600" alt="09-autovpcsubnets" src="https://github.com/user-attachments/assets/09e47e01-0b0d-41af-a5e6-2e7baabb94b1" />
+
+<img width="600" height="600" alt="10-autovpcfirewallrulescreated" src="https://github.com/user-attachments/assets/f6d415ef-937d-448d-b577-d7ba7b09dcfd" />
+
+Here, I created another VPC network with custom subnets in different regions.
+
+<img width="600" height="600" alt="11-customvpcsubnets" src="https://github.com/user-attachments/assets/ef56e689-574f-4edd-8b00-38ccdcad2efd" />
+
+I created a custom firewall rule, that I will add to VM instances later on.
+
+<img width="600" height="600" alt="12-createcustomfirewallrule" src="https://github.com/user-attachments/assets/c73eb976-22f4-48c5-ae9a-57b5948c3a0c" />
+
+Also, with custom network tags. That's what I will add to the VM instances.
+
+<img width="600" height="600" alt="13-createcustomfirewallrulepart2" src="https://github.com/user-attachments/assets/858f798e-b2a2-4e95-9ce2-6df0710d1ace" />
+
+Here, I created several VM instances. Several are custom VM instances allocated to the custom VPC network, one is default and the other is connected to the auto VPC network.
+
+<img width="600" height="600" alt="14-createdvminstances" src="https://github.com/user-attachments/assets/a6ef6316-c06f-4bca-856b-3341429a527e" />
+
+In this below diagram, I was unable to ping to a Virtual Machine in a different VPC network.
+
+<img width="600" height="600" alt="15-unabletopingvmindifferentvpcnetwork" src="https://github.com/user-attachments/assets/73dd5ca6-03fc-429d-ac20-4a83b978ced3" />
+
+However, I was able to ping the external IP address from the other VPC network, but was unable to ping to the host of that same VM instance, because the external IP is open to the Internet.
+
+<img width="600" height="600" alt="16-abletopingexternalnetworknothost" src="https://github.com/user-attachments/assets/8da93f33-64df-492a-8498-07f0418f325d" />
+
+I tried to ping the Internal Network, but was unable as well due to Virtual Machine belonging to another VPC network.
+
+<img width="600" height="600" alt="17-unabletopinginternalnetworkduetodifferentvpcnetwork" src="https://github.com/user-attachments/assets/6dc02df7-fb09-4231-89c7-8853e3a85f42" />
+
+Here, I tried to ping the external IP address of a custom VM Instance I created and was unsuccessful. 
+
+<img width="600" height="600" alt="18-unabletopingexternalipofcustomvminstance" src="https://github.com/user-attachments/assets/e5de4c06-1035-4725-bd1f-148b0867558e" />
+
+I was unable to SSH this VM due to firewall rules on this VM instance.
+
+<img width="600" height="600" alt="19-unabletosshduetofirewallrules" src="https://github.com/user-attachments/assets/5de9d0b3-2ee7-41b9-9ad2-69e8b7c4240c" />
+
+To resolve the above issue, I added the network tags from the firewall rule I created earlier to this VM instance, by editing this running VM instance. 
+
+<img width="600" height="600" alt="20-addnetworktagstocustomvms1" src="https://github.com/user-attachments/assets/a84ab4ea-aa2d-4c78-84c2-f0b61e505539" />
+
+Adding the same network tag to this VM instance as well to fix any issues with SSH.
+
+<img width="600" height="600" alt="21-addnetworktagstocustomvms2" src="https://github.com/user-attachments/assets/68c7db04-1024-42e1-84ac-60303b5f38af" />
+
+Successful SSH to Custom VM 1!
+
+<img width="600" height="600" alt="22-succesfulsshoncustomvm1" src="https://github.com/user-attachments/assets/b8067f3b-4eb8-46fb-a37b-3c334713d4bd" />
+
+Successful Ping to Custom VM Instance1 from Auto VM Instance!
+
+<img width="600" height="600" alt="23-successfulpingtocustomvminstance1" src="https://github.com/user-attachments/assets/525b460e-08d2-42a8-b75d-c5ff4568d2d8" />
+
+Successful Ping To Custmo VM Instance2 from Auto VM Instance!
+
+<img width="600" height="600" alt="24-successfulpingtocustomvminstance2" src="https://github.com/user-attachments/assets/c675e35a-4791-4068-844f-285bffd4db83" />
+
+
 
 **LAB: Cloud VPN & VPN Tunnels**
 
