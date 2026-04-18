@@ -168,6 +168,167 @@ Successful Ping To Custmo VM Instance2 from Auto VM Instance!
 
 **LAB: Cloud VPN & VPN Tunnels**
 
+Create Custom VPC Network
+
+<img width="600" height="600" alt="25-createcustomvpcnetwork" src="https://github.com/user-attachments/assets/e1daf6b6-9f4b-48d8-b1df-0c1a100da8ad" />
+
+Create Another Custom VPC Network in us-east1
+
+<img width="600" height="600" alt="26-createanothervpcinanotherregion" src="https://github.com/user-attachments/assets/e9f01617-8c1f-49d5-95e6-77cc0aeb5f86" />
+
+Create Firewall Rule for connectivity between machines
+
+<img width="600" height="600" alt="27-createfirewallrule" src="https://github.com/user-attachments/assets/0623107e-f397-4054-9023-2c295c71caec" />
+
+Firewall Ports
+
+<img width="600" height="600" alt="28-firewallruleports" src="https://github.com/user-attachments/assets/626e6899-ac6d-46c7-b421-823c01f32c43" />
+
+Create another Firewall Rule for VM 2
+
+<img width="600" height="600" alt="29-createfirewallruleforvm2" src="https://github.com/user-attachments/assets/829b1add-ed80-4134-83f2-c1f62c624ccf" />
+
+Firewall Ports for second VM
+
+<img width="600" height="600" alt="30-vm2firewallrules" src="https://github.com/user-attachments/assets/522c0158-b552-40af-a8f6-22ae05ca3f65" />
+
+Creating first VM Instance
+
+<img width="600" height="600" alt="31-createvminstance1" src="https://github.com/user-attachments/assets/c97a72f6-96ab-47b3-accd-00e92ba81a5d" />
+
+Assign first VPC to VM Instance Network
+
+<img width="600" height="600" alt="32-assignvpc1tovminstance1" src="https://github.com/user-attachments/assets/0ba0520a-5224-476c-ad40-502b53526e7b" />
+
+Create another VM Instance for us-east1
+
+<img width="600" height="600" alt="33-createvminstanceforuseast1" src="https://github.com/user-attachments/assets/286da09d-61f9-4010-a7e7-6d46bc9c9e21" />
+
+Assign second VPC to VM Instance 2 Network
+
+<img width="600" height="600" alt="34-assignnetworktovm2" src="https://github.com/user-attachments/assets/1599cd40-0225-41fe-b145-42d3cb4201b9" />
+
+Successful SSH on VM1
+
+<img width="600" height="600" alt="35-successfulsshonvm1" src="https://github.com/user-attachments/assets/3707b9a4-1db8-48f0-9436-e5697731fa0e" />
+
+Successful Ping to External IP on VM2
+
+<img width="600" height="600" alt="36-successfulpingtoexternalipofvm2" src="https://github.com/user-attachments/assets/12839f83-b1eb-4765-aed5-3c77690e744e" />
+
+Unable to Ping Internal IP of VM2
+
+<img width="600" height="600" alt="37-unabletopinginternalipofvm2" src="https://github.com/user-attachments/assets/771feea8-61be-4040-a2bb-134803615dac" />
+
+Successful Ping to Eternal IP of VM1 from VM2
+
+<img width="600" height="600" alt="38-successfulpingtoexternipofvm1fromvm2" src="https://github.com/user-attachments/assets/8b926d54-704d-4575-a0f7-af6742b0feed" />
+
+Unable to Ping Internal IP of VM 1
+
+<img width="600" height="600" alt="39-unabletopinginternalipofvm1" src="https://github.com/user-attachments/assets/00429886-9259-4161-a16d-b8570cff1cf6" />
+
+Open Cloud Shell, in order to setup VPN Network
+
+<img width="600" height="600" alt="40-opencloudshell" src="https://github.com/user-attachments/assets/76984a35-7248-48d0-a519-a213d8351da1" />
+
+Create VPN1 with Command in CloudShell
+
+<img width="600" height="600" alt="41-createvpn1withcommandincloudshell" src="https://github.com/user-attachments/assets/4344e914-4e67-4393-83ea-f6c0669c8307" />
+
+Create Static IP Address for VPN1 with this command
+
+<img width="600" height="600" alt="42-createstaticipaddressforvpn1withthiscommand" src="https://github.com/user-attachments/assets/8df35b76-918b-46a6-8c11-96aa601e4886" />
+
+Check for created Static IP Address
+
+<img width="600" height="600" alt="43-checkforcreatedstaticipwiththiscommand" src="https://github.com/user-attachments/assets/dfe3c28c-b729-448a-84d1-84b7d3784bbf" />
+
+Create Forwarding Rule for VPN1
+
+<img width="600" height="600" alt="44-createforwardingruleforvpn1" src="https://github.com/user-attachments/assets/679863a0-f2c0-4f69-8bae-ce5e640b506b" />
+
+Check Addresses again for Status Change
+
+<img width="600" height="600" alt="45-checkaddressesagainforstatuschange" src="https://github.com/user-attachments/assets/5bc670c8-a03e-43fb-8bae-aa28722ae7c7" />
+
+Create another Forwarding Rule for VM1 with UDP Port 500
+
+<img width="600" height="600" alt="46-createanotherforwardingrulewithudp" src="https://github.com/user-attachments/assets/a973538b-31ec-491a-b032-4f5ab440f5ae" />
+
+Create one more Forwarding Rule for VM1 with UDP Port 4500
+
+<img width="600" height="600" alt="47-createforwardingruleforport4500udp" src="https://github.com/user-attachments/assets/eda6fe08-bf3c-4c9d-a493-dc15e52b3f9e" />
+
+Check Forwarding Rules List
+
+<img width="600" height="600" alt="48-checkforwardingruleslist" src="https://github.com/user-attachments/assets/fbfd8223-b046-4ebd-85e1-21d07f5f3ee5" />
+
+Create VPN2 with Command in CloudShell
+
+<img width="600" height="600" alt="49-createvpn2withcommandincloudshell" src="https://github.com/user-attachments/assets/4bec53c2-be7f-47fc-81b1-b9a8c77ba14a" />
+
+List both VPN Gateways
+
+<img width="600" height="600" alt="50-listbothvpngateways" src="https://github.com/user-attachments/assets/a5051cb9-4a62-4c3c-972d-af4d85200763" />
+
+Create Static IP Address for VPN2
+
+<img width="600" height="600" alt="51-createstaticipaddressforvpn2" src="https://github.com/user-attachments/assets/4624cca6-6ffd-4607-bc50-346b2ade893c" />
+
+Confirm that both Static IP Addresses are created
+
+<img width="600" height="600" alt="52-confirmbothstaticipaddressescreation" src="https://github.com/user-attachments/assets/0f867d6f-ed53-449c-af14-7da89b7a7ea8" />
+
+Create another Forwarding Rule for VPN2
+
+<img width="600" height="600" alt="53-createanotherfowardingrulevpn2" src="https://github.com/user-attachments/assets/43073a0f-416f-4fe8-a148-6b1be51b39ee" />
+
+Create Firewall Rule UDP 4500 for VPN2
+
+<img width="600" height="600" alt="54-createfirewallruleforudp4500" src="https://github.com/user-attachments/assets/26180290-3dc9-405d-92ef-5eb8c7f9ff3d" />
+
+List all Forwarding Rules for both VPNs
+
+<img width="600" height="600" alt="55-listallfowardingrules" src="https://github.com/user-attachments/assets/79e815bf-6c20-4ad9-884e-20a195e1c241" />
+
+Create first VPN Tunnel
+
+<img width="600" height="600" alt="56-createfirstvpntunnel" src="https://github.com/user-attachments/assets/0203bd9c-78da-43b8-8651-665fd86c97c1" />
+
+Create Second VPN Tunnel
+
+<img width="600" height="600" alt="57-createsecondvpntunnel" src="https://github.com/user-attachments/assets/79407617-670a-4ad8-9962-6a5dd29fbf38" />
+
+Show both VPN Tunnels
+
+<img width="600" height="600" alt="58-bothvpntunnels" src="https://github.com/user-attachments/assets/a744baf7-7e2c-4826-8164-d3c0bb2b8b1f" />
+
+Create first Route for VPN Tunnel
+
+<img width="600" height="600" alt="59-createrouteforvpntunnel" src="https://github.com/user-attachments/assets/78f7f81c-5402-4ff4-8d1a-014b64a96d05" />
+
+Create second Route for second VPN Tunnel
+
+<img width="600" height="600" alt="60-create2ndrouteforvpntunnel2" src="https://github.com/user-attachments/assets/aea77a5a-1b62-484e-b648-32613800f676" />
+
+Show both Routes
+
+<img width="600" height="600" alt="61-bothroutes" src="https://github.com/user-attachments/assets/288fb80e-e704-48e6-81ed-6c5751e0c891" />
+
+Now, I have a successful Ping to the Internal IP Address of the VM2 from VM1
+
+<img width="600" height="600" alt="62-successfulpingtointernalipaddressofvm2" src="https://github.com/user-attachments/assets/99a8e89f-9151-4d2b-a578-692c57969c95" />
+
+Alas, I have a successful Ping to the Internal IP Address of VM1 from VM2
+
+<img width="600" height="600" alt="63-sucessfulpingtointernaladdressofvm1" src="https://github.com/user-attachments/assets/8bf14632-3e1e-44e6-a32c-bd6a524f1158" />
+
+
+
+
+
+
 **LAB: Cloud Routers for Routing in GCP**
 
 
