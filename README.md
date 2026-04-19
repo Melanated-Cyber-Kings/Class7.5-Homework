@@ -9,7 +9,8 @@
 [Week 3](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-3)<br/>
 [Week 4](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-4)<br/>
 [Week 5](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-5)<br/>
-[Week 5: Be A Man Extra Credit](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#be-a-man-extra-credit)
+Be A Man Series
+[Be A Man Extra Credit #1](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#be-a-man-extra-credit)<br/>
 
 
 ## Motivation<br/>
@@ -750,6 +751,11 @@ Screenshots:
 `Date && hostename && whoami`
 
 <img width="600" height="600" alt="09extracommands" src="https://github.com/user-attachments/assets/ab904843-25b9-4af1-b737-6d3e594112f6" />
+
+
+# Be A Man Series
+
+<img width="589" height="406" alt="p2h3hc5omaw71" src="https://github.com/user-attachments/assets/0fa7b781-7247-40e5-9db8-0f40605a6d08" />
 
 
 
