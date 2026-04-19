@@ -13,6 +13,15 @@ By progressing through authentication, backend configuration, and VPC deployment
 
 ### Step 1: Create a GCS Bucket
 - Create a Google Cloud Storage (GCS) bucket to be used for Terraform state management.
+<img width="1028" height="255" alt="image" src="https://github.com/user-attachments/assets/7393cb2c-1c12-429e-9eec-f4411c10121b" />
+<img width="710" height="535" alt="image" src="https://github.com/user-attachments/assets/f5824b27-3ba2-48e0-a8f3-140a7c9df013" />
+<img width="380" height="81" alt="image" src="https://github.com/user-attachments/assets/5f653f9e-ecd0-47b6-85d2-8ac774ba5e91" />
+
+
+
+
+
+
 
 ---
 
