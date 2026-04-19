@@ -1,5 +1,7 @@
 # Class7.5 Systems Engineering & Identity Responsibility (SEIR-I) Homework by Larvarious C. McDonald aka Loki Stormbringer
 
+
+
 **Weekly Directory**
 
 [Week 1](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-1)<br/>
@@ -8,6 +10,13 @@
 [Week 4](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-4)<br/>
 [Week 5](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-5)<br/>
 [Week 5: Be A Man Extra Credit](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#be-a-man-extra-credit)
+
+
+## Motivation<br/>
+
+<img width="600" height="600" alt="Keep Calm   Keep Studying #2" src="https://github.com/user-attachments/assets/504acc5b-4b22-40b2-bcef-90c22af51352" />
+
+
 
 ## Week 1 
 
