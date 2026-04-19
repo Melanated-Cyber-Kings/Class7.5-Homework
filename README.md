@@ -340,12 +340,97 @@ Alas, I have a successful Ping to the Internal IP Address of VM1 from VM2
 
 **LAB: Cloud Routers for Routing in GCP**
 
+Create custom VPC<br/>
+
+<img width="600" height="600" alt="64-createcustomvpc" src="https://github.com/user-attachments/assets/ca0f80d0-30a5-4cec-be10-85c92bdace88" />
+
+Create another custom VPC for uswest-1<br/>
+
+<img width="600" height="600" alt="65-createanothercustomvpcinuswest1" src="https://github.com/user-attachments/assets/fcdc0bd5-9c73-4047-9b0a-88e0dd03021e" />
+
+Create Firewall Rule for VPC1<br/>
+
+<img width="600" height="600" alt="66-createfirewallruleforvpc1" src="https://github.com/user-attachments/assets/56c6341a-22b9-4f4b-973c-885ee316f7f7" />
+
+Firewall Rule Ports for VPC1<br/>
+
+<img width="600" height="600" alt="67-createfirewallruleforvpc1part2" src="https://github.com/user-attachments/assets/8996b3f9-ac58-46cd-9764-1b74dfb14aa4" />
+
+Create a Firewall Rule for VPC2<br/>
+
+<img width="600" height="600" alt="68-createfirewallruleforvpc2" src="https://github.com/user-attachments/assets/7bd22c4a-f808-44d1-b8df-cf364a3f1eac" />
+
+Firewall Rule Ports for VPC2<br/>
+
+<img width="600" height="600" alt="69-createfirewallruleforvpc2part2" src="https://github.com/user-attachments/assets/fe765dee-3184-437c-a288-abea38b8082c" />
+
+Create VM Instance for VPC1<br/>
+
+<img width="600" height="600" alt="70-createvminstanceforvpc1" src="https://github.com/user-attachments/assets/2d26da84-009f-4b31-bf5a-14289d116eb4" />
+
+Assign VPC1 Network to VM Instance 1
+
+<img width="958" height="944" alt="71-assignvpc1tovminstance" src="https://github.com/user-attachments/assets/f49a3fbf-d705-4fa2-88e1-1c9b4fb8c777" />
+
+Create VM Instance for VPC2<br/>
+
+<img width="600" height="600" alt="72-createvminstanceforvpc2uswest1" src="https://github.com/user-attachments/assets/f2af61bb-11f5-4973-b962-fcc7cbd160cd" />
+
+Assign VPC2 Network to VM Instance 2<br/>
+
+<img width="600" height="600" alt="73-assignvpc2tovminstance2" src="https://github.com/user-attachments/assets/d90f9e70-650c-4084-9899-fdf92f1d3d04" />
+
+SSH on VM1<br/>
+
+<img width="600" height="600" alt="74-sshonvm1" src="https://github.com/user-attachments/assets/7c8a69a4-b1ce-428e-8df5-3a74cae79b9b" />
+
+Ping to External IP Address on VM2<br/>
+
+<img width="600" height="600" alt="75-pingtoexternaliponvm2" src="https://github.com/user-attachments/assets/2314ac37-ca6f-44fa-b030-80560f1d8faf" />
+
+Ping to Internal IP Address on VM2<br/>
+
+<img width="600" height="600" alt="76-pinginternaliponvm2" src="https://github.com/user-attachments/assets/6f2547ee-3185-4c08-8fc0-27a39993d83c" />
+
+SSH to VM2 & Ping to External IP Address on VM1<br/>
+
+<img width="600" height="600" alt="77-pingexternaliponvm1" src="https://github.com/user-attachments/assets/37d781e0-fadf-47c2-8acb-16b758749d83" />
+
+Ping to Internal IP Address on VM1<br/>
+
+<img width="600" height="600" alt="78-pingtointernaliponvm1" src="https://github.com/user-attachments/assets/d4b5621a-1e07-4203-8e3a-c9800529c6aa" />
+
+Create Cloud Router<br/>
+
+<img width="600" height="600" alt="79-createcloudrouter1" src="https://github.com/user-attachments/assets/c004bf71-414e-4f3c-97c6-892c82812a6b" />
+
+Create Cloud Router 2<br/>
+
+<img width="600" height="600" alt="80-createcloudrouter2" src="https://github.com/user-attachments/assets/566df4ed-fa40-4052-bd86-0581be0fde30" />
+
+Reserve Static IP Address<br/>
+
+<img width="600" height="600" alt="81-reservestaticipaddress" src="https://github.com/user-attachments/assets/521c98e8-5870-480d-8a25-eb85c52c343e" />
+
+Reserve Static IP Address 2<br/>
+
+<img width="600" height="600" alt="82-reservestaticipaddress2" src="https://github.com/user-attachments/assets/d023a738-e92d-403c-bf6c-403ca6a53935" />
+
+Create Classic VPN<br/>
+
+<img width="600" height="600" alt="83-createclassicvpn" src="https://github.com/user-attachments/assets/7c043f11-e549-4bb3-9024-149383d63fc0" />
+
+
+
+
 
 
 
 ### "Udemy GCP Security Engineer: Section 13"
 
 **HANDS-ON: Explore Default VPC**
+
+
 
 **HANDS-ON: Create Auto Mode VPC**
 
