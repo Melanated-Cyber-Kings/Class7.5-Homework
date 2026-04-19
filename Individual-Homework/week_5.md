@@ -92,9 +92,24 @@ terraform apply
 <br>
 <br>
 <br>
-<br>
+<br>  
+
 ### Step 4: Deploy VPC (0-authentication.tf + 1-backend.tf + 2-vpc.tf)
-Execute Terraform with VPC configuration included:
+Execute Terraform with VPC configuration included: 
+<br>
+<br> 
+<img width="1113" height="707" alt="image" src="https://github.com/user-attachments/assets/c1d32f9f-22db-4950-b00a-891bdf2ed2ed" />  
+<br>
+<br> 
+<img width="1241" height="862" alt="image" src="https://github.com/user-attachments/assets/937a5995-f2df-4aa0-a542-0e659145eef2" />  
+<br>
+<br> 
+<img width="799" height="88" alt="image" src="https://github.com/user-attachments/assets/2d37612e-e7d7-42bb-931b-a48ff70efc41" />
+<br>
+<br> 
+
+
+
 
 ```bash
 terraform init
