@@ -132,12 +132,24 @@ terraform apply
 <br> 
 
 ### Step 5: Destroy Infrastructure
-
-Clean up all resources created during the lab using Terraform destroy:
+Clean up all resources created during the lab using Terraform destroy:  
+<br>
+<br> 
+<img width="931" height="522" alt="image" src="https://github.com/user-attachments/assets/ede94fda-7182-4d6f-8cb0-304084e7fdd8" />   
+<br>
+<br> 
+<img width="1153" height="458" alt="image" src="https://github.com/user-attachments/assets/c1ae646a-090c-41c1-80f3-9d7541036c55" />
+<br>
+<br> 
 
 ```bash
 terraform destroy
 ```
+<br>
+<br> 
+<img width="758" height="406" alt="image" src="https://github.com/user-attachments/assets/2e3bb901-0aed-4185-b1a9-0e4cb97fcd6f" />  
+<br>
+<br> 
 
 ### Step 6: Verify System Information (Git Bash)
 
@@ -146,7 +158,15 @@ Run the following command in your Git Bash terminal to confirm system context:
 ```bash
 date && hostname && whoami
 ```
+<br>
+<br> 
 
-date: Displays the current system date and time
-hostname: Shows the name of the machine
+<img width="822" height="137" alt="image" src="https://github.com/user-attachments/assets/251b0aed-8913-464f-ac55-0c5073c333df" />
+
+<br>
+<br> 
+
+
+date: Displays the current system date and time  
+hostname: Shows the name of the machine  
 whoami: Identifies the current logged-in user
