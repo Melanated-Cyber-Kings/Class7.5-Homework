@@ -19,16 +19,14 @@ By progressing through authentication, backend configuration, and VPC deployment
 <img width="445" height="381" alt="image" src="https://github.com/user-attachments/assets/d3430273-1950-4ade-9cec-48120107e4bb" />
 
 
-
-
-
-
-
-
+<br>
+<br>
 ---
 
 ### Step 2: Run Authentication Configuration (`0-authentication.tf`)  
 <img width="1191" height="485" alt="image" src="https://github.com/user-attachments/assets/20dd7c4f-4c9f-4b7c-86cf-23ca47378b75" />  
+<br>
+<br>
 
 ```bash
 gcloud auth application-default login
