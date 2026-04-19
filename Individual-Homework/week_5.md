@@ -7,3 +7,63 @@ The purpose of this exercise is to build a foundational understanding of Terrafo
 Learners will execute and capture key Terraform commands—including `terraform init`, `terraform validate`, `terraform plan`, `terraform apply`, and `terraform destroy`—to understand the lifecycle of infrastructure deployment. Additionally, system verification using `date && hostname && whoami` reinforces environment awareness and execution context.
 
 By progressing through authentication, backend configuration, and VPC deployment steps, this lab reinforces best practices in modular Terraform usage, state management, and repeatable infrastructure provisioning.
+
+
+## Terraform Basics Lab Steps
+
+### Step 1: Create a GCS Bucket
+- Create a Google Cloud Storage (GCS) bucket to be used for Terraform state management.
+
+---
+
+### Step 2: Run Authentication Configuration (`0-authentication.tf`)
+Execute the following Terraform commands:
+
+```bash
+terraform init
+terraform validate
+terraform plan
+terraform apply
+```
+
+### Step 3: Configure Backend (0-authentication.tf + 1-backend.tf)
+Run the backend configuration with updated initialization:
+
+```bash
+terraform init -upgrade
+terraform validate
+terraform plan
+terraform apply
+```
+
+
+
+### Step 4: Deploy VPC (0-authentication.tf + 1-backend.tf + 2-vpc.tf)
+Execute Terraform with VPC configuration included:
+
+```bash
+terraform init
+terraform validate
+terraform plan
+terraform apply
+```
+
+### Step 5: Destroy Infrastructure
+
+Clean up all resources created during the lab using Terraform destroy:
+
+```bash
+terraform destroy
+```
+
+### Step 6: Verify System Information (Git Bash)
+
+Run the following command in your Git Bash terminal to confirm system context:
+
+```bash
+date && hostname && whoami
+```
+
+date: Displays the current system date and time
+hostname: Shows the name of the machine
+whoami: Identifies the current logged-in user
