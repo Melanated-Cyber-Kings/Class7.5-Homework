@@ -59,17 +59,33 @@ terraform apply
 <br>
 <br>
 <br>
-<br>
-### Step 3: Configure Backend (0-authentication.tf + 1-backend.tf)
-Run the backend configuration with updated initialization:
+<br>  
 
+### Step 3: Configure Backend (0-authentication.tf + 1-backend.tf)
+Run the backend configuration with updated initialization:  
+<br>
+<br> 
+<img width="1190" height="536" alt="image" src="https://github.com/user-attachments/assets/95c8996c-060d-4ed9-86e4-eea0b02bbaf2" />
+<br>
+<br>
 ```bash
 terraform init -upgrade
 terraform validate
 terraform plan
 terraform apply
 ```
-
+<br>
+<br>
+<img width="838" height="430" alt="image" src="https://github.com/user-attachments/assets/80965c91-2fa5-4ea9-bd3f-98db8dc3288c" />
+<br>
+<br>
+<img width="810" height="100" alt="image" src="https://github.com/user-attachments/assets/8c9f6681-2990-4dd7-8581-fe887738f64b" />
+<br>
+<br>
+<img width="1183" height="901" alt="image" src="https://github.com/user-attachments/assets/ad3898c8-a3b1-40f5-8000-1a32310a77fc" />
+<br>
+<br>
+<img width="888" height="915" alt="image" src="https://github.com/user-attachments/assets/306fb36a-7a72-425a-9210-794564fcdd39" />
 
 
 ### Step 4: Deploy VPC (0-authentication.tf + 1-backend.tf + 2-vpc.tf)
