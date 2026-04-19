@@ -10,22 +10,24 @@
 [Week 4](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-4)<br/>
 [Week 5(in-progress)](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-5)<br/>
 [Be A Man Series](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#be-a-man-series)<br/>
-[Be A Man Extra Credit #1(in-progress)](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#be-a-man-extra-credit)<br/>
-
-
+[Be A Man Extra Credit #1(COMPLETED)](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#be-a-man-extra-credit)<br/>
+<br/>
+<br/>
 ## Motivation<br/>
 
 <img width="600" height="600" alt="Keep Calm   Keep Studying #2" src="https://github.com/user-attachments/assets/504acc5b-4b22-40b2-bcef-90c22af51352" />
-
-
+<br/>
+<br/>
+<br/>
 
 ## Week 1 
-
+<br/>
 **Installed Choco List on My PC** ✅
 
 <img width="500" height="1000" alt="choco list" src="https://github.com/user-attachments/assets/6270e523-4767-4639-811d-98a3b923f613" />
-
-
+<br/>
+<br/>
+<br/>
 
 ## Week 2 
 
@@ -47,8 +49,9 @@ badge.txt<br/>
 [gate_gcp_vm_http_ok.sh ](week1/gate_gcp_vm_http_ok.sh)
 
 [gate_result.json](week1/gate_result.json)
-
-
+<br/>
+<br/>
+<br/>
 
 ## Week 3
 
@@ -63,7 +66,8 @@ I've created two external static IP addresses, one is regional and the other is 
 In this diagram, I've created three VM instances. One has no external IP address, one has an external IP address, and the third one has a static IP address assigned to it.
 
 <img width="600" height="600" alt="02-staticipsassignedtovm" src="https://github.com/user-attachments/assets/6a6aa09c-0599-443b-a539-128f2896a361" />
-
+<br/>
+<br/>
 
 **LAB: Network Firewalls in GCP**
 
@@ -100,7 +104,8 @@ After I created the network firewall rule, I went back to my VM Instances and ed
 Once, I edited the VMs with the correct network tags, I was able to successfully SSH into my VM instances.<br/>
 
 <img width="600" height="600" alt="10-successfulsshvminstance" src="https://github.com/user-attachments/assets/e31c8b74-7e00-451b-9e80-06521a9044d8" />
-
+<br/>
+<br/>
 
 **LAB: VPC Network in GCP**
 
@@ -173,8 +178,8 @@ Successful Ping to Custom VM Instance1 from Auto VM Instance!
 Successful Ping To Custmo VM Instance2 from Auto VM Instance!
 
 <img width="600" height="600" alt="24-successfulpingtocustomvminstance2" src="https://github.com/user-attachments/assets/c675e35a-4791-4068-844f-285bffd4db83" />
-
-
+<br/>
+<br/>
 
 **LAB: Cloud VPN & VPN Tunnels**
 
@@ -333,11 +338,8 @@ Now, I have a successful Ping to the Internal IP Address of the VM2 from VM1
 Alas, I have a successful Ping to the Internal IP Address of VM1 from VM2
 
 <img width="600" height="600" alt="63-sucessfulpingtointernaladdressofvm1" src="https://github.com/user-attachments/assets/8bf14632-3e1e-44e6-a32c-bd6a524f1158" />
-
-
-
-
-
+<br/>
+<br/>
 
 **LAB: Cloud Routers for Routing in GCP**
 
@@ -420,12 +422,9 @@ Reserve Static IP Address 2<br/>
 Create Classic VPN<br/>
 
 <img width="600" height="600" alt="83-createclassicvpn" src="https://github.com/user-attachments/assets/7c043f11-e549-4bb3-9024-149383d63fc0" />
-
-
-
-
-
-
+<br/>
+<br/>
+<br/>
 
 ### "Udemy GCP Security Engineer: Section 13"
 
@@ -444,10 +443,12 @@ Create Classic VPN<br/>
 **HANDS-ON: Internal vs External IP Address**
 
 **HANDS-ON: Static vs Ephermeral IP Address**
-
-
+<br/>
+<br/>
 
 ## Week 4
+<br/>
+<br/>
 
 N/A - Theo gave us time off (Birthday week & Illinois in NCAA Final Four) 🥳🎉
 
@@ -457,10 +458,12 @@ N/A - Theo gave us time off (Birthday week & Illinois in NCAA Final Four) 🥳�
 ![IlliniFan](https://github.com/user-attachments/assets/bfb9a831-9a37-4d93-b7e0-944df19448be)
 
 <img width="225" height="225" alt="images (1)" src="https://github.com/user-attachments/assets/2fada686-e531-4450-918f-d6607e7b935e" />
-
-
+<br/>
+<br/>
 
 ## Week 5
+<br/>
+<br/>
 
 ## Reading, Videos, and Labs
 
@@ -470,6 +473,8 @@ GCP Terraform Book (megafile) = Chapters 1 & 2\
 GCP Masterclass (Udemy) == Videos & Labs #19 - 43 (sections 5 & 6)
 
 ### Section 5: Google Cloud Compute Engine (GCE)
+<br/>
+<br/>
 
 **Lab : Create Google Virtual Machine**
 
@@ -481,6 +486,7 @@ I created a VM instance in GCP
 Then, I checked the version of Python3 on the VM Instance, and installed GIT on there as well and verified the version.
 
 <img width="600" height="600" alt="02-installpackagesonvm" src="https://github.com/user-attachments/assets/559ba1ad-dde6-4994-8a0f-b2de1a3db975" />
+<br/>
 
 **Lab : Edit Running Compute Engine**
 
@@ -495,12 +501,13 @@ However, I was limited to what I could edit on a running VM instance, so I stopp
 I also changed the machine type from E2 to N2.<br/>
 
 <img width="600" height="600" alt="06-changedmachinetype" src="https://github.com/user-attachments/assets/73d662ce-f709-4dce-b99c-dfe822b111d9" />
-
+<br/>
 
 **Lab : Create Custom Machine in GCP**
 
 **Lab : Submit Startup Script | Execute Tomcat on Compute Engine**
-
+<br/>
+<br/>
 
 ### Section 6: Disks on Google Compute Engine
 
@@ -520,10 +527,11 @@ I also changed the machine type from E2 to N2.<br/>
 **Linux**:
 Linux Command Line (megafile) == chapters 1-4
 Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
+<br/>
 
 ### Lesson 1
-
-
+<br/>
+<br/>
 
 <img width="600" height="600" alt="01-lesson1-listfiles" src="https://github.com/user-attachments/assets/92633b6f-48d1-44f1-8a9b-83f4cc48251e" />
 
@@ -552,6 +560,7 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 
 
 ### Lesson 1 Quiz
+<br/>
 
 <img width="600" height="600" alt="lesson1quiz" src="https://github.com/user-attachments/assets/f36d2d77-c81f-4c46-b521-a8224d0f5c9c" />
 
@@ -560,12 +569,14 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 <img width="600" height="600" alt="lesson1quiz3" src="https://github.com/user-attachments/assets/673570a0-b318-4a18-816c-34f11c782d29" />
 
 ### Lesson 2
+<br/>
 
 <img width="600" height="600" alt="02-lesson2-mancommand" src="https://github.com/user-attachments/assets/575447aa-ed0d-42d0-9c3a-ddd701f1d6cd" />
 
 <img width="600" height="600" alt="02-lesson2-manintro" src="https://github.com/user-attachments/assets/10ba35d8-7a5a-44b6-8345-09be1142c51e" />
 
 ### Lesson 3
+<br/>
 
 <img width="600" height="600" alt="03-lesson3-createdirectories" src="https://github.com/user-attachments/assets/1fe7d799-8634-4caa-a723-c7fcf4329c87" />
 
@@ -580,6 +591,7 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 <img width="600" height="600" alt="03-lesson3-deletingdirectories" src="https://github.com/user-attachments/assets/52b9e09a-fbf7-4d3d-b91c-907b1cd60168" />
 
 ### Lesson 3 Quiz
+<br/>
 
 <img width="600" height="600" alt="lesson3quiz" src="https://github.com/user-attachments/assets/4eca6e60-1091-4906-b8db-809165bf0c32" />
 
@@ -588,6 +600,7 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 <img width="600" height="600" alt="lesson3quiz2" src="https://github.com/user-attachments/assets/1782c8c7-3746-4f67-bcab-7e8a9bd54550" />
 
 ### Lesson 4
+<br/>
 
 <img width="600" height="600" alt="04-lesson4-creatingfiles" src="https://github.com/user-attachments/assets/49db88d0-b7fc-4ff5-81da-5375beace3d1" />
 
@@ -596,6 +609,7 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 <img width="600" height="600" alt="04-lesson4-vimcreatefile" src="https://github.com/user-attachments/assets/84204702-db6f-4dde-844a-3e7f35e3248e" />
 
 ### Lesson 5
+<br/>
 
 <img width="600" height="600" alt="05-lesson5-pipes" src="https://github.com/user-attachments/assets/db92eb59-f624-4e1d-bc39-4d3f709915bf" />
 
@@ -604,6 +618,7 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 <img width="600" height="600" alt="05-lesson5-pipes-inputredirection" src="https://github.com/user-attachments/assets/123e97f4-8e5d-4c60-8132-3278de7d246b" />
 
 ### Lesson 5 Quiz
+<br/>
 
 <img width="600" height="600" alt="lesson5quiz" src="https://github.com/user-attachments/assets/fe7c796a-d91e-467d-ae5b-b017569082e4" />
 
@@ -612,6 +627,7 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 <img width="600" height="600" alt="lesson5quiz3" src="https://github.com/user-attachments/assets/c6820f21-396f-43ca-bdbd-4f5572efc22e" />
 
 ### Lesson 6
+<br/>
 
 <img width="600" height="600" alt="06-lesson6-catandvim" src="https://github.com/user-attachments/assets/2b618ea8-3478-40c5-8790-1d1dd75bb0a8" />
 
@@ -622,12 +638,14 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 <img width="600" height="600" alt="06-lesson6-printpartfile2" src="https://github.com/user-attachments/assets/0388ac24-5359-40c3-ae0c-8165ab10ab7a" />
 
 ### Lesson 6 Quiz
+<br/>
 
 <img width="600" height="600" alt="lesson6quiz" src="https://github.com/user-attachments/assets/6a49f3ea-69b8-40d5-80e1-c7ba6d4c4093" />
 
 <img width="600" height="600" alt="lesson6quiz2" src="https://github.com/user-attachments/assets/faa0f8f0-096b-4e3c-8c07-cf530f6cd958" />
 
 ### Lesson 7
+<br/>
 
 <img width="600" height="600" alt="07-lesson7-copyandmovefiles" src="https://github.com/user-attachments/assets/a68872cd-ceb6-400d-a8a7-d52d92f23dfb" />
 
@@ -642,6 +660,7 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 <img width="600" height="600" alt="07-lesson7-copyandmovefiles6" src="https://github.com/user-attachments/assets/ff17980b-32e2-459e-997e-4dcdb165616a" />
 
 ### Lesson 8
+<br/>
 
 <img width="600" height="600" alt="08-lesson8-topcommand" src="https://github.com/user-attachments/assets/cafaad44-d128-4e47-bd5c-c0dcf6fa4616" />
 
@@ -654,14 +673,17 @@ Learning Git (megafile) == Chapters 1-3
 Git Fundamentals (killercoda.com) = Lessons 1-4 ✅
 
 ### Lesson 1
+<br/>
 
 <img width="600" height="600" alt="01-lesson1-checkpackages" src="https://github.com/user-attachments/assets/58676692-3c4d-4cfb-a0e9-16fe9a07bdf8" />
 
 <img width="600" height="600" alt="01-lesson1-installgit" src="https://github.com/user-attachments/assets/9dc52498-6b1f-4a43-9fe6-a6e37cad095b" />
 
 <img width="600" height="600" alt="01-lesson1-isgitinstalled" src="https://github.com/user-attachments/assets/aadddc74-a06f-43c3-8fdd-21f236c589aa" />
+<br/>
 
 ### Lesson 2
+<br/>
 
 <img width="600" height="600" alt="01-lesson2-configuregit" src="https://github.com/user-attachments/assets/1f0f6452-3775-43a5-882e-179b1ddd2594" />
 
@@ -670,6 +692,7 @@ Git Fundamentals (killercoda.com) = Lessons 1-4 ✅
 <img width="600" height="600" alt="01-lesson2-gitconfigexamples" src="https://github.com/user-attachments/assets/6cb1b5be-f73d-452b-b8e9-af3726370766" />
 
 ### Lesson 3
+<br/>
 
 <img width="600" height="600" alt="01-lesson3-initializerepo" src="https://github.com/user-attachments/assets/f7f169cd-4abd-4055-95e1-ac58a7d8a913" />
 
@@ -682,25 +705,16 @@ Git Fundamentals (killercoda.com) = Lessons 1-4 ✅
 <img width="600" height="600" alt="01-lesson3-addandcommitmultiplefiles" src="https://github.com/user-attachments/assets/ea47fb22-44ae-4423-a64e-463840364955" />
 
 ### Lesson 4
+<br/>
 
 <img width="600" height="600" alt="01-lesson4-removefilesfromstage" src="https://github.com/user-attachments/assets/913fc4f3-c58b-4a9a-b8cc-a661fa288aee" />
 
 <img width="600" height="600" alt="01-lesson4-previousstate" src="https://github.com/user-attachments/assets/229738b1-867d-4727-b17c-f8cd8501ced5" />
 
 <img width="600" height="600" alt="01-lesson4-removefilefromcommit" src="https://github.com/user-attachments/assets/bfdff8e6-ecfb-4628-82ba-65c3c9b7f753" />
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
+<br/>
+<br/>
 
 ### "Class Practice"
 
@@ -754,23 +768,69 @@ Screenshots:
 
 
 # Be A Man Series
+<br/>
+<br/>
 
 <img width="589" height="406" alt="p2h3hc5omaw71" src="https://github.com/user-attachments/assets/0fa7b781-7247-40e5-9db8-0f40605a6d08" />
 
 
 
-## Be A Man Extra Credit:
+## Be A Man Extra Credit #1:
+<br/>
 
-Using the Terraform files from this week's classes, export what's described when "Terraform plan" is run into a file. Then, create a new folder in Terminal/Git Bash titled "<insertDateHere>_weekB_hw", go into that folder, and move the Terraform Plan output into that folder. Finally, use Git to push the Terraform plan output to GitHub. Your group leader will share/show how to create a GitHub repository. The GitHub repository must start with “TheoU_7.5_BaM_weekB”.
-
+Using the Terraform files from this week's classes, export what's described when "Terraform plan" is run into a file. Then, create a new folder in Terminal/Git Bash titled "<insertDateHere>_weekB_hw", go into that folder, and move the Terraform Plan output into that folder. Finally, use Git to push the Terraform plan output to GitHub. Your group leader will share/show how to create a GitHub repository. The GitHub repository must start with “TheoU_7.5_BaM_weekB”.<br/>
 
 ### Deliverables:
 Screenshots
 Above screenshots
 **Terraform Plan output, in a .txt or .json format**
 
+`terraform  plan -nocolor-tfplan.txt`
+<br/>
 
-[Student’s GitHub repo link](url)
+<img width="600" height="600" alt="01-terraform plan -no-color  tfplan txt" src="https://github.com/user-attachments/assets/c47246a7-da2c-4e40-991a-181b9c66dcfc" />
+
+Create folder<br/>
+<br/>
+
+<img width="600" height="600" alt="02-createfolder" src="https://github.com/user-attachments/assets/10f3e293-4dea-4a87-81d1-d86e85d1a82c" />
+
+CD to folder<br/>
+
+<img width="600" height="600" alt="03-cdtofolder" src="https://github.com/user-attachments/assets/11aeaf35-24df-4407-b192-7952d61ce3f5" />
+
+Move file to new folder<br/>
+
+<img width="600" height="600" alt="04-movefiletonewfolder" src="https://github.com/user-attachments/assets/90f542ae-f4db-48db-b17a-76458da48b48" />
+
+`git clone (my reository)`<br/>
+
+<img width="600" height="100" alt="05-git clone repository" src="https://github.com/user-attachments/assets/0965eeb4-f05f-40e8-ba1e-4b118ec53f23" />
+
+`git pull`<br/>
+
+<img width="600" height="225" alt="06-gitpull" src="https://github.com/user-attachments/assets/da734af1-879a-4453-8ce1-0a7287f5cbec" />
+
+Git Workflow<br/>
+
+<img width="600" height="600" alt="07-gitworkflow" src="https://github.com/user-attachments/assets/9f9bc0fa-61ec-4b2f-b79c-6e4a24f6fcd6" />
+
+Git Workflow Part 2<br/>
+
+<img width="600" height="600" alt="08-gitworkflowpart2" src="https://github.com/user-attachments/assets/5b78b466-81a4-4905-a923-8f8a989a2e51" />
+
+GitHub Repository Creation & GitHub Push Proof<br/>
+
+<img width="600" height="600" alt="09-githubrepoproof" src="https://github.com/user-attachments/assets/d7d3a719-c7e9-4e07-98f3-c4f83707e619" />
+
+tfplan.txt proof<br/>
+
+<img width="600" height="600" alt="10-tfplan txt proof" src="https://github.com/user-attachments/assets/97e2d61d-7963-4a7f-9081-153ad4c6f7e7" />
+<br/>
+<br/>
+<br/>
+
+[Student’s GitHub repo link](https://github.com/LarvariousM/TheoU_7.5_BaM_weekB.git)
 
 
 
