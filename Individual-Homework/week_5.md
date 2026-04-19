@@ -86,8 +86,13 @@ terraform apply
 <br>
 <br>
 <img width="888" height="915" alt="image" src="https://github.com/user-attachments/assets/306fb36a-7a72-425a-9210-794564fcdd39" />
-
-
+<br>
+<br>
+<img width="1158" height="571" alt="image" src="https://github.com/user-attachments/assets/5a19075f-aff0-45c0-8fd6-ac31b027e0db" />
+<br>
+<br>
+<br>
+<br>
 ### Step 4: Deploy VPC (0-authentication.tf + 1-backend.tf + 2-vpc.tf)
 Execute Terraform with VPC configuration included:
 
