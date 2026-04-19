@@ -370,7 +370,7 @@ Create VM Instance for VPC1<br/>
 
 Assign VPC1 Network to VM Instance 1
 
-<img width="958" height="944" alt="71-assignvpc1tovminstance" src="https://github.com/user-attachments/assets/f49a3fbf-d705-4fa2-88e1-1c9b4fb8c777" />
+<img width="600" height="600" alt="71-assignvpc1tovminstance" src="https://github.com/user-attachments/assets/f49a3fbf-d705-4fa2-88e1-1c9b4fb8c777" />
 
 Create VM Instance for VPC2<br/>
 
