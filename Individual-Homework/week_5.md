@@ -43,7 +43,23 @@ terraform validate
 terraform plan
 terraform apply
 ```
+<br>
+<br>
 
+<img width="1220" height="852" alt="image" src="https://github.com/user-attachments/assets/95f40f31-8316-486f-8b51-3ce7ff8f1366" />
+<br>
+<br>
+<img width="836" height="102" alt="image" src="https://github.com/user-attachments/assets/ccf17d15-a1ab-41ab-a269-9e53ba20c0b9" />
+<br>
+<br>
+<img width="1112" height="181" alt="image" src="https://github.com/user-attachments/assets/65793a02-9036-4c1e-80a9-842669f6817a" />
+<br>
+<br>
+<img width="1342" height="851" alt="image" src="https://github.com/user-attachments/assets/6987c937-d59a-4c4f-818b-0e676d0905b0" />
+<br>
+<br>
+<br>
+<br>
 ### Step 3: Configure Backend (0-authentication.tf + 1-backend.tf)
 Run the backend configuration with updated initialization:
 
