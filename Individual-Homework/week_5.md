@@ -107,9 +107,15 @@ Execute Terraform with VPC configuration included:
 <img width="799" height="88" alt="image" src="https://github.com/user-attachments/assets/2d37612e-e7d7-42bb-931b-a48ff70efc41" />
 <br>
 <br> 
-
-
-
+<img width="888" height="366" alt="image" src="https://github.com/user-attachments/assets/4323c6c0-521e-4b5b-95f3-20608704dd1f" />
+<br>
+<br> 
+<img width="816" height="373" alt="image" src="https://github.com/user-attachments/assets/0b60f7d3-71dc-4e91-9eb2-16cc97fe9a8d" />
+<br>
+<br> 
+<img width="1076" height="230" alt="image" src="https://github.com/user-attachments/assets/d3a95afa-5aa6-4d77-ae3d-30a10ff61fd1" />
+<br>
+<br> 
 
 ```bash
 terraform init
@@ -117,6 +123,13 @@ terraform validate
 terraform plan
 terraform apply
 ```
+<br>
+<br> 
+<img width="1091" height="454" alt="image" src="https://github.com/user-attachments/assets/f58d3233-c569-462a-8278-b8849e16b54e" />
+<img width="1053" height="610" alt="image" src="https://github.com/user-attachments/assets/d548fab3-d994-4478-8c0b-8aaa39c83a76" />
+
+<br>
+<br> 
 
 ### Step 5: Destroy Infrastructure
 
