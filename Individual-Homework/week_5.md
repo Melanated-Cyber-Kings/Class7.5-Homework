@@ -27,8 +27,17 @@ By progressing through authentication, backend configuration, and VPC deployment
 
 ---
 
-### Step 2: Run Authentication Configuration (`0-authentication.tf`)
-Execute the following Terraform commands:
+### Step 2: Run Authentication Configuration (`0-authentication.tf`)  
+<img width="1191" height="485" alt="image" src="https://github.com/user-attachments/assets/20dd7c4f-4c9f-4b7c-86cf-23ca47378b75" />  
+
+```bash
+gcloud auth application-default login
+```
+<img width="1120" height="762" alt="image" src="https://github.com/user-attachments/assets/757e662e-90c7-4bed-af16-adfe863ee17f" />
+
+
+
+Then execute the following Terraform commands:
 
 ```bash
 terraform init
