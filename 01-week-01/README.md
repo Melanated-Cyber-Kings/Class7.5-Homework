@@ -1,0 +1,1 @@
+All installs for Class 7.5 are completed and I have successfully joined a group (see Class 7.5 - Group Assignment.png)
