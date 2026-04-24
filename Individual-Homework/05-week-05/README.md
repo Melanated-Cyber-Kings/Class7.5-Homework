@@ -7,9 +7,11 @@ Terraform screenshots for each step of the process, including the terraform init
 
 Commmand outputs for each step of the process, which are included in the README.md file for reference. The terraform configuration files used for authentication, backend setup, and VPC creation are included in the project directory. The terraform.tfvars file is included as an example file (terraform.tfvars.example) for users to copy and update with their own variable values.
 
-Screenshots of the GCP Console showing the created resources, such as the GCS bucket and VPC network, are included in the graphics directory of the project and referenced in the README.md file.
+Screenshots of the GCP Console showing the created resources, such as the GCS bucket and VPC network, are included in the graphics directory of the project and presented in the README.md file.
 
-Screenshot of "Date, Hostname and Username in the terminal" is included in the graphics directory of the project and referenced in the README.md file to confirm the environment in which the commands were executed.
+Screenshot of "Date, Hostname and Username in the terminal" is included in the graphics directory of the project and presented here to provide confirmation of the environment in which the commands were executed.
+
+![terminal-screenshot](./graphics/week5-date-whoami.png)
 
 ## Prerequisites
 
