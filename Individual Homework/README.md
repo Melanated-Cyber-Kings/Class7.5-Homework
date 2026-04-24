@@ -24,9 +24,9 @@ This project is intended to:
 .
 ├── README.md                # Top-level overview (this file)
 ├── Individual-Homework/     # Weekly personal assignments
-│   ├── 01-week-01/
-│   ├── 02-week-02/
-│   ├── 03-week-03/
+│   ├── Week 1/
+│   ├── Week 2/
+│   ├── Week 3/
 │   └── README.md
 └── Group-Homework/          # Collaborative team assignments
     └── README.md
