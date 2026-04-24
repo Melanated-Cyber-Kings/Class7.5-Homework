@@ -1,140 +1,122 @@
-# Class7.5-Homework
+📘 Class 7.5 – Homework Repository
 
-Class 7.5 2026 Homework Submissions Repo for THEO WAF 
+This repository contains all individual and group homework submissions for Class 7.5 in the TheoWAF program. It provides a structured, well‑documented record of weekly assignments, collaborative work, and technical deliverables completed throughout the course.
 
-<h1 align="center">GCP CLASS 7.5 HOMEWORK</h1>
+The goal of this repository is to maintain a clear, professional, and academically sound submission format that supports grading, review, and long‑term reference.
 
+🎯 Repository Purpose
 
-**Group Leader #1:** 
-<br>
-<a href="https://github.com/BashiM1">Mahamed Bashir</a>
+This project is intended to:
 
-<br>
+    Organize all homework submissions in a consistent, instructor‑friendly structure
 
-**Group Leader #2:** 
-<br>
-<a href="https://github.com/Brimah-Khalil-Kamara">Brimah Khalil Kamara</a>
+    Separate individual work from group‑based collaborative assignments
 
-<br>
+    Demonstrate technical proficiency across cloud, DevOps, scripting, and security topics
 
+    Provide a clean, version‑controlled record of progress throughout the course
 
+    Reinforce reproducibility, clarity, and professional documentation practices
 
-**Group Members:**
-
-<br>
-
-**1:** <a href="https://github.com/waseeconsulting-git">Van Ngila</a> 
-
-**2:** <a href="https://https://github.com/statuc30721">ST Tucker</a> 
-
-**3:** <a href="https://github.com/ThomasBell-dev">Thomas Bell</a> 
-
-**4:** <a href="https://github.com/theswordpt-git">Voloxar Karsze</a> 
-
-**5:** <a href="https://github.com/Lew228">Shawn Mosby</a> 
-
-**6:** <a href="https://github.com/Cameron-Cleveland">Cameron Cleveland</a> 
-
-**7:** <a href="https://github.com/BennyCampCloud">Campanella Godfrey Jr</a>
-
-**8:** <a href="https://github.com/LarvariousM">Larvarious McDonald</a>
-
-**9:** <a href="https://github.com/ernestobengmensah">Ernest Obeng Mensah</a>
-
-**10:** <a href="https://github.com/Bobb-35">Bob Nyaande</a>
-
-**11:** <a href="https://github.com/williamgevao">William Gevao</a>
-
-**12:** <a href="https://github.com/carlosvillette">Man Escobar</a>
-
-**13:** <a href="https://github.com/carlosvillette">Michael Anunda</a>
-
-
-
-<br>
-
-<h2 align="center">📌 Instructions</h2>
-
-<br>
-
-1. Pull or clone the Class7.5 Homework Repo on your gitbash terminal to your git on your local machine. You will only be allowed to pull once you have cloned the repo.
-
-<br>
-
-```bash
-git clone git@github.com-personal:Melanated-Cyber-Kings/Class7.5-Homework.git
+📂 Repository Layout
 ```
 
-```bash
-git pull origin "name of your branch goes here"
+.
+├── README.md                # Top-level overview (this file)
+├── My-Homework/     # Weekly personal assignments
+│   ├── 01-week-01/
+│   ├── 02-week-02/
+│   ├── 03-week-03/
+│   └── README.md
+└── Group-Homework/          # Collaborative team assignments
+    └── README.md
+
+My-Homework/
 ```
+Contains weekly assignments completed independently.
+Each subfolder includes a README.md describing the task, methodology, and results.
+Group-Homework/
 
-<br>
+Contains collaborative assignments completed with classmates.
+Each submission includes documentation of group roles, approach, and deliverables.
 
-2. Navigate to the cloned repo location in your gitbash terminal and create folders Week 1, Week 2, and so on. These are the folders that will have your homework in
+📘 Submission Standards
 
-<br>
+All submissions in this repository should:
 
-3. Create your branches and switch into it immediately. (I have created the names as I want you to create your branches)
+    Follow assignment instructions precisely
 
-<br>
+    Include clear explanations, diagrams, or code samples where required
 
-```bash
-git checkout -b Van-Ngila-Homework-Branch-7.5
-```
-```bash
-git checkout -b ST-Tucker-Homework-Branch-7.5
-```
-```bash
-git checkout -b Thomas-Bell-Homework-Branch-7.5
-```
-```bash
-git checkout -b Voloxar-Karsze-Homework-Branch-7.5
-```
-```bash
-git checkout -b Shawn-Mosby-Homework-Branch-7.5
-```
-```bash
-git checkout -b Cameron-Cleveland-Homework-Branch-7.5
-```
-```bash
-git checkout -b Campanella-Godfrey-Jr-Homework-Branch-7.5
-```
-```bash
-git checkout -b Larvarious-McDonald-Homework-Branch-7.5
-```
-```bash
-git checkout -b Ernest-Obeng-Mensah-Homework-Branch-7.5
-```
-```bash
-git checkout -b Bob-Nyaande-Homework-Branch-7.5
-```
-```bash
-git checkout -b William-Gevao-Homework-Branch-7.5
-```
-```bash
-git checkout -b Man-Escobar-Homework-Branch-7.5
-```
-```bash
-git checkout -b Michael-Anunda-Homework-Branch-7.5
-```
+    Demonstrate accuracy, completeness, and reproducibility
 
-<br>
-   
-5. Create Readme.md files in each folder you created above this will be the file that you will document your homework in and that will be presented to THEO, so make sure it's readable and that someone who wouldnt know how to do the homework/project can follow with little to no difficulty.
+    Use professional formatting and consistent Markdown structure
 
-<br>
+    Avoid committing sensitive data, credentials, or system‑specific artifacts
 
-6. Once you have done this any homework you have already done begin to tansfer it into these folders that you created above to your git on your local machine.
+Where appropriate, submissions should also include:
 
-<br>
+    Assumptions made during the work
 
+    Validation steps
 
+    Screenshots or logs (when allowed)
 
+    Notes on challenges and resolutions
 
+🛡️ Academic Integrity
 
+This repository contains only original work produced for Class 7.5.
+All submissions adhere to course policies regarding:
 
+    Collaboration
 
+    Originality
 
+    Proper citation of external sources
 
+    Ethical use of tools and automation
 
+No proprietary, confidential, or unauthorized materials are included.
+
+🧰 Technical Scope
+
+Assignments in this course may involve:
+
+    Linux administration
+
+    Cloud platforms (GCP, AWS, Azure)
+
+    Kubernetes and containerization
+
+    Networking and security fundamentals
+
+    Scripting (Bash, Python)
+
+    Infrastructure‑as‑Code
+
+    CI/CD workflows
+
+    Logging, monitoring, and troubleshooting
+
+This repository is structured to support these topics while maintaining clean version control practices.
+
+📄 Contribution Notes
+
+This repository is used for coursework and grading.
+Only the student and authorized instructors should modify its contents.
+
+If updates or corrections are needed:
+
+    Use clear commit messages
+
+    Maintain folder structure
+
+    Avoid committing temporary files, logs, or system artifacts
+
+A .gitignore is included to enforce clean repository hygiene.
+
+📌 Final Notes
+
+This repository is designed to reflect professionalism, clarity, and technical discipline.
+It serves both as a homework submission system and as a long‑term reference for future study and practice.
