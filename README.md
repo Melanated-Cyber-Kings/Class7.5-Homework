@@ -10,7 +10,7 @@
 [Week 4](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-4)<br/>
 [Week 5](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-5)<br/>
 Week 6
-[Week 7](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#week-7)
+[Week 7](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#week-7)<br/>
 [Be A Man Series](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#be-a-man-series)<br/>
 [Be A Man Extra Credit #1(COMPLETED)](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#be-a-man-extra-credit)<br/>
 <br/>
@@ -766,7 +766,15 @@ Screenshots:
 
 `Date && hostename && whoami`
 
-<img width="600" height="600" alt="09extracommands" src="https://github.com/user-attachments/assets/ab904843-25b9-4af1-b737-6d3e594112f6" />
+<img width="600" height="600" alt="09extracommands" src="https://github.com/user-attachments/assets/ab904843-25b9-4af1-b737-6d3e594112f6" /><br/>
+<br/>
+<br/>
+
+# Class 6 
+
+Go over PCA book this week for homework!
+
+
 
 # Week 7
 
