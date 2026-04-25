@@ -778,32 +778,39 @@ Go over PCA book this week for homework!
 
 # Week 7
 
-WEEK 7 (Assigned: FRI 4/24/26 - Due: THU 4/30/26) ASSIGNMENTS 
+WEEK 7 (Assigned: FRI 4/24/26 - Due: THU 4/30/26) ASSIGNMENTS<br/>
+<br/>
 
-GCP Readings, Videos, and Labs
+GCP Readings, Videos, and Labs<br/>
+<br/>
 
 Udemy:
 Terraform: 
 Sections 1-4 entirely (speed through section 1, not much there)
 You do not need to install terraform - you already have it
-We do not use service accounts, env vars or the cloud shell for authentication. In class, Theo has been using the method in video 25 for authentication for the Google provider. 
-These videos are largely review or theory. 
-Section 6
+We do not use service accounts, env vars or the cloud shell for authentication. In class, Theo has been using the method in video 25 for authentication for the Google provider.<br/>
 
-Deliverables:
+These videos are largely review or theory. <br/>
+
+Section 6<br/>
+
+Deliverables:<br/>
+
 Code in a new GitHub repo
-GenAI cannot be used for everything
-A README explaining how you did this, documentation used, resources used, issues encountered and so on.
-Spelling, grammar, and formatting is not super important so don’t use AI for this 
-If you must run it through AI then you need to include the “pre-AI” version too
-A screenshot of a successful deployment of terraform showing the output and file created
-In one folder called “infra” or “terraform” or similar containing terraform code accomplishing this:
- A provider terraform configuration file with the latest version of the Google provider
-A remote backend is not needed; use a gitignore (ask your group leader if unsure on this please)
-a GCP VPC terraform configuration file using example code from the Terraform registry 
-A text file made by terraform from the local_file resource with your favorite food in it
-Output block of your VPC’s name in GCP using terraform 
-Be a man: 
+
+- A README explaining how you did this, documentation used, resources used, issues encountered and so on.<br/>
+
+- A screenshot of a successful deployment of terraform showing the output and file created<br/>
+- In one folder called “infra” or “terraform” or similar containing terraform code accomplishing this:<br/>
+- A provider terraform configuration file with the latest version of the Google provider<br/>
+- A remote backend is not needed; use a gitignore (ask your group leader if unsure on this please)<br/>
+- A GCP VPC terraform configuration file using example code from the Terraform registry<br/>
+- A text file made by terraform from the local_file resource with your favorite food in it<br/>
+- Output block of your VPC’s name in GCP using terraform<br/>
+<br/>
+
+Be A Man Challenge #2: <br/>
+<br/>
 
 Udemy: 
 In this order! 
@@ -811,9 +818,10 @@ Masterclass: Section 7
 Security: videos 31-33 (to help you know what a role is)
 Terraform: Section 5
 
-Lab: 
+Lab: <br/>
 Goal: Deploy a proof of concept (POC) static website that is entirely automated with GCS (a GCP bucket) with some sample static assets I provide and an image of your choosing. 
 The Udemys provide a solid foundation for this. Some additional research may be needed. Work with guys that are working on this. Try to lean on the documentation. Let your group leader occasionally point you in the right direction. 
+
 Deliverables: 
 The URL of the website (leave it up, buckets are basically free)
 The repository with your code (your group leader can help check your code into Github if you can’t yet)
