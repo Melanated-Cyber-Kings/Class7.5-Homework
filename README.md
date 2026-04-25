@@ -770,7 +770,7 @@ Screenshots:
 <br/>
 <br/>
 
-# Class 6 
+# Week 6 
 
 Go over PCA book this week for homework!
 
