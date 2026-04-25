@@ -9,6 +9,8 @@
 [Week 3](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-3)<br/>
 [Week 4](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-4)<br/>
 [Week 5](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-5)<br/>
+Week 6
+[Week 7](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#week-7)
 [Be A Man Series](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#be-a-man-series)<br/>
 [Be A Man Extra Credit #1(COMPLETED)](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#be-a-man-extra-credit)<br/>
 <br/>
