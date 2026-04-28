@@ -466,6 +466,7 @@ Execution evidence:
     ├── 5a_terraform_destroy_2.png
     ├── 5b_terraform_destroy_3.png
     └── 6_date_hostname_whoami.png
+```
 
 ---
 
