@@ -10,7 +10,7 @@
 [Week 4](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-4)<br/>
 [Week 5](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-5)<br/>
 [Week 6](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#week-6)<br/>
-[Week 7(in-progress)](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#week-7)<br/>
+[Week 7](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#week-7)<br/>
 [Be A Man Series](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#be-a-man-series)<br/>
 [Be A Man Extra Credit #1(COMPLETED)](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#be-a-man-extra-credit)<br/>
 [Be A Man Extra Credit #2(in-progress)](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#be-a-man-extra-credit-2-)
@@ -779,35 +779,8 @@ Go over PCA book this week for homework!
 
 # Week 7
 
-WEEK 7 (Assigned: FRI 4/24/26 - Due: THU 4/30/26) ASSIGNMENTS<br/>
+[WEEK 7](https://github.com/LarvariousM/GCPWeek7HW) (Assigned: FRI 4/24/26 - Due: THU 4/30/26)<br/>
 <br/>
-
-GCP Readings, Videos, and Labs<br/>
-<br/>
-
-Udemy:
-Terraform: 
-Sections 1-4 entirely (speed through section 1, not much there)
-You do not need to install terraform - you already have it
-We do not use service accounts, env vars or the cloud shell for authentication. In class, Theo has been using the method in video 25 for authentication for the Google provider.<br/>
-
-These videos are largely review or theory. <br/>
-
-Section 6<br/>
-
-Deliverables:<br/>
-
-Code in a new GitHub repo
-
-- A README explaining how you did this, documentation used, resources used, issues encountered and so on.<br/>
-
-- A screenshot of a successful deployment of terraform showing the output and file created<br/>
-- In one folder called “infra” or “terraform” or similar containing terraform code accomplishing this:<br/>
-- A provider terraform configuration file with the latest version of the Google provider<br/>
-- A remote backend is not needed; use a gitignore (ask your group leader if unsure on this please)<br/>
-- A GCP VPC terraform configuration file using example code from the Terraform registry<br/>
-- A text file made by terraform from the local_file resource with your favorite food in it<br/>
-- Output block of your VPC’s name in GCP using terraform<br/>
 <br/>
 
 
