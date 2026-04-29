@@ -13,7 +13,8 @@ resource "google_compute_network" "main" {
 
 # Set local file resource to generate a file with content of favorite food 
 # retrieved from favorite_food variable.
-# Reference: https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_network
+
+# Reference: https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file
 
 # Create a local file with your favorite food
 resource "local_file" "favorite_food" {
