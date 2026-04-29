@@ -28,11 +28,8 @@
 └── terraform
     ├── main.tf
     ├── output.tf
-    ├── provider.tf
-    ├── terraform.tfstate
-    ├── terraform.tfstate.backup
-    ├── terraform.tfvars
-    ├── terraform.tfvars.example
+    ├── provider.tf 
+    ├── terraform.wtfvars.example
     └── variables.tf
 ```
 
