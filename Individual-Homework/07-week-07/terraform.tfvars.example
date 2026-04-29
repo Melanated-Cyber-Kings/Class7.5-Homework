@@ -1,0 +1,15 @@
+# Set variable file for project and region values. 
+# This file is automatically loaded by Terraform when you run 
+# the terraform commands, so you don't have to specify the 
+# variable values on the command line each time.
+
+# Set value for the project identification number.
+
+project_id = "my-gcp-project-id" # REPLACE WITH YOUR GCP PROJECT ID
+
+# Set value for the region where you intend to deploy your resources.
+
+region = "us-central1"
+
+# Set value for your favorite food. This will be used to generate a local file with the content of your favorite food.
+favorite_food = "Philly Cheese Steak"
