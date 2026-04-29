@@ -29,7 +29,7 @@
     ├── main.tf
     ├── outputs.tf
     ├── provider.tf 
-    ├── terraform.wtfvars.example
+    ├── terraform.tfvars.example
     └── variables.tf
 ```
 
