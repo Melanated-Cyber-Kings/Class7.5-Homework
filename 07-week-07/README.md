@@ -28,7 +28,7 @@ touch 0-auth.tf
   - Click the purple USE PROVIDER button
   - Copy and Paste the terraform block and provider block (under Terraform 0.13+) into 0-auth.tf
 
-- Replace # Configuration options WITH project = "class75-michaelanunda" (gcloud config get-value project)
+- Replace
 ```terraform
 provider "google" {
   # Configuration options
