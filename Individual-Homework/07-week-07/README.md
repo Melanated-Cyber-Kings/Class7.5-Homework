@@ -27,7 +27,7 @@
 ├── README.md
 └── terraform
     ├── main.tf
-    ├── output.tf
+    ├── outputs.tf
     ├── provider.tf 
     ├── terraform.wtfvars.example
     └── variables.tf
