@@ -106,7 +106,7 @@ terraform destroy
 [CAUTION] Review the output carefully to make sure what you intend to happen is *ONLY* what terraform is stating it will do. Once you are okay with the results of the `terraform destroy` output shows, then proceed to the teardown the deployed resources.
 
 ```code
-terraform destroy
+terraform destroy # Type YES when prompted
 ```
 
 At this point you will need to enter yes to confirm to terraform that you are *OK* with terraform performing destruction of the deployed resources.
