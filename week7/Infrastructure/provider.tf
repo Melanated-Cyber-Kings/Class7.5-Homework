@@ -13,6 +13,6 @@ terraform {
 }
 
 provider "google" {
-   project     = "seir-project-490500"
+  project     = "seir-project-490500"
   region      = "us-central1"
 }

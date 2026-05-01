@@ -1,4 +1,4 @@
 resource "local_file" "output_file" {
-    filename = "sample.txt"
+    filename = "favorite_food.txt"
     content = "I like gumbo"
 }
