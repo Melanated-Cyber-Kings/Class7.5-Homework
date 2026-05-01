@@ -175,3 +175,24 @@ VM_IP="$VM_IP" ./gate_lab2_http.sh
 </details>
 
 ---
+
+### Week 7
+
+<details>
+    <summary>Week 7 Instructions</summary>
+
+Deliverables:
+Code in a new (i.e., one you created) GitHub repository.
+GenAI cannot be used for code.
+A README explaining how you did this, documentation used, resources used, issues encountered and so on.
+Spelling, grammar, and formatting is not super important so don’t use AI for this
+If you must run it through AI then you need to include the “pre-AI” version too
+A screenshot of a successful deployment of terraform showing the output and file created
+In one folder called “infra” or “terraform” or similar containing terraform code accomplishing this:
+A provider terraform configuration file with the latest version of the Google provider
+A remote backend is not needed; use a gitignore (ask your group leader if unsure on this please)
+a GCP VPC terraform configuration file using example code from the Terraform registry
+A text file made by terraform from the local_file resource with your favorite food in it
+Output block of your VPC’s name in GCP using terraform
+
+</details>
