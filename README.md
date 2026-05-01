@@ -51,6 +51,7 @@ Class 7.5 2026 Homework Submissions Repo for THEO WAF
 
 **14:** <a href="https://github.com/carlosvillette">Aaron De Cameron</a>
 
+**15:** <a href="https://github.com/carlosvillette">Esdras Cancoult</a>
 
 
 
@@ -123,6 +124,9 @@ git checkout -b Michael-Anunda-Homework-Branch-7.5
 ```
 ```bash
 git checkout -b Aaron-De-Cameron-Homework-Branch-7.5
+```
+```bash
+git checkout -b Esdras-Cancoult-Homework-Branch-7.5
 ```
 
 <br>
