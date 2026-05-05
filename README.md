@@ -4,14 +4,14 @@
 
 **Weekly Directory**
 
-[Week 1](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-1)<br/>
-[Week 2](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-2)<br/>
-[Week 3](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-3)<br/>
-[Week 4](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-4)<br/>
-[Week 5](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/README.md#week-5)<br/>
-[Week 6](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#week-6)<br/>
-[Week 7](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5#week-7)<br/>
-[Week 8](url) TBA <br/>
+[Week 1](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/week1/README.md)<br/>
+[Week 2](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/week2/README.md)<br/>
+[Week 3](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/week3/README.md)<br/>
+[Week 4](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/week4/README.md)<br/>
+[Week 5](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/week5/README.md)<br/>
+[Week 6](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/week6/README.md)<br/>
+[Week 7](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/week7/README.md)<br/>
+[Week 8](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/week8/README.md) TBA <br/>
 <br/>
 <br/>
 
