@@ -1,34 +1,43 @@
-# Week 8
+ # Week 8
 <br/>
 <br/>
 
-## 1) Q&A Section (Answer in 1-5 sentences<br/>
+## 1) Q&A Section (Answer in 1-5 sentences) <br/>
 
 * **What is the difference between high availability and fault tolerance? Which is best to strive for?**
 <br/>
 
-        MY ANSWER: 
+        MY ANSWER: High Availability allows for quick recovery for different systems, Fault Tolerance allows for no downtime at all. High Availability should be used for businesses such as IT services, while Fault Tolerance would be suited for Healthcare Databases for that they could access patient information 24/7. The best one a company should strive for is Fault Tolerance, so that they would never had downtime for their systems and patient data accessibility.
+<br/>
 
 * **Explain the difference between autoscaling and elasticity. What is vertical and horizontal autoscaling? Is one better? Are they feasible on prem?**
 <br/>
 
-        MY ANSWER:
+        MY ANSWER: The difference between autoscaling and elasticity is that autoscaling adds more VM instances when the demand is called for, and the elasticity can add more VM instances, and also remove VM instances when there is no demand for them anymore.
+<br/>
+
+        MY SECOND ANSWER: Vertical scaling increases the size of a VM instance such as adding more RAM, CPU power, and more storage. Horizontal scaling scales out by adding more instances to give the user more RAM, CPU power, and more storage. I would rather choose horizontal scaling, because vertical scaling would continue to scale up to more expensive hardware and the cost wouldn't be feasible anymore. 
+<br/>
+
+        MY THIRD ANSWER: I think horizontal scaling would be better for on-premises work, because you can add more VM instances, use load balancers to balance user requests. It is also better because if one server goes out, the rest of the VM instances can keep the application(s) running. 
 
 * **Explain what the difference between managed and unmanaged instance groups is.**
 <br/>
 
-        MY ANSWER: 
+        MY ANSWER: Managed instance groups builds similar VM machines using an Instance Template in GCP, or the AWS console, introducing automated scaling, health checks, and load balancing. Unmanaged instance groups builds VM machines of different families, such a E2, C4, N$, and etc.
+<br/> 
 
 * **Explain the different use cases for health checks used by applications (in instance groups) and health checks used by load balancers. Can they be the same? Are they different API calls? Should they be the same?**
 <br/>
 
-        MY ANSWER: 
+        MY ANSWER: Health checks for instance groups monitors the VM instance availability by sending health check probes from certain ports at certain times like 300 seconds, or 60s, and etc. If that VM instances fails multiple checks, GCP deems that VM instance as unhealthy, routes the traffic away from it and then tries to fix it. Health checks sent by Load Balancers could be the same, but are sent from different services.
+<br/>
 
 * **Explain in a few sentences what the 3 tier architecture is and how it relates to what you are learning.** 
 <br/>
 
-        MY ANSWER:
-
+        MY ANSWER: A three-tier architecture addresses the scalability, the availability, and security of your cloud application for clients. It addresses the availability by deploying multiple instances into multiple AZs of your choice, it addresses the scalability by either scaling your instances horizontially or veritcally for your needs, and it addresses the security by using different ports, security groups on machines or by using different services provided by your cloud-based application. 
+<br/>
 
 ## 2) Runbook
 
