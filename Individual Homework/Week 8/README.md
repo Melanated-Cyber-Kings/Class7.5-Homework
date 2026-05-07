@@ -2,9 +2,13 @@
 
 ## Q&A
 ### Q1 - **What is the difference between high availability and fault tolerance? Which is best to strive for?**
+
 **High Availability (HA)** means designing systems to *minimise downtime* by quickly recovering when something fails, often with a small interruption.  
+
 **Fault Tolerance (FT)** means designing systems for *zero downtime*, where failures cause no disruption at all.  
+
 The key difference is that HA allows brief outages, while FT provides continuous operation without interruption but FT is significantly more complex and expensive and is used only when zero data loss and zero interruption are legally or financially mandatory
+
 It is best to strive for what serves the business needs. In practice, most organisations aim for **high availability**, as it balances reliability, cost, and complexity effectively.
 
 ### Q2 - **Explain the difference between autoscaling and elasticity. What is vertical and horizontal autoscaling? Is one better? Are they feasible on prem?**
@@ -49,6 +53,7 @@ Deploy a Managed Instance Group (MIG) of identical VMs distributed across multip
 - `gcloud auth application-default-login` already run
 
 ### Procedure
+
 #### 1. Start the MIG creation flow
 - Go to **Compute Engine** then **Instance Groups**
 - Click **Create Instance Group**
@@ -87,10 +92,13 @@ Deploy a Managed Instance Group (MIG) of identical VMs distributed across multip
 ### Verification
 #### Check for multi-zone distribution
 After creation, open the instance group. VMs should be spread across `a`,`b`,`c`.
+
 #### Auto-scaling is active
 Instance group page status shows "3 instances". Also Auto-scaling 'On (min 3, max 10)'
+
 #### Auto-healing is active
 The Health check column should show health-check name. After a few minutes, all VMs become **healthy (green)**.
+
 #### Optional: Verify auto-healing
 1. From the instance group's **Instances** tab, delete any one VM
 2. Wait 2‑3 minutes
