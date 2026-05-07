@@ -1,0 +1,8 @@
+resource "google_compute_subnetwork" "private" {
+  name                     = "private-subnet"
+  ip_cidr_range            = "10.0.0.0/18"
+  region                   = "us-central1"
+  project                  = "fleming-friday-floripa"
+  network                  = module.vpc.network_self_link
+  private_ip_google_access = true
+}
