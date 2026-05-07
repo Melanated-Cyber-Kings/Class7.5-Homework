@@ -50,8 +50,10 @@
 <br/>
 
 PREREQUISITES:
-          * Google Cloud Platform account
-          * Instance Template
+<br/>
+
+* Google Cloud Platform account
+* Instance Template
 <br/>
 
  **Explain how to enable autoscaling and autohealing**
@@ -82,17 +84,21 @@ PREREQUISITES:
 * **Explain how to verify that the instance group will manage instances across multiple zones**
 <br/>
 
-        MY ANSWER: 
+***I will revisit this area again, and complete***
+<br/>
 
 * **Explain any other critical config explicitly**
 <br/>
 
-        MY ANSWER: 
+***I will revisit this area again, and complete***
+<br/>
 
 * **Remember this is for other engineers so no need to try to explain everything like I am a nontechnical person. Also keep in mind runbooks are not for learning but for executing something properly.  Keep it pretty high level. Use whatever amount of detail you feel is correct.**
 <br/>
 
-        MY ANSWER: 
+
+
+
 
 * Test it by having a group mate use this runbook to accomplish the goal. They should be able to rely on it only to spin up a properly configured instance group.
 <br/>
@@ -103,12 +109,16 @@ PREREQUISITES:
 * **Explain the mandatory (required) arguments for a VM in terraform**
 <br/>
 
-        MY ANSWER: 
+1) `boot_disk`
+2) `name`
+3) `machine type`
+4) `network_interface`
+5) `zone`
 
 * **Explain how to output the internal and external IP addresses of the provisioned VM and how you figured this out**
 <br/>
 
-        MY ANSWER: 
+Googled "terraform registry gcp vm output"
 
 * **Choose 2 non-required arguments and give an explanation for both (do not copy and paste the reference material)**
 <br/>
