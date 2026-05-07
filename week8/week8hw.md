@@ -44,20 +44,40 @@
 * **In the first few sentences (3 max) explain the end goal.** 
 <br/>
 
-        MY ANSWER: 
+        We're going to create a managed Instance Group on Google Cloud Platform. 
 
 * **Add a section on prerequisites (what do I, as an engineer, need to have ready to make this happen?)**
 <br/>
 
-        MY ANSWER: 
-
-* **Goal: a fully configured managed instance group**
+PREREQUISITES:
+          * Google Cloud Platform account
+          * Instance Template
 <br/>
 
-* **Explain how to enable autoscaling and autohealing**
+ **Explain how to enable autoscaling and autohealing**
 <br/>
 
-        MY ANSWER: 
+"Enabling Autoscaling"
+<br/>
+
+1) Open Google Cloud Console
+2) Click on Compute Engine
+3) Click on Instance Groups
+4) Create Instance Groups, select "New managed instance group (stateless)"
+5) Choose Name*, Instance Template*, Number of instances*, Location*
+6) Click on Configure Autoscaling, set Autoscaling mode to ON, add and remove instances to the group.
+7) Choose your Minimum and Maximum number of instances.
+8) Choose Autoscaling signals (CPU utilization, HTTP load balancing utilization, Cloud Pub/Sub queue, or Cloud Monitoring metric)
+9) Then, set the Target utilization!
+<br/>
+
+"Enabling Autohealing"
+<br/>
+
+1) While creating your Managed Instance Group, scroll down to VM Instance Lifecycle and select "Create a health check".
+2) Give it a Name*, choose Global or Regional, specify Protocol* and Port*, and choose the Health Criteria regarding Check Interval*, Timeout*, Healthy threshold*, and Unhealthy threshold*.
+3) Save your health check! 
+
 
 * **Explain how to verify that the instance group will manage instances across multiple zones**
 <br/>
