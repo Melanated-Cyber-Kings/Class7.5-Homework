@@ -119,6 +119,8 @@ The Health check column should show health-check name. After a few minutes, all 
 1. From the instance group's **Instances** tab, delete any one VM
 2. Wait 2‑3 minutes
 3. Refresh the page – a new VM will appear, and its health status will become green
+
+
 In the example below, I deleted the VM ending in “5rkd.” As the VM was being deleted, a new VM ending in “0txd” was automatically created and began booting up.
 ![VM Delete to New VM](./Screenshots/07_runbook_delete_instance_new_instance.png)
 

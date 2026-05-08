@@ -26,4 +26,4 @@ resource "google_compute_instance" "week8_hw_vm" {
   # Startup script from startup.sh file
 }
 
-#https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance
+# https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance
