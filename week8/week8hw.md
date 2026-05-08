@@ -78,30 +78,18 @@ PREREQUISITES:
 
 1) While creating your Managed Instance Group, scroll down to VM Instance Lifecycle and select "Create a health check".
 2) Give it a Name*, choose Global or Regional, specify Protocol* and Port*, and choose the Health Criteria regarding Check Interval*, Timeout*, Healthy threshold*, and Unhealthy threshold*.
-3) Save your health check! 
-
-
-* **Explain how to verify that the instance group will manage instances across multiple zones**
-<br/>
-
-***I will revisit this area again, and complete***
+3) Save your health check!
 <br/>
 
 * **Explain any other critical config explicitly**
 <br/>
 
-***I will revisit this area again, and complete***
-<br/>
+Critical configs includes:
 
-* **Remember this is for other engineers so no need to try to explain everything like I am a nontechnical person. Also keep in mind runbooks are not for learning but for executing something properly.  Keep it pretty high level. Use whatever amount of detail you feel is correct.**
-<br/>
-
-
-
-
-
-* Test it by having a group mate use this runbook to accomplish the goal. They should be able to rely on it only to spin up a properly configured instance group.
-<br/>
+Regional vs. Zonal: Use Regional MIGs to spread instances across multiple zones for high availability.
+Target Distribution Shape: Set to BALANCED, ANY, or ANY_SINGLE_ZONE to define how VMs are distributed across zones and handle capacity shortages.
+Size (Target Size): The initial number of instances.
+Stateful Policy: Required for applications needing to persist data (e.g., databases), preserving stateful disks, metadata, or IP addresses.
 <br/>
 
 ## 3) Terraform
