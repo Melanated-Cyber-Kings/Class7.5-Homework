@@ -175,33 +175,13 @@ This is used when you have stateful VMs that you can't easily tear down and rebu
 
 
 ### Finding the Correct Image format for CentOS Stream 10
-I used three methods to verify the correct image reference. First, I consulted the official [Google Cloud Compute Engine OS Images documentation](https://cloud.google.com/compute/docs/images), which states that public OS images are organized into projects and families, and that CentOS images are available in the `centos-cloud` project.
+I consulted the official [Google Cloud Compute Engine OS Images documentation](https://cloud.google.com/compute/docs/images), which states that public OS images are organized into projects and families, and that CentOS images are available in the `centos-cloud` project.
 
 Second, I ran `gcloud compute images list --project centos-cloud --no-standard-images` in my terminal. The output showed image names like `centos-stream-10-v20250415` and confirmed the family name `centos-stream-10`.
 ![Cent-os_search](./Screenshots/08_tf_centos-cloud_search.png)
 
-Finally, I cross-referenced the Terraform `google_compute_image` data source documentation, which explains how to reference images using the pattern `projects/{project}/global/images/family/{family}`. 
-(https://third-party-mirror.googlesource.com/terraform-provider-google/+/022e24ae73bceb5483647baad913c9dc9ebb7169/website/docs/d/compute_image.html.markdown)
-
-Based on this research, I used `image = "projects/centos-cloud/global/images/family/centos-stream-10"` in my `boot_disk` block. Using the image family ensures Terraform always deploys the latest patched version of CentOS Stream 10, rather than a specific dated image that may become deprecated.
-
-```hcl
-data "google_compute_image" "centos_stream_10" {
-  family  = "centos-stream-10"
-  project = "centos-cloud"
-}
-
-resource "google_compute_instance" "default" {
-  # ... other config ...
-  boot_disk {
-    initialize_params {
-      image = data.google_compute_image.centos_stream_10.self_link
-    }
-  }
-}
-```
-https://third-party-mirror.googlesource.com/terraform-provider-google/+/022e24ae73bceb5483647baad913c9dc9ebb7169/website/docs/d/compute_image.html.markdown
-
+Alternatively, I could go to the GCP console and go to the Compute Engine → Storage → Images section.
+![Cent-os_search2](./Screenshots/12_tf_centos-cloud_search2.png)
 
 ### Difference Between `name`, `id` and `self_link`
 
