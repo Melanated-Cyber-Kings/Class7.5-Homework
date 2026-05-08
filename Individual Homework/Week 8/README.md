@@ -2,7 +2,6 @@
 
 ## Q&A
 ### Q1 - **What is the difference between high availability and fault tolerance? Which is best to strive for?**
-
 **High Availability (HA)** means designing systems to *minimise downtime* by quickly recovering when something fails, often with a small interruption.  
 
 **Fault Tolerance (FT)** means designing systems for *zero downtime*, where failures cause no disruption at all.  
@@ -13,30 +12,46 @@ It is best to strive for what serves the business needs. In practice, most organ
 
 ### Q2 - **Explain the difference between autoscaling and elasticity. What is vertical and horizontal autoscaling? Is one better? Are they feasible on prem?**
 **Elasticity** is the overall ability to dynamically adjust resources, while **Autoscaling** is the mechanism that makes elasticity happen. 
+
 **Vertical scaling** adds power to a single server (scale up), whereas **Horizontal scaling** adds more servers (scale out). 
+
 Horizontal scaling is generally better for modern cloud apps because it offers virtually unlimited growth and fault tolerance, though vertical scaling remains a more simple solution for small or stateful workloads.
+
 Both approaches are feasible on-premises, but true elasticity is limited by long hardware procurement times, forcing most on-prem organisations to over-allocate instead.
+
 Cloud engineers prioritise horizontal autoscaling for stateless services and reserve vertical scaling for legacy systems or databases that aren’t yet ready to distribute data.
 
 ### Q3 - **Explain what the difference between managed and unmanaged instance groups is.**
 **Managed Instance Groups (MIG)** automatically create, scale, and heal virtual machines based on a defined template, making them ideal for production workloads.  
+
 **Unmanaged instance groups** require you to manually create, manage, and maintain each virtual machine.  
+
 The key difference is that managed groups provide automation and consistency, while unmanaged groups offer full manual control.  
+
 Managed instance groups support autoscaling, load balancing, and high availability, whereas unmanaged groups do not.  
+
 In practice, managed instance groups are the preferred choice for most modern cloud architectures, unmanaged instance groups are used for legacy systems and testing/forensics.
 
 ### Q4 - **Explain the different use cases for health checks used by applications (in instance groups) and health checks used by load balancers. Can they be the same? Are they different API calls? Should they be the same?**
 **Application health checks** used by instance groups determine *whether a virtual machine should be repaired or replaced*, while **load balancer health checks** decide *whether traffic should be sent to that machine*.  
+
 The key difference is that instance group health checks trigger *autohealing* actions, whereas load balancer health checks only affect *traffic routing*.  
+
 Although they can technically use the same endpoint, they are configured as separate resources and serve different purposes.  
+
 Using the same health check for both can lead to unnecessary VM restarts, instability and cascading failures.
+
 Best practice is to use separate health check endpoints, with stricter checks for load balancing and more tolerant checks for autohealing.
 
 ### Q5 - **Explain in a few sentences what the 3 tier architecture is and how it relates to what you are learning.**
 **Three-tier architecture** separates an application into **presentation** (web frontend), **application** (business logic), and **data** (database) tiers that run on independent infrastructure. 
+
 This separation allows each tier to scale differently. Presentation and application tiers scale horizontally with MIGs, while the data tier typically scales vertically. 
+
 The concepts previously discussed map directly: health checks become more thorough as you go down the tiers, and load balancers sit between the user and presentation tier and again between presentation and application tiers.
+
 MIGs work for the stateless presentation and application tiers, but the stateful data tier often uses managed database services instead of generic instance groups. 
+
 Understanding 3-tier architecture gives you a mental framework for deciding where to apply horizontal scaling, auto-healing, and different health check strategies based on each tier's unique failure modes and scaling requirements.
 
 ---
@@ -104,7 +119,7 @@ The Health check column should show health-check name. After a few minutes, all 
 2. Wait 2‑3 minutes
 3. Refresh the page – a new VM will appear, and its health status will become green
 In the example below, I deleted the VM ending in “5rkd.” As the VM was being deleted, a new VM ending in “0txd” was automatically created and began booting up.
-![VM Delete to New VM](./)
+![VM Delete to New VM](./Screenshots/Delete_Instance_New_Instance.png)
 
 ---
 ## Terraform
@@ -125,6 +140,7 @@ The following arguments must be defined in a `google_comute_instance` resource f
 https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance
 
 
+
 ### Outputting Internal and External IP Addresses
 
 **Internal IP**
@@ -140,15 +156,19 @@ The `access_config` block is basically a middleman that maps your VM to a public
 https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#nat_ip-1
 
 
+
 ### Two Non-Required Arguments explained
 
 `metadata_startup_script`
- This argument allows you to insert a shell script that runs automatically the first time a VM boots.
+
+This argument allows you to insert a shell script that runs automatically the first time a VM boots.
 
 `allow_stopping_for_update`
+
 When set to `true`, Terraform is allowed to stop the VM in order to modify certain fields that cannot be changed while the VM is running (e.g., `machine_type`).
 Without this argument, changing a field like `machine_type` forces Terraform to destroy and recreate the VM. When set to `true`, Terraform stops, modifies, then restarts the VM.
 This is used when you have stateful VMs that you can't easily tear down and rebuild.
+
 
 
 ### Finding the Correct Image format for CentOS Stream 10
@@ -157,22 +177,25 @@ I used three methods to verify the correct image reference. First, I consulted t
 Second, I ran `gcloud compute images list --project centos-cloud --no-standard-images` in my terminal. The output showed image names like `centos-stream-10-v20250415` and confirmed the family name `centos-stream-10`.
 ![Cent-os_search](./Screenshots/centos-cloud_search.png)
 
-Finally, I cross-referenced the Terraform `google_compute_image` data source documentation, which explains how to reference images using the pattern `projects/{project}/global/images/family/{family}`. [](https://third-party-mirror.googlesource.com/terraform-provider-google/+/022e24ae73bceb5483647baad913c9dc9ebb7169/website/docs/d/compute_image.html.markdown)
+Finally, I cross-referenced the Terraform `google_compute_image` data source documentation, which explains how to reference images using the pattern `projects/{project}/global/images/family/{family}`. 
+(https://third-party-mirror.googlesource.com/terraform-provider-google/+/022e24ae73bceb5483647baad913c9dc9ebb7169/website/docs/d/compute_image.html.markdown)
 
 Based on this research, I used `image = "projects/centos-cloud/global/images/family/centos-stream-10"` in my `boot_disk` block. Using the image family ensures Terraform always deploys the latest patched version of CentOS Stream 10, rather than a specific dated image that may become deprecated.
-data "google_compute_image" "centos_stream_10" {
-  family  = "centos-stream-10"
-  project = "centos-cloud"
-}
 
+```hcl
+data "google_compute_image" "my_image" {
+  family  = "debian-11"
+  project = "debian-cloud"
+}
 resource "google_compute_instance" "default" {
-  # ... other config ...
+  # ...
   boot_disk {
     initialize_params {
-      image = data.google_compute_image.centos_stream_10.self_link
+      image = data.google_compute_image.my_image.self_link
     }
   }
 }
+```
 https://third-party-mirror.googlesource.com/terraform-provider-google/+/022e24ae73bceb5483647baad913c9dc9ebb7169/website/docs/d/compute_image.html.markdown
 
 
