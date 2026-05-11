@@ -23,10 +23,8 @@
 7) What are LB routing rules and URL maps for? Load Balancers routing rules and URL maps are for directing incoming client requests to specific backend services or buckets based on the URL host, path, headers, or query parameters.
 <br/>
 
-    Load Balancing Routing Rules example:
+    Load Balancing Routing Rules example: An example of a load balancing routing rule could be a Geo-Routing rule where the rule would send a user to a specific IP address or geographic location closest to that user.
 <br/>
-
-    URL Maps example:
 <br/>
 
 8) What is an anycast IP address used for in the context of a Global Load Balancer? An anycast IP address routes user traffic to the nearest or most efficient server, reducing latency (faster load times), improving service availability, and strengthening resilience against DDoS attacks.
@@ -194,4 +192,70 @@ Prequisites:
 <br/>
 <br/>
 
-18) 
+18) Give backend service a name and a description, and choose your health check
+
+<img width="2880" height="1650" alt="019" src="https://github.com/user-attachments/assets/7e261f36-09d6-43c1-9eb1-30df0393d461" />
+<br/>
+<br/>
+
+19) Choose your Instance Group, make sure your ports are set to "80", and click on Done.
+
+<img width="2880" height="1650" alt="020" src="https://github.com/user-attachments/assets/ab105bf5-f174-47a4-8f0d-4e900f0d8767" />
+<br/>
+<br/>
+
+20) Scroll down, and make sure "Cloud CDN" is unchecked.
+
+<img width="2880" height="1650" alt="021" src="https://github.com/user-attachments/assets/0ceb6657-ebe4-42f9-a4e1-ea4a64f51cd4" />
+<br/>
+<br/>
+
+21) Don't create a backend bucket, just click on the OK button.
+
+<img width="2880" height="1650" alt="022" src="https://github.com/user-attachments/assets/f75ca94f-f4ce-4ad4-8cbd-792739cf6070" />
+<br/>
+<br/>
+
+22) Click on the Create button at the bottom of the screen, to create your Load Balancer.
+
+<img width="2880" height="1650" alt="023" src="https://github.com/user-attachments/assets/2ba7d844-981b-4773-b258-28fc91426a6b" />
+<br/>
+<br/>
+
+23) Click on your Load Balancer name.
+
+<img width="2880" height="1650" alt="024" src="https://github.com/user-attachments/assets/2f389e01-7dc3-490c-b34f-6f6da63548fb" />
+<br/>
+<br/>
+
+24) Copy your Load Balancer's IP Port, and insert "http://" in front of that port and insert that into your web browser.
+
+<img width="2880" height="1650" alt="025" src="https://github.com/user-attachments/assets/b5d83acd-b2a5-4925-99b4-cccf0f2bfa0b" />
+<br/>
+<br/>
+
+25) That web address should bring you to this webpage, but pay attention to the Internal & External IP, because it should change every 10 seconds to a new region's configuration.
+
+<img width="2880" height="1650" alt="026" src="https://github.com/user-attachments/assets/3599ebc8-33e7-4c8d-b013-8f6d79d0c3ce" />
+<br/>
+<br/>
+
+26) 10 seconds later...LOL
+
+<img width="1536" height="1024" alt="10 seconds later" src="https://github.com/user-attachments/assets/c6be65d9-491c-45f5-a82e-8e18f9e54bc3" />
+<br/>
+
+👇 Notice that the Internal & External IP changed again...
+<br/>
+
+<img width="2880" height="1650" alt="027" src="https://github.com/user-attachments/assets/f06d9004-5cc1-4ff3-abec-3ecefd39b59e" />
+
+27) A few moments later...
+
+<img width="800" height="600" alt="few_moments_later_spongebob_by_psddude_djja51n-414w-2x" src="https://github.com/user-attachments/assets/c83e5fc4-bd48-41a2-972a-3bb83409180e" />
+<br/>
+
+👇 Notice that the Internal & External IP changed once more to another region...
+<br/>
+
+<img width="2880" height="1650" alt="028" src="https://github.com/user-attachments/assets/e8006660-48c7-46ec-83f6-890420f47e1b" />
