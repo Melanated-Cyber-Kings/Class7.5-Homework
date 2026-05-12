@@ -34,7 +34,7 @@ This assignment is GCP focused but concepts are cloud agnostic. I believe these 
 **The Goal:** The objective is to deploy a fleet of self-healing, identical virtual machines that automatically scale based on user demand. By the end of this guide, you will have a resilient application layer that can survive the failure of an entire physical data center.
 
 **Runbook:**
-1. Inside of GCP type "launch template" in the search bar. 
+1. Inside of GCP type "instance template" in the search bar. 
 2. Select Create Instance Template.
 3. Name the template i.e My-Test-Instance-Template.
 4. Locate "Firewall"(you can use ctrl + f) & select Allow HTTP traffic.
