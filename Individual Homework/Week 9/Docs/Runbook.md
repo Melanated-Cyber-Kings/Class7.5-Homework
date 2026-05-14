@@ -101,16 +101,21 @@ Wait 2-3 minutes for the load balancer to provision.
 
 ## Verification
 
-- - After creating MIG, make sure under **Location** it shows 4/4. This makes sure VMs are created in all selected zones.
-![verify mig location](/Screenshots/rb_verify_mig_location.png)
+- After creating MIG, make sure under **Location** it shows 4/4. This makes sure VMs are created in all selected zones.
+
+![verify mig location](./Screenshots/rb_verify_mig_location.png)
+
 - **Load balancer IP:** From Load Balancer details page → Frontend section → copy the IP address.
 - **Web page loads:** Visit `http://<IP>` in a browser.  You should see the web server response.
-![verify webpage](/Screenshots/rb_veryify_webpage.png)
+
+![verify webpage](./Screenshots/rb_veryify_webpage.png)
 - **Traffic distribution:** Refresh the page several times; if the hostname/IPs/Location changes, traffic is moving between VMs.
-![verify traffic distribution](/Screenshots/rb_verify_traffic_distribution.png)
+
+![verify traffic distribution](./Screenshots/rb_verify_traffic_distribution.png)
 - **Multi‑zone distribution:** Instance Group → Instances tab — VMs should be spread across `a, b, c, f`.
 - **Health check status:** Instance Group → all VMs show green (healthy).
-![verify multizone healthy](/Screenshots/rb_verify_multizone_healthy.png)
+
+![verify multizone healthy](./Screenshots/rb_verify_multizone_healthy.png)
 
 ---
 
