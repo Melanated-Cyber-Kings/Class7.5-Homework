@@ -130,5 +130,5 @@ TTL (Time to Live) defines how long content stays cached before the CDN checks t
 ### RUNBOOK
 #The runbook section is a work in progress in file named RUNBOOK.md. The final version will be included in the final submission of this assignment.
 
-#### Terraform Code for Managed Instance Group Creation
+### Terraform Code for Managed Instance Group Creation
 #Terraform code is under development under folder named terraform. The final version will be included in the final submission of this assignment.
