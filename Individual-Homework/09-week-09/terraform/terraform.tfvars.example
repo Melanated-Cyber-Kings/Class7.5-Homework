@@ -1,0 +1,27 @@
+# Set project ID of your GCP project.
+project_id = "your-project-id"
+
+ # Set the region for your deployment.
+region = "us-central1"
+
+# Set the zone for your deployment.
+zone   = "us-central1-a"
+
+# Set the student name.
+student_name = "Mister Majestik"
+
+# Set VPC and subnet names.
+vpc_name    = "mephisto"
+subnet_name = "mephisto-subnet"
+
+# Set the CIDR block for the subnet.
+subnet_cidr = "10.10.0.0/24"
+
+# Set machine type.
+machine_type      = "n2-standard-2"
+
+# Set the boot disk size in GB.
+boot_disk_size_gb = 100
+
+# Set the target size (number of virtual machines) for the Managed Instance Group (MIG).
+mig_target_size = 3
