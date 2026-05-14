@@ -106,7 +106,7 @@ Wait 2-3 minutes for the load balancer to provision.
 ![verify mig location](./Screenshots/rb_verify_mig_location.png)
 
 - **Load balancer IP:** From Load Balancer details page → Frontend section → copy the IP address.
-- **Web page loads:** Visit `http://<IP>` in a browser.  You should see the web server response.
+- **Web page loads:** Visit `http://<IP>` in a browser. (IP should not include the Port number) You should see the web server response.
 
 ![verify webpage](./Screenshots/rb_veryify_webpage.png)
 - **Traffic distribution:** Refresh the page several times; if the hostname/IPs/Location changes, traffic is moving between VMs.
