@@ -1,4 +1,15 @@
+#### Prerequisites
+1. Access to Google Cloud Platform (GCP) with a billing account.
+2. Permissions to create and manage Compute Engine resources.
+3. Compute Engine API enabled in the GCP project.
+4. Create VPC network and subnetwork in a specific region (e.g., us-central1).
+5. Add or remove firewall rules to allow HTTP/HTTPS traffic on port 80 to the instances in the instance group.
+6. A startup script that will be executed on the first VM initialization of each instance.
+
+
+
 #### ClickOps Procedure to Create a Global External HTTP(S) Load Balancer with Cloud Armor and Cloud CDN
+
 Workflow:
 1. Create a VPC network and subnetwork in the us-central1 region.
 2. Create a Managed Instance Group with 3 instances in the us-central1 region, using the latest CentOS 10 image and allowing HTTP traffic on port 80.
