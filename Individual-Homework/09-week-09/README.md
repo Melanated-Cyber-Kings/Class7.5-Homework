@@ -33,11 +33,11 @@ What are LB routing rules and URL maps for? Give examples.
 Routing rules and URL maps tell the load balancer how to direct traffic based on details in the incoming request, such as the URL path or hostname. They allow you to control exactly which backend service receives which type of traffic. A URL map is a set of rules the load balancer follows to decide where to send a request.
 
 **Examples**
-    - https://webstore.example.com/video routes to a backend service that handles video content
+- https://webstore.example.com/video routes to a backend service that handles video content
 
-    - https://webstore.example.com/graphics routes to a Cloud Storage backend bucket for static graphics
+- https://webstore.example.com/graphics routes to a Cloud Storage backend bucket for static graphics
 
-    - https://webstore.example.com/ routes to a default backend service such as the main web application or index.html
+- https://webstore.example.com/ routes to a default backend service such as the main web application or index.html
 
 Where URL Maps Are Used:
     - External Application Load Balancers
