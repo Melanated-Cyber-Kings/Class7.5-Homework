@@ -78,8 +78,11 @@ A URL map is a routing table for HTTP(S) traffic. It inspects incoming traffic a
 Example 1 - Path Based
 
 Say you have a website like `biglizzo.com`. You don't want your 'Account Settings' servers to be the same ones that handle 'Video Streaming' as they have different jobs.
+
 If the URL path starts with `/video`, send the user to the video servers.
+
 If the URL path starts with `/account`, send the user to the database servers.
+
 The rest go to web servers.
 This is done so we can scale our servers separately.
 
@@ -131,6 +134,7 @@ VPC Firewalls Rules operate inside the VPC network. Deals with traffic as it com
 Rate based rules are about setting limits for incoming requests. Rate based rules look at how many requests are coming from a single client over a short period.
 
 Example - You can make a rule saying, "If the same IP address sends more than 500 requests in 5 minutes, block them for the next 10 minutes"
+![cloud armour](/Screenshots/qa_cloud_armour.png)
 
 https://docs.cloud.google.com/armor/docs/rate-limiting-overview
 
