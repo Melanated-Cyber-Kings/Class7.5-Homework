@@ -106,7 +106,7 @@ CDN is not used in this configuration, so we will skip enabling it on the backen
 1. Open a web browser and navigate to the anycast IP address assigned to the forwarding rule.
 2. You should see the default page served by the backend instances, confirming that the load balancer is correctly routing traffic to the instance group.
 
-#### Tear Down Resources
+#### Cleanup
 Workflow: We work in reverse order to ensure dependencies are properly handled when deleting resources.
 
 1. Navigate to Network Services > Load balancing in the Google Cloud Console.
