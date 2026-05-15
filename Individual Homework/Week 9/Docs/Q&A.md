@@ -115,7 +115,7 @@ https://www.alibabacloud.com/help/en/slb/classic-load-balancer/use-cases/forward
 
 ## Cloud Armor
 
-### What does Cloud Armor offer? Why is it used in the first place?
+### What does Cloud Armor offer?
 Cloud Armour tackles two main jobs. Stopping DDoS attacks and acting as a Web Application Firewall.
 DDoS Protection - It protects against network-level (Layer 3/4) attacks and application-layer (Layer 7) attacks.
 Web Application Firewall (WAF) - Inspects incoming traffic based on OWASP Top 10 (standard of critical web application security risks)
@@ -178,7 +178,9 @@ https://docs.cloud.google.com/cdn/docs/caching#static
 ### What services can be used with cloud CDN for the source of content (the origin)? 
 The origin is where you content lives before it is cached.
 Cloud CDN supports a range of backends from Cloud Storage Buckets to compute origins (Compute Engine, GKE, App Engine). Also Application Load Balancer.
+
 https://docs.cloud.google.com/cdn/docs/quickstart-backend-bucket-console?hl=en
+
 https://docs.cloud.google.com/cdn/docs/overview?hl=en
 
 ### Does Cloud CDN help protect against any types of malicious actors or cyberattacks? Explain. 
@@ -198,7 +200,7 @@ Time to Live (TTL) is a timer that tells the CDN how long to keep a file in its 
 When a user asks for a file, if the TTL has not expired, the file is served instantly.
 If the TTL is over the limit, the CDN will get the latest version from the origin, cache it again, and give that fresh content to the user.
 
-Cloud CDN odders 3 cache modes:
+Cloud CDN offers 3 cache modes:
 
 `CACHE_ALL_STATIC` - manages TTL for static content automatically
 
