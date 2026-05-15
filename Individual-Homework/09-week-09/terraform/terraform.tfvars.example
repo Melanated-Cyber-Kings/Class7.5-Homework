@@ -15,13 +15,13 @@ vpc_name    = "mephisto"
 subnet_name = "mephisto-subnet"
 
 # Set the CIDR block for the subnet.
-subnet_cidr = "10.10.0.0/24"
+subnet_cidr = "10.100.1.0/24"
 
 # Set machine type.
 machine_type      = "n2-standard-2"
 
 # Set the boot disk size in GB.
-boot_disk_size_gb = 100
+boot_disk_size_gb = 20
 
 # Set the target size (number of virtual machines) for the Managed Instance Group (MIG).
 mig_target_size = 3
