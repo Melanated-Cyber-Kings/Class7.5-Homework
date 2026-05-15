@@ -1,7 +1,7 @@
 📁 README for Individual-Homework/
 
 
-# Individual Homework Submissions – Class 7.5
+# Individual Homework Submissions - Class 7.5
 
 This directory contains my individual homework submissions for Class 7.5 in the TheoWAF program.  
 Assignments in this section demonstrate my personal understanding, technical proficiency, and mastery of course concepts.
