@@ -1,0 +1,8 @@
+# Local .terraform directories
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# I found this file at https://github.com/github/gitignore/blob/main/Terraform.gitignore

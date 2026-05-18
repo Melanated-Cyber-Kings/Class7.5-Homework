@@ -1,10 +1,10 @@
 # Q&A
 
-**1. What is the difference between high availability and fault tolerance? Which is best to strive for?**
+**1. What is the difference between high availability and fault tolerance? Which is best to strive for?** 
 - A highly available system is a system that makes sure it is always accessible and operational even during failures and maintenance. It is meant to experience failures but they are minimal and shortly lived. Systems are highly available by having backups and failover mechanisms that are available to be switched over to when one part of the system goes down. Whereas a fault tolerant system is meant to be built to never fail. When the system experineces a failure, it is not noticable because the system is built in a way to experience that failure and swithc to a rendundant system that is already set up to continue the operations.
 - Striving for fault tolerance or high availability depends upon the system and the needs that it has. A system that needs to always be running even while experiencing failures would be best to strive for fault tolerance. Meanwhile if the system is able to experience minimal downtimes with no issue than high availability should be tho goal. The key difference is the pricing. Fault tolerance may be seen as the better option due to the system never being down, it also costs a lot more than high availability. Using either comes with it's own trade-offs.
 - https://www.ibm.com/docs/en/powerha-aix/7.2.x?topic=aix-high-availability-versus-fault-tolerance
-- https://www.scalecomputing.com/resources/fault-tolerance-vs-high-availability
+- https://www.scalecomputing.com/resources/fault-tolerance-vs-high-availability  
 **2. Explain the difference between autoscaling and elasticity. What is vertical and horizontal autoscaling? Is one better? Are they feasible on prem?**
 - Elasticity refers to systems ability to expand or contract to fit the needs of the business while autoscaling is the actual process that allows a system to expand or contract based upon the business needs. 
 - Vertical autoscaling is when you upgrade the ability of the server or virtual machine by increasing CPU or RAM.
@@ -90,7 +90,7 @@ When you select your newly created managed instance group, if you look down at t
 3. `name` - the unique name for the resource. (This is the name you see in the list of resources)
 - https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance
 4. `network_interface` - this is where you attach your VM to the network. Can either be attached to the default network or to a subnet of your choice as long as it is in the same region.
-- https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#nested_network_interface
+- https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#nested_network_interface 
 
 ## How to Output the internal and external IP addresses of your provisioned VM
 - to output the internal and external IP addresses of your provisioned VM you first want to go to the terraform registry and see what attributes are exported
