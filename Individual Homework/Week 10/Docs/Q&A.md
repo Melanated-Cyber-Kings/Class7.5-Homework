@@ -39,7 +39,7 @@ https://controld.com/blog/dns-record-types/
 
 
 ### Give an overview of the steps in a TLS handshake.
-![TLS Handshake](./Images/qa_tls_handshake.gif)
+![TLS Handshake](./Images/qa_tls_handshake.gif)  
 https://www.ibm.com/docs/en/ibm-mq/9.0.x?topic=tls-overview-ssltls-handshake
 
 The TLS handshake is the process that creates a secure and encrypted connection between a client and a server.
@@ -87,8 +87,6 @@ A Certificate Authority (CA) is a trusted organization that issues and signs dig
 
 https://phoenixnap.com/glossary/certificate-authority-ca 
 
-
-
 ---
 ## Load Balancers
 
@@ -107,9 +105,7 @@ The client and load balancer make a temporary key. All traffic after that is dec
 
 Once the handshake is complete and the traffic is decrypted, the load balancer passes the traffic to the URL map. The URL map then routes it to the correct backend.
 
-![App Load Balancer Decrypt](./Images/qa_global_external_application_lb.png)
-   
-
+![App Load Balancer Decrypt](./Images/qa_global_external_application_lb.png)  
 https://docs.cloud.google.com/load-balancing/docs/target-proxies
 https://docs.cloud.google.com/docs/security/infrastructure/design#google-frontend-service
 
