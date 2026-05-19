@@ -66,14 +66,13 @@ Client sends a "finished" message encrypted with the session key. Server replies
 
 
 ### How does an SSL/TLS cert know what domain it belongs to?
-The SSL/TLS certificate doesn't "know" anything—the domain name is written directly into it by the Certificate Authority (CA).
+The SSL/TLS certificate doesn't "know" anything. The domain name is written directly into it by the Certificate Authority (CA).
 
 Steps:
 
 1. **You request a certificate** for a specific domain (e.g., `www.seir.com`) and prove you control it (via DNS, file upload, etc.).
     
 2. **The CA writes the domain name** into the certificate's **Subject Alternative Name (SAN)** field. A single certificate can list multiple domains (e.g., `seir.com`, `www.seir.com`, `mail.seir.com`).
-
     
 3. **Your browser visits** `https://www.seir.com`. The web server presents its certificate.
     
@@ -97,10 +96,9 @@ https://phoenixnap.com/glossary/certificate-authority-ca
 
 Decrypting SSL traffic is done by a component called a **Target HTTP(S) Proxy**.  
 It is responsible for holding your SSL certificates and defining how the load balancer should handle incoming HTTPS requests.  
-The Target HTTPS Proxy holds the SSL certificate.
 
 When the client connects, the proxy performs the SSL handshake.
-The handshake does two things.
+The handshake does two things.  
 1 - Prove identity  
 It shows the client that the certificate matches the domain name they asked for.
 
