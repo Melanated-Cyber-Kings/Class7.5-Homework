@@ -13,8 +13,8 @@
 [Week 7](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/week7/README.md)<br/>
 [Week 8](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/blob/Larvarious-McDonald-Homework-Branch-7.5/week8/README.md)<br/>
 [Week 9](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5/week9)<br/>
-Week 10<br/>
-Week 11<br/>
+[Week 10](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5/week10)<br/>
+[Week 11](https://github.com/Melanated-Cyber-Kings/Class7.5-Homework/tree/Larvarious-McDonald-Homework-Branch-7.5/week11)<br/>
 <br/>
 <br/>
 
@@ -24,5 +24,5 @@ Week 11<br/>
 <br/>
 <br/>
 <br/>
-=======
+
 # Class7.5 Systems Engineering & Identity Responsibility (SEIR-I) Homework by Larvarious C. McDonald aka Loki Stormbringer
