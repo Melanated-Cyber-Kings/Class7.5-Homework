@@ -26,7 +26,7 @@ resource "google_compute_firewall" "http" {
   source_ranges = ["0.0.0.0/0"]
 }
 
-# SSH firewall rule to troubleshoot since I have compute in prublic subnet.
+# SSH firewall rule to troubleshoot since I have compute in public subnet.
 resource "google_compute_firewall" "ssh" {
   name    = "${var.vpc_name}-allow-ssh"
   network = google_compute_network.mephisto.self_link
