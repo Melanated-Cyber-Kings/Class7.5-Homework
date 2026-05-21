@@ -26,6 +26,36 @@ resource "google_compute_firewall" "http" {
   source_ranges = ["0.0.0.0/0"]
 }
 
+# SSH firewall rule to troubleshoot since I have compute in prublic subnet.
+resource "google_compute_firewall" "ssh" {
+  name    = "${var.vpc_name}-allow-ssh"
+  network = google_compute_network.mephisto.self_link
+
+  allow {
+    protocol = "tcp"
+    ports    = ["22"]
+  }
+
+  target_tags   = ["ssh-server"]
+  direction     = "INGRESS"
+  source_ranges = ["0.0.0.0/0"] # This should be set to [YOUR_IP_ADDRESS/32].
+}
+
+# Allow GPP health checks. Need these for Goggles GFE to work.
+resource "google_compute_firewall" "health_check" {
+  name    = "${var.vpc_name}-allow-health-check"
+  network = google_compute_network.mephisto.self_link
+
+  allow {
+    protocol = "tcp"
+    ports    = ["80"]
+  }
+
+  target_tags   = ["http-server"]
+  direction     = "INGRESS"
+  source_ranges = ["130.211.0.0/22", "35.191.0.0/16"]
+}
+
 # Call startup script to install software on first boot. 
 locals {
   startup_script = file("${path.root}/../scripts/startup.sh")
@@ -36,7 +66,9 @@ resource "google_compute_instance_template" "mephisto_template" {
   name_prefix = "mephisto-template-"
 
   machine_type = var.machine_type
-  tags         = ["http-server"]
+
+  # Tags to apply firewall rules for HTTP and SSH access.
+  tags = ["http-server", "ssh-server"]
 
   disk {
     source_image = "centos-cloud/centos-stream-10"
@@ -114,4 +146,39 @@ resource "google_compute_health_check" "mephisto_health_check" {
     port         = 80
     request_path = "/"
   }
+}
+
+# Set up backend service for load balancer.
+resource "google_compute_backend_service" "mephisto_backend" {
+  name                  = var.lb_name
+  protocol              = "HTTP"
+  port_name             = "http"
+  timeout_sec           = var.backend_timeout_sec
+  health_checks         = [google_compute_health_check.mephisto_health_check.self_link]
+  load_balancing_scheme = "EXTERNAL_MANAGED"
+
+  backend {
+    group = google_compute_instance_group_manager.mephisto_mig.instance_group
+  }
+}
+
+# Set up URL map.
+resource "google_compute_url_map" "mephisto_url_map" {
+  name            = "${var.lb_name}-url-map"
+  default_service = google_compute_backend_service.mephisto_backend.self_link
+}
+
+# Set up HTTP proxy for the load balancer.
+resource "google_compute_target_http_proxy" "mephisto_http_proxy" {
+  name    = "${var.lb_name}-http-proxy"
+  url_map = google_compute_url_map.mephisto_url_map.self_link
+}
+
+# Set up global forwarding rule for the load balancer.
+resource "google_compute_global_forwarding_rule" "mephisto_forwarding_rule" {
+  name                  = "${var.lb_name}-forwarding-rule"
+  target                = google_compute_target_http_proxy.mephisto_http_proxy.self_link
+  port_range            = "80"
+  load_balancing_scheme = "EXTERNAL_MANAGED"
+  ip_protocol           = "TCP"
 }
