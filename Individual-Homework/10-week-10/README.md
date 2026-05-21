@@ -1,4 +1,4 @@
-## Google Cloud Platform  
+## GCP Infrastructure: DNS, SSL/TLS, and Service Troubleshooting
 
 This assignment continues focus on foundational GCP infrastructure concepts, including Domain Name Service (DNS), SSL/TLS, and service troubleshooting. It includes a runbook documenting my investigative and troubleshooting actions for an unidentified service outage. The runbook leverages a academic intentionally "broken" sandbox environment. The Terraform deployment includes a VPC, firewall rules, VM instance template, Managed Instance Group (MIG), and an HTTP Global Application Load Balancer.
 
