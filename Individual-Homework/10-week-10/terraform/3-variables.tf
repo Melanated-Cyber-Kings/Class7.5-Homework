@@ -36,7 +36,7 @@ variable "subnet_name" {
 variable "subnet_cidr" {
   description = "CIDR range for the subnet."
   type        = string
-  default     = "10.10.0.0/24"
+  default     = "10.100.1.0/24"
 }
 
 variable "machine_type" {
@@ -55,4 +55,16 @@ variable "mig_target_size" {
   description = "Number of instances in the MIG."
   type        = number
   default     = 3
+}
+
+variable "lb_name" {
+  description = "Name of the external HTTP load balancer."
+  type        = string
+  default     = "mephisto-lb"
+}
+
+variable "backend_timeout_sec" {
+  description = "Timeout for backend service."
+  type        = number
+  default     = 30
 }
