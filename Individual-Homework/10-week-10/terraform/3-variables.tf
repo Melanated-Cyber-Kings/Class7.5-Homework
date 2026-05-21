@@ -9,10 +9,10 @@ variable "region" {
   default     = "us-central1"
 }
 
-variable "zone" {
-  description = "Zone for the MIG."
-  type        = string
-  default     = "us-central1-a"
+variable "zones" {
+  description = "Zones for the MIG."
+  type        = list(string)
+  default     = ["us-central1-a", "us-central1-b", "us-central1-c"]
 }
 
 variable "student_name" {
