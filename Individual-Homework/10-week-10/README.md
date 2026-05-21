@@ -1,9 +1,9 @@
 ## Google Cloud Platform  
 
-This assignment 
+This assignment continues focus on foundational GCP infrastructure concepts, including Domain Name Service (DNS), SSL/TLS, and service troubleshooting. It includes a runbook documenting my investigative and troubleshooting actions for an unidentified service outage. The runbook leverages a academic intentionally "broken" sandbox environment. The Terraform deployment includes a VPC, firewall rules, VM instance template, Managed Instance Group (MIG), and an HTTP Global Application Load Balancer.
 
 
-
+### Questions & Answers
 #### DNS and SSL/TLS
 Explain what the traceroute and dig commands do. Compare and contrast.
 Traceroute and dig are commonly used network tools. They are typically used to support troubleshooting of network related issues, but can also be used for network infrastructure validation.
@@ -11,7 +11,7 @@ Traceroute and dig are commonly used network tools. They are typically used to s
 #### Traceroute
 The traceroute application is used to identify the path network traffic takes from one network enabled system (e.g. local desktop) to another network-enabled device (e.g. server ) on public or private networks.
 
-It accomplished this by sending packets with gradually increasing time-to-live (TTL) values. Each layer 3 (router) device along the path that is reached will cause a decrease of the TTL value. When connectivity is functional the TTL value will reach zero. At that point the information provided by traceroute will povide a list of every router between the source and destination system.
+It accomplishes this by sending packets with gradually increasing time-to-live (TTL) values. Each layer 3 (router) device along the path that is reached will cause a decrease of the TTL value. When connectivity is functional the TTL value will reach zero. At that point the information provided by traceroute will provide a list of every router between the source and destination system.
 
 Example Usage:
 
