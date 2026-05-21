@@ -93,10 +93,11 @@ resource "google_compute_instance_template" "mephisto_template" {
 }
 
 # Managed Instance Group (MIG) configuration.
-resource "google_compute_instance_group_manager" "mephisto_mig" {
-  name               = "mephisto-mig"
-  base_instance_name = "mephisto"
-  zone               = var.zone
+resource "google_compute_region_instance_group_manager" "mephisto_mig" {
+  name                      = "mephisto-mig"
+  base_instance_name        = "mephisto"
+  region                    = var.region
+  distribution_policy_zones = var.zones
 
   target_size = var.mig_target_size
 
@@ -118,10 +119,10 @@ resource "google_compute_instance_group_manager" "mephisto_mig" {
 }
 
 # Autoscaler configuration for the MIG.
-resource "google_compute_autoscaler" "mephisto_autoscaler" {
+resource "google_compute_region_autoscaler" "mephisto_autoscaler" {
   name   = "mephisto-autoscaler"
-  zone   = var.zone
-  target = google_compute_instance_group_manager.mephisto_mig.id
+  region = var.region
+  target = google_compute_region_instance_group_manager.mephisto_mig.id
 
   autoscaling_policy {
     max_replicas    = 5
@@ -158,7 +159,7 @@ resource "google_compute_backend_service" "mephisto_backend" {
   load_balancing_scheme = "EXTERNAL_MANAGED"
 
   backend {
-    group = google_compute_instance_group_manager.mephisto_mig.instance_group
+    group = google_compute_region_instance_group_manager.mephisto_mig.instance_group
   }
 }
 
