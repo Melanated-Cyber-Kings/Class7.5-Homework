@@ -5,7 +5,7 @@ project_id = "your-project-id"
 region = "us-central1"
 
 # Set the zone for your deployment.
-zone   = "us-central1-a"
+zones = ["us-central1-a", "us-central1-b", "us-central1-c"]
 
 # Set the student name.
 student_name = "Mister Majestik"
