@@ -133,4 +133,38 @@ The runbook is in a separate file named RUNBOOK.md Screenshot as a deliverable i
 ![VM_service_restored](/screenshots/week10-broken-vm-service-restored.png)
 
 #### Terraform
-Terraform code can be found in the `terraform` directory. It includes a VPC, firewall rules, VM instance template, Managed Instance Group (MIG), and an HTTP Global Application Load Balancer. It deploys a basic webpage that is accessible via the load balancer's IP address only. Firewall rules allow HTTP traffic to the load balancer and SSH access to the VM instances in the MIG. A recommended improvement is to move the instances to private subnets and use a bastion host for SSH access or IAP SSH.
+Terraform code can be found in the `terraform` directory. It includes a VPC, firewall rules, VM instance template, Managed Instance Group (MIG), and an HTTP Global Application Load Balancer. It deploys a basic webpage that is accessible via the load balancer's IP address only. Firewall rules allow HTTP traffic to the load balancer and SSH access to the VM instances in the MIG. A recommended improvement is to move the instances to private subnets and use a bastion host for SSH access or IAP SSH. Current deployment has VM with no `public` IP address and Cloud Router and NAT to allow the VM to access internet for patches and software.
+
+For SSH access this deployment allow access via GCP console SSH and gcloud CLI. For gcloud cli use the following commands
+
+Reference: https://docs.cloud.google.com/compute/docs/connect/ssh-using-iap
+
+1. Identify the names of running instances.
+```bash
+gcloud compute instances list
+```
+
+example output
+```
+ gcloud compute instances list
+NAME           ZONE        MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP  STATUS
+mephisto-qf88  us-east1-b  n2-standard-2               10.100.1.2                RUNNING
+mephisto-gjb5  us-east1-c  n2-standard-2               10.100.1.3                RUNNING
+```
+
+2. Use IAP tunnel to connect to the desired compute instance.
+
+```bash
+  gcloud compute ssh mephisto-gjb5 --tunnel-through-iap
+```
+
+Example output:
+```
+No zone specified. Using zone [us-east1-c] for instance: [mephisto-gjb5].
+WARNING: 
+
+To increase the performance of the tunnel, consider installing NumPy. For instructions,
+please see https://cloud.google.com/iap/docs/using-tcp-forwarding#increasing_the_tcp_upload_bandwidth
+
+Warning: Permanently added 'compute.6527099147504130800' (ED25519) to the list of known hosts.
+```
