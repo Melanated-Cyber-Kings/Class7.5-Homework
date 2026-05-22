@@ -24,4 +24,4 @@ machine_type      = "n2-standard-2"
 boot_disk_size_gb = 20
 
 # Set the target size (number of virtual machines) for the Managed Instance Group (MIG).
-mig_target_size = 3
+# mig_target_size = 3
