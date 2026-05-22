@@ -17,3 +17,12 @@ output "load_balancer_forwarding_rule" {
   description = "Name of the global forwarding rule for the load balancer."
   value       = google_compute_global_forwarding_rule.mephisto_forwarding_rule.name
 }
+
+# For troubleshooting, output client IP address.
+# Uncomment this block if you have the SSH firewall rule active
+# and want to see what IP address will be used for access.
+
+# output "client_ip" {
+#   description = "Client IP address for troubleshooting."
+#   value       = data.http.client_workstation_ip.response_body
+# }
