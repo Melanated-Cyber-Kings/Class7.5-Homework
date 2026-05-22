@@ -130,6 +130,7 @@ A DNS zone is the database that stores the records for a specific domain or subd
 
 #### Runbook
 The runbook is in a separate file named RUNBOOK.md Screenshot as a deliverable is provided here:
+
 ![VM_service_restored](screenshots/week10-broken-vm-service-restored.png)
 
 #### Terraform
