@@ -170,7 +170,7 @@ scratch/
 ############################################################
 
 # Ignore screenshots only in screenshots/ folder
-screenshots/
+#screenshots/
 
 # Allow PNG/JPG everywhere else
 !*.png
