@@ -144,11 +144,11 @@ gcloud compute routes create default-internet-route \
 ping 8.8.8.8
 ```
 
-**9.** Installed and started the Apache server, then added content to `index.html`:
-
+**9.** Installed and started the Apache server, then added content to `index.html`For :
+### For these commands run them 1 after the other.
 ```bash
-apt update
-apt install -y apache2
-systemctl start apache2
-echo "You fixed the VM! Yay!" > /var/www/html/index.html
+sudo apt update
+sudo apt install -y apache2
+sudo systemctl start apache2
+echo "You fixed the VM! Yay!" | sudo tee /var/www/html/index.html
 ```
