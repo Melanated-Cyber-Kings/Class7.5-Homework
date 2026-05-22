@@ -27,4 +27,4 @@ resource "google_compute_instance_group_manager" "instance_group" {
     update = "5m"
     delete = "5m"
   }
-}
+} 
