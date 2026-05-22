@@ -129,7 +129,8 @@ In the context of Cloud DNS, what are zones?
 A DNS zone is the database that stores the records for a specific domain or subdomain. It contains records like A/AAA, CNAME, MX, etc.
 
 #### Runbook
-The runbook is in a separate file named RUNBOOK.md
+The runbook is in a separate file named RUNBOOK.md Screenshot as a deliverable is provided here:
+![VM_service_restored](/screenshots/week10-broken-vm-service-restored.png)
 
 #### Terraform
 Terraform code can be found in the `terraform` directory. It includes a VPC, firewall rules, VM instance template, Managed Instance Group (MIG), and an HTTP Global Application Load Balancer. It deploys a basic webpage that is accessible via the load balancer's IP address only. Firewall rules allow HTTP traffic to the load balancer and SSH access to the VM instances in the MIG. A recommended improvement is to move the instances to private subnets and use a bastion host for SSH access or IAP SSH.
