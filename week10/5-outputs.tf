@@ -1,9 +1,19 @@
-output "vm_internal_ip" {
-  description = "Internal IP address of the VM"
-  value       = google_compute_instance_template.default.name
+output "mig_name" {
+  value = google_compute_instance_group_manager.mig.name
 }
 
-output "vm_external_ip" {
-  description = "External IP address of the VM"
-  value       = google_compute_instance_template.default.name
+output "mig_size" {
+  value = google_compute_instance_group_manager.mig.target_size
+}
+
+output "load_balancer_ip" {
+  value = google_compute_global_address.lb_ip.address
+}
+
+output "health_check_status" {
+  value = google_compute_health_check.http_health_check.name
+}
+
+output "load_balancer_forwarding_rule" {
+  value = google_compute_global_forwarding_rule.http_forwarding_rule.name
 }
