@@ -1,7 +1,7 @@
 variable "project_id" {
   description = "project ID"
   type        = string
-  default = "seir-netrunner"
+  default     = "seir-netrunner"
 }
 
 variable "region" {
@@ -25,11 +25,11 @@ variable "student_name" {
 variable "vpc_name" {
   description = "VPC"
   type        = string
-  default     = "top-network"
+  default     = "top"
 }
 
 variable "subnet_name" {
-  description = "subnet name."
+  description = "subnet name"
   type        = string
   default     = "subnet"
 }
@@ -50,10 +50,4 @@ variable "boot_disk_size_gb" {
   description = "Boot disk size"
   type        = number
   default     = 100
-}
-
-variable "mig_target_size" {
-  description = "Number of instances"
-  type        = number
-  default     = 3
 }
