@@ -9,6 +9,6 @@ terraform {
 }
 
 provider "google" {
-  project = "class7-5-sovereignman"
-  region  = "us-central1"
+  project = var.project_id
+  region  = var.region
 }

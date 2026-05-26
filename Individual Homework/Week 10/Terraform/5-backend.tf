@@ -1,5 +1,5 @@
 resource "google_compute_health_check" "week10_lb" {
-  name                = "week10-lb"
+  name                = "${var.app_name}-hc-be"
   check_interval_sec  = 10
   timeout_sec         = 5
   healthy_threshold   = 2
@@ -12,7 +12,7 @@ resource "google_compute_health_check" "week10_lb" {
 }
 
 resource "google_compute_backend_service" "week10app" {
-  name                  = "backend"
+  name                  = "${var.app_name}-backend"
   protocol              = "HTTP"
   port_name             = "http"
   load_balancing_scheme = "EXTERNAL_MANAGED" # Global Application LB (Envoy-based)

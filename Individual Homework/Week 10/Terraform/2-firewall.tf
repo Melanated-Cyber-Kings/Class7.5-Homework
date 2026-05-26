@@ -1,5 +1,5 @@
 resource "google_compute_firewall" "allow_http" {
-  name    = "allow-http"
+  name    = "${var.app_name}-allow-http"
   network = google_compute_network.week10.name
 
   allow {
@@ -14,7 +14,7 @@ resource "google_compute_firewall" "allow_http" {
 
 
 resource "google_compute_firewall" "allow_ssh" {
-  name    = "allow-ssh"
+  name    = "${var.app_name}-allow-ssh"
   network = google_compute_network.week10.name
 
   allow {

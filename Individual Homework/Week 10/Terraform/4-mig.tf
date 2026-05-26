@@ -1,5 +1,5 @@
 resource "google_compute_health_check" "week10app" {
-  name                = "week10"
+  name                = "${var.app_name}-hc-mig"
   check_interval_sec  = 10
   timeout_sec         = 5
   healthy_threshold   = 2
@@ -12,9 +12,9 @@ resource "google_compute_health_check" "week10app" {
 }
 
 resource "google_compute_region_instance_group_manager" "week10" {
-  name               = "week10-igm"
+  name               = "${var.app_name}-igm"
   base_instance_name = "web"
-  region             = "us-central1"
+  region             = var.region
   distribution_policy_zones = [
     "us-central1-a",
     "us-central1-b",

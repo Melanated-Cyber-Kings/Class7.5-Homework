@@ -1,12 +1,12 @@
 resource "google_compute_network" "week10" {
-  name                    = "week10"
+  name                    = var.vpc_name
   auto_create_subnetworks = false
 }
 
 
 resource "google_compute_subnetwork" "week10" {
-  name          = "week10"
-  ip_cidr_range = "10.0.0.0/24"
+  name          = var.subnet_name
+  ip_cidr_range = var.subnet_cidr
   network       = google_compute_network.week10.id
 }
 

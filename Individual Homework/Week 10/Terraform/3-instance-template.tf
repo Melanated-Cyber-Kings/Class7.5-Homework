@@ -1,5 +1,5 @@
 resource "google_compute_instance_template" "week10supera" {
-  name        = "week10-supera"
+  name        = "${var.app_name}-tmpl"
   description = "week10-supera"
 
   machine_type = "e2-medium"
