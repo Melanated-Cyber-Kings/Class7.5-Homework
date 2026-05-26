@@ -1,0 +1,9 @@
+# project_id = "class7-5-sovereignman"
+# region     = "us-central1"
+# zone       = "us-central1-a"
+
+# app_name = "week10"
+
+# vpc_name    = "week10"
+# subnet_name = "week10"
+# subnet_cidr = "10.10.0.0/24"
