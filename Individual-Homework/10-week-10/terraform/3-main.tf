@@ -74,9 +74,10 @@ resource "google_compute_region_instance_group_manager" "mephisto_mig" {
   distribution_policy_zones = var.zones
 
   # I hard coded this value versus using a variable. Had issues with 
-  # the autoscaler.
+  # the autoscaler. Later I commented it out since the autoscaler
+  # is managing the number of machines in the group.
 
-  target_size = 2
+  #target_size = 2
 
   named_port {
     name = "http"
@@ -137,6 +138,11 @@ resource "google_compute_backend_service" "mephisto_backend" {
   backend {
     group = google_compute_region_instance_group_manager.mephisto_mig.instance_group
   }
+
+  # Add dependency to make sure backend service is created after the MIG is up and running.
+  depends_on = [
+    google_compute_health_check.mephisto_health_check
+  ]
 }
 
 # Set up URL map.
