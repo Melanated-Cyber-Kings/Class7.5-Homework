@@ -1,6 +1,6 @@
 resource "google_compute_firewall" "allow_http" {
   name    = "allow-http"
-  network = google_compute_network.week9_vpc.name
+  network = google_compute_network.week9.name
 
   allow {
     protocol = "tcp"
@@ -15,7 +15,7 @@ resource "google_compute_firewall" "allow_http" {
 
 resource "google_compute_firewall" "allow_ssh" {
   name    = "allow-ssh"
-  network = google_compute_network.week9_vpc.name
+  network = google_compute_network.week9.name
 
   allow {
     protocol = "tcp"

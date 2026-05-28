@@ -1,4 +1,17 @@
-resource "google_compute_region_instance_group_manager" "week9_mig" {
+resource "google_compute_health_check" "week9_hc" {
+  name                = "week9-hc"
+  check_interval_sec  = 10
+  timeout_sec         = 5
+  healthy_threshold   = 2
+  unhealthy_threshold = 2
+
+  http_health_check {
+    port         = 80
+    request_path = "/healthz"
+  }
+}
+
+resource "google_compute_region_instance_group_manager" "week9" {
   name               = "week9-mig"
   base_instance_name = "web"
   region             = "us-central1"
@@ -10,7 +23,7 @@ resource "google_compute_region_instance_group_manager" "week9_mig" {
   target_size = 4
 
   version {
-    instance_template = google_compute_instance_template.week9_supera_template.id
+    instance_template = google_compute_instance_template.week9_supera.id
   }
 
   auto_healing_policies {
@@ -22,15 +35,3 @@ resource "google_compute_region_instance_group_manager" "week9_mig" {
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_region_instance_group_manager
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_region_instance_group_manager#distribution_policy_target_shape-1
 
-
-resource "google_compute_health_check" "week9_hc" {
-  name                = "week9-hc"
-  check_interval_sec  = 10
-  timeout_sec         = 5
-  healthy_threshold   = 2
-  unhealthy_threshold = 2
-
-  http_health_check {
-    port = 80
-  }
-}

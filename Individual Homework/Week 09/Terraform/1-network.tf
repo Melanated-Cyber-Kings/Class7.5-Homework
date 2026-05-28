@@ -1,14 +1,13 @@
-resource "google_compute_network" "week9_vpc" {
-  name                    = "week9-vpc"
+resource "google_compute_network" "week9" {
+  name                    = "week9"
   auto_create_subnetworks = false
 }
 
 
-resource "google_compute_subnetwork" "week9_subnet" {
-  name          = "week9-subnet"
+resource "google_compute_subnetwork" "week9" {
+  name          = "week9"
   ip_cidr_range = "10.0.0.0/24"
-  region        = "us-central1"
-  network       = google_compute_network.week9_vpc.id
+  network       = google_compute_network.week9.id
 }
 
 

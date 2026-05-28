@@ -1,4 +1,4 @@
-resource "google_compute_instance_template" "week9_supera_template" {
+resource "google_compute_instance_template" "week9_supera" {
   name        = "week9-supera"
   description = "week9-supera"
 
@@ -13,15 +13,15 @@ resource "google_compute_instance_template" "week9_supera_template" {
   }
 
   network_interface {
-    network    = google_compute_network.week9_vpc.name
-    subnetwork = google_compute_subnetwork.week9_subnet.name
+    network    = google_compute_network.week9.name
+    subnetwork = google_compute_subnetwork.week9.name
 
     access_config {
-
+      # This allows you to assign a public, external IP to a VM.
     }
   }
 
-  metadata_startup_script = file("${path.module}/supera.sh")
+  metadata_startup_script = file("./supera.sh")
 
   lifecycle {
     create_before_destroy = true
