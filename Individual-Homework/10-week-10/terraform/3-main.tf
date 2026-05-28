@@ -11,6 +11,15 @@ resource "google_compute_subnetwork" "mephisto" {
   network       = google_compute_network.mephisto.self_link
 }
 
+# Private subnet 
+resource "google_compute_subnetwork" "mephisto_private" {
+  name                     = "${var.subnet_name}-private"
+  ip_cidr_range            = var.subnet_cidr_private
+  region                   = var.region
+  network                  = google_compute_network.mephisto.self_link
+  private_ip_google_access = true
+}
+
 # Add router for NAT to work.
 resource "google_compute_router" "mephisto_router" {
   name    = "mephisto-router"
