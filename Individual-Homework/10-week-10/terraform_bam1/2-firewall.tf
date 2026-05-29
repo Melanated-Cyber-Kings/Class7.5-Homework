@@ -86,3 +86,19 @@ resource "google_compute_firewall" "health_check" {
   direction     = "INGRESS"
   source_ranges = ["130.211.0.0/22", "35.191.0.0/16"]
 }
+
+# Allow inbound traffic on HTTPS port 443 for the load balancer to work.
+resource "google_compute_firewall" "https" {
+  name    = "${var.vpc_name}-allow-https"
+  network = google_compute_network.mephisto.self_link
+
+
+  allow {
+    protocol = "tcp"
+    ports    = ["443"]
+  }
+
+  target_tags   = ["https-server"]
+  direction     = "INGRESS"
+  source_ranges = ["0.0.0.0/0"]
+}
