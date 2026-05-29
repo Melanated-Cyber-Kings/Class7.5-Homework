@@ -28,3 +28,11 @@ boot_disk_size_gb = 20
 
 # Set the target size (number of virtual machines) for the Managed Instance Group (MIG).
 # mig_target_size = 3
+
+# Set domain name for the SSL certificate.
+# Set this to your actual domain name.
+domain_name = "example.info"
+
+# Set DNS managed zone name.
+# This should be the name of the managed zone you created in GCP Cloud DNS.
+dns_managed_zone = "example-info"
