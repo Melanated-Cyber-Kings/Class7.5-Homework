@@ -147,13 +147,23 @@ https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/c
 ### Outputting Internal and External IP Addresses
 
 **Internal IP**
-`google_compute_instance.vm_name.network_interface[0].network_ip`
+
+```bash
+output "internal_ip" {
+  value = google_compute_instance.vm_name.network_interface[0].network_ip
+}
+```
 
 Your VM's main network card always gets its own internal IP address. The subnet just automatically hands one out as soon as the VM is made.
 https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#network_ip-1
 
 **External IP**
 `google_compute_instance.vm_name.network_interface[0].access_config[0].nat_ip`
+```bash
+output "external_ip" {
+  value = google_compute_instance.vm_name.network_interface[0].access_config[0].nat_ip
+}
+```  
 
 The `access_config` block is basically a middleman that maps your VM to a public IP. Whether that IP is a temporary one (ephemeral) or one you've kept on reserve (static), this is the bit that links them together.
 https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#nat_ip-1

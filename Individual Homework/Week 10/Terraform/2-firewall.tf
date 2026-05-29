@@ -25,6 +25,4 @@ resource "google_compute_firewall" "allow_ssh" {
   source_ranges = ["0.0.0.0/0"]
 }
 
-
-
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_firewall
