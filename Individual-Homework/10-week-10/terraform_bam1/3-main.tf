@@ -140,7 +140,8 @@ resource "google_compute_health_check" "mephisto_health_check" {
   }
 }
 
-# Set up backend service for load balancer.
+# Set up backend service for load balancer. 
+# This is connection between load balancer and the MIG.
 resource "google_compute_backend_service" "mephisto_backend" {
   name                  = var.lb_name
   protocol              = "HTTP"
@@ -165,17 +166,3 @@ resource "google_compute_url_map" "mephisto_url_map" {
   default_service = google_compute_backend_service.mephisto_backend.self_link
 }
 
-# Set up HTTP proxy for the load balancer.
-resource "google_compute_target_http_proxy" "mephisto_http_proxy" {
-  name    = "${var.lb_name}-http-proxy"
-  url_map = google_compute_url_map.mephisto_url_map.self_link
-}
-
-# Set up global forwarding rule for the load balancer.
-resource "google_compute_global_forwarding_rule" "mephisto_forwarding_rule" {
-  name                  = "${var.lb_name}-forwarding-rule"
-  target                = google_compute_target_http_proxy.mephisto_http_proxy.self_link
-  port_range            = "80"
-  load_balancing_scheme = "EXTERNAL_MANAGED"
-  ip_protocol           = "TCP"
-}
