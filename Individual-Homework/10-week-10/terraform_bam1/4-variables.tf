@@ -73,3 +73,16 @@ variable "backend_timeout_sec" {
   type        = number
   default     = 30
 }
+
+variable "domain_name" {
+  description = "Domain name for the SSL certificate."
+  type        = string
+  default     = ""
+}
+
+# DNS zone.
+variable "dns_managed_zone" {
+  description = "DNS zone name for the managed DNS zone."
+  type        = string
+  default     = ""
+}
