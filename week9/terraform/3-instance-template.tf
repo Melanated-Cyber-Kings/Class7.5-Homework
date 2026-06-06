@@ -61,6 +61,7 @@ systemctl enable --now httpd
     boot         = true
   }
 
+
   // Use an existing disk resource
   disk {
     // Instance Templates reference disks by name, not self link
@@ -70,7 +71,7 @@ systemctl enable --now httpd
   }
 
   network_interface {
-    network = "week9hw-vpc"
+    network = google_compute_network.week9hwvpc.name
   }
 
   metadata = {
@@ -78,14 +79,14 @@ systemctl enable --now httpd
   }
 }
 
-data "google_compute_image" "my_image" {
+data "google_compute_image" "foobar" {
   family  = "centos-stream-10"
   project = "centos-cloud"
 }
 
 resource "google_compute_disk" "foobar" {
   name  = "existing-disk"
-  image = data.google_compute_image.my_image.self_link
+  image = data.google_compute_image.foobar.self_link
   size  = 100
   type  = "pd-ssd"
   zone  = "us-central1-a"

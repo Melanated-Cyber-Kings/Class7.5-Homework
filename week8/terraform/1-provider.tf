@@ -1,4 +1,4 @@
-provider "gcp" {
-  project = var.project_id
-  region  = var.region
+provider "google" {
+  project = "class75-sier1"
+  region  = "us-central1"
 }

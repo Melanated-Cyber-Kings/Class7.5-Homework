@@ -3,7 +3,7 @@
 resource "google_compute_firewall" "rules" {
   project     = "class75sier1"
   name        = "week9hw-firewall-rule"
-  network     = google_compute_network.week9hw-vpc.name
+  network     = google_compute_network.week9hwvpc.name
   description = "Creates firewall rule targeting tagged instances"
 
   allow {

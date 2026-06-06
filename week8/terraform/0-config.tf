@@ -1,9 +1,12 @@
 terraform {
-  required_version = ">= 0.12"
+  required_version = ">= 1.5.0"
+}
+
+terraform {
   required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 3.0"
+    google = {
+      source  = "hashicorp/google"
+      version = "~> 7.30.0" #This is here to make sure that I have a base version and allows the system to pick any compatible version in this range
     }
   }
 }

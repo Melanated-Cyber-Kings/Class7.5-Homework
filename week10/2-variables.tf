@@ -1,7 +1,7 @@
 variable "project_id" {
   description = "GCP project ID. Must be provided by the user."
   type        = string
-  default     = "class75sier1"
+  default     = "class75-sier1"
 }
 
 variable "region" {
@@ -37,7 +37,7 @@ variable "subnet_cidr" {
 variable "machine_type" {
   description = "Machine type for the Compute Engine instance."
   type        = string
-  default     = "n2-standard-2"
+  default     = "centos-100-v20240926"
 }
 
 variable "boot_disk_size_gb" {
@@ -49,7 +49,7 @@ variable "boot_disk_size_gb" {
 variable "source_image" {
   description = "Source image for the Compute Engine instance."
   type        = string
-  default     = "projects/n2-cloud/global/images/family/n2-standard-2"
+  default     = "projects/centos-cloud/global/images/centos-100-v20240926"
 }
 
 variable "mig_name" {
