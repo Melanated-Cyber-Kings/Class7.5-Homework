@@ -1,4 +1,11 @@
+# Week 13: Secure Cross-Network Data Transit (Classic VPN)
 
+## Network Topology Overview
+Below is the architectural mapping of the static routed tunnel established between Project A (Dallas) and Project B (Mexico) to enable secure encapsulation across separate private VPC networks.
+
+![Classic VPN Architecture Diagram](screenshots/classic-vpn.png)
+
+---
 
 ### Parameter Mapping Table
 
