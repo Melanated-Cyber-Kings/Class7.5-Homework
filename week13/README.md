@@ -155,3 +155,64 @@ _To avoid ongoing costs, follow this order to ensure all dependent resources are
     - Navigate to **VPC network**.
         
     - Select `my-vpn-network` and click **Delete**.
+	
+	
+	## Architectural Deep Dive: Classic VPN vs. HA VPN
+
+#### The "Apartment Complex" (Classic VPN)
+Think of **Classic VPN** like an apartment complex with an open parking lot.
+* **How it works:** Everyone pulls into the same shared lot and parks wherever they can find a spot. It is straightforward, functional, and gets the job done for smaller operations where simplicity is key.
+* **Best for:** Smaller setups where a 99.9% uptime is perfectly acceptable. It uses "static" routing, meaning you decide exactly where each piece of traffic goes beforehand.
+* **The Reality:** It acts like legacy equipment—reliable, but limited. If the entrance to that parking lot is blocked, you’re stuck until it’s cleared. It doesn't support modern "smart" features like IPv6, which is like needing a charging station for an electric vehicle that the older lot doesn't provide.
+
+#### The "Community of Houses" (HA VPN)
+Think of **HA VPN** like a modern community of individual houses, where every homeowner has their own private, dedicated driveway.
+* **How it works:** This is built for scale. Because every "house" (network connection) has its own path, you have built-in redundancy. If one driveway is blocked, you can use another one instantly without your day being interrupted.
+* **Best for:** Large-scale operations where 99.99% uptime isn't just a goal—it's a requirement. This is for when your network is complex, uses advanced standards like IPv6, and needs to be "always-on."
+* **The Reality:** This is a premium solution. It requires more planning and investment. Usually, you’ll want a dedicated team of engineers to manage this, as they will be handling "dynamic" routing (BGP)—which is like having a professional property manager constantly optimizing traffic flow so no one ever gets stuck in a jam.
+
+---
+
+## Runbook: Configuring Budget-to-SMS Alerting
+
+**1. Establish the Communication Channel**
+* Navigate to **[Cloud Monitoring](https://docs.cloud.google.com/monitoring/support/notification-options)** > **Alerting** > **Edit notification channels**.
+* Locate **SMS**, click **Add new**, and follow the verification process with your mobile number.
+* *Result:* Your phone number is now a verified notification destination in your project.
+
+**2. Define the Budget Threshold**
+* Navigate to **[Cloud Billing](https://console.cloud.google.com/billing/)** > **Budgets & alerts**.
+* Click **Create budget**, provide a name, and set your spend threshold (e.g., $15.00).
+
+**3. Create the Event Bus (Pub/Sub)**
+* Navigate to **[Pub/Sub](https://console.cloud.google.com/cloudpubsub/topicList)** > **Topics**.
+* Click **Create topic**, provide a **Topic ID** (e.g., `billing-alerts-sms`), and keep all defaults (Google-managed encryption, no schema). Click **Create**.
+
+**4. Bridge Billing to Pub/Sub**
+* Return to the **Billing Budget** setup wizard (in the **Actions** step).
+* Check **"Connect a Pub/Sub topic to this budget."**
+* Select the `billing-alerts-sms` topic you just created. Click **Finish**.
+
+**5. The "Final Bridge" (Pro-Tip for your Runbook)**
+* *Note:* Currently, the message is being "published" to Pub/Sub, but it doesn't automatically trigger the SMS channel yet.
+* **The Missing Link:** To complete this in a professional environment, you would deploy a **Cloud Function** that "subscribes" to the `billing-alerts-sms` topic. When the budget event hits the topic, the function executes and sends the alert to your verified SMS channel.
+
+---
+
+## Verification & Validation
+
+### Live Topology Verification
+The verified status of the live connection matrix, proving successful encapsulation and encryption handshake protocols over our static topology blocks, is captured below:
+
+![Network Connectivity Success](screenshots/Network-Connectivity-success1.png)
+
+### Documentation & References
+* **[Cloud VPN Overview](https://docs.cloud.google.com/network-connectivity/docs/vpn/concepts/overview)**: The foundational documentation for Google Cloud's VPN services. Used to compare **Classic VPN** (static routing, standard uptime) versus **HA VPN** (dynamic BGP routing, 99.99% uptime) and determine the appropriate architecture for secure, cross-network data transit.
+
+### Pipeline Configuration Components
+
+| **Service / Resource** | **Purpose in SMS Alerting Pipeline** |
+| :--- | :--- |
+| [Cloud Monitoring](https://console.cloud.google.com/monitoring/alerting/notifications?project=class75-491118) | Used to create and verify your **SMS Notification Channel**. This acts as the final destination for your alert. |
+| [Cloud Billing](https://console.cloud.google.com/billing/01F355-6C77E4-8805E4/budgets?organizationId=0) | Used to define the **Budget** and spending threshold ($15). It monitors your actual consumption against this limit. |
+| [Pub/Sub](https://console.cloud.google.com/cloudpubsub/topic/create?project=class75-491118) | Used to create the **Topic** (`my-sms-alert-topic`). This serves as the "event bus" that receives the automated signal from your budget when a threshold is breached. |
