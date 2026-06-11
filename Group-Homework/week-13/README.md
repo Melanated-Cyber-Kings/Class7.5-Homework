@@ -28,6 +28,7 @@ Example screenshots of successful deployment and testing of the VPN connection a
 ![vpn-success](./screenshots/mexico-to-uk-established.png)
 
 * Successful ping test between GCP Mexico and GCP UK
+
 ![ping-success](./screenshots/mexico-ping-uk-vm.png)
 
 
@@ -35,4 +36,4 @@ Example screenshots of successful deployment and testing of the VPN connection a
 
 * Firewall rules allowing ICMP traffic between GCP Mexico and GCP UK
 
-[!firewall-rules](./screenshots/uk-firewall-rules.png)
+![firewall-rules](./screenshots/uk-firewall-rules.png)
