@@ -22,16 +22,16 @@ Example screenshots of successful deployment and testing of the VPN connection a
 
 * Successful VPN connection between GCP Mexico and GCP UK
 
-[!vpn-success](./screenshots/uk-to-mexico-established.png)
+![vpn-success](./screenshots/uk-to-mexico-established.png)
 
 
-[!vpn-success](./screenshots/mexico-to-uk-established.png)
+![vpn-success](./screenshots/mexico-to-uk-established.png)
 
 * Successful ping test between GCP Mexico and GCP UK
-[!ping-success](./screenshots/mexico-ping-uk-vm.png)
+![ping-success](./screenshots/mexico-ping-uk-vm.png)
 
 
-[!ping-success](./screenshots/uk-vm-ping-mexico.png)
+![ping-success](./screenshots/uk-vm-ping-mexico.png)
 
 * Firewall rules allowing ICMP traffic between GCP Mexico and GCP UK
 
