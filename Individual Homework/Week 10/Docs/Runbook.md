@@ -1,7 +1,5 @@
 # Runbook: Troubleshooting a Broken VM
 
-
-
 ## Prerequisites
 
 - Access to the GCP Console (`console.cloud.google.com`)
