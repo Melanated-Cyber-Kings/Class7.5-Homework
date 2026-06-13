@@ -1,11 +1,10 @@
 # Difference between Classic VPN and High-Availability (HA) VPN
 
-- Classic VPN is a single tunnel over a single internet connection. If that connection or the VPN gateway fails, your network goes down. This is suitable for scenarios that don’t require high levels of availability.
+- **Classic VPN** is a single tunnel over a single internet connection. If that connection or the VPN gateway fails, your network goes down. This is suitable for scenarios that don’t require high levels of availability.
 
-- HA VPN is a pair of tunnels over two separate connections. If one fails, the other instantly takes over.
+- **HA VPN** is a pair of tunnels over two separate connections. If one fails, the other instantly takes over.
 
-![Classic vs HA VPN](./Images/Classic_Vs_HA_VPN.webp)  
-https://medium.com/@sadoksmine8/hybrid-connectivity-introduction-to-vpn-in-gcp-cd5f16833202
+![Classic vs HAVPN](./Images/HAVPN_ClassicVPN.png)
 
 
 ## Analogy
