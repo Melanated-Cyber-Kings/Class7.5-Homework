@@ -1,5 +1,3 @@
----
-
 # Week 14: Secure Cross-Network Data Transit & Observability
 
 ### HA VPN vs. Network Connectivity Center (NCC)
