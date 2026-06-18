@@ -60,4 +60,8 @@ This gives detailed traffic analysis at the 5-tuple level (source IP, destinatio
 
 ---
 
-*Sources: Google Cloud Network Connectivity Center Overview, Choosing a Network Connectivity Product Guide, Network Intelligence Center Overview*
+*Sources: Google Cloud Network Connectivity Center Overview
+
+Choosing a Network Connectivity Product Guide
+
+Network Intelligence Center Overview*
