@@ -6,7 +6,7 @@ resource "google_compute_instance_group_manager" "colombia" {
   description        = "Instance group for colombia backend"
 
   version {
-    instance_template = google_compute_instance_template.colombia.id
+    instance_template = google_compute_region_instance_template.colombia.id
   }
 
   target_size = 2
@@ -30,7 +30,7 @@ resource "google_compute_instance_group_manager" "thailand" {
   description        = "Instance group for thailand backend"
 
   version {
-    instance_template = google_compute_instance_template.thailand.id
+    instance_template = google_compute_region_instance_template.thailand.id
   }
 
   target_size = 2

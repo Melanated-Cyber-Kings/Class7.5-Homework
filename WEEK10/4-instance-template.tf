@@ -1,5 +1,5 @@
 # lsCOLOMBIA
-resource "google_compute_instance_template" "colombia" {
+resource "google_compute_region_instance_template" "colombia" {
   name         = "colombia-template"
   description  = "Instance template for colombia backend"
   machine_type = "e2-medium"
@@ -16,8 +16,9 @@ resource "google_compute_instance_template" "colombia" {
 
   network_interface {
     network = "default"
-    access_config {}
-  }
+    access_config {} # Assigns an ephemeral external IP to the vm instance for external access and health checks
+    # Assigns a static external IP to each VM
+  }#Access tire the quality of network that the internet allows
 
   metadata = {
     startup-script  = file("${path.module}/startup.sh")
@@ -30,7 +31,7 @@ resource "google_compute_instance_template" "colombia" {
 }
 
 #THAILAND
-resource "google_compute_instance_template" "thailand" {
+resource "google_compute_region_instance_template" "thailand" {
   name         = "thailand-template"
   description  = "Instance template for thailand backend"
   machine_type = "e2-medium"
