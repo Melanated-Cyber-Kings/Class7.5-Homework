@@ -13,7 +13,7 @@ The study group also deployed a multi-cloud HA VPN connecting GCP VPC in the UK 
 
 A group runbook was created to provide guidance to deploy a GCP to GCP cloud deployment.
 
-References
+References:
 
 - https://docs.cloud.google.com/network-connectivity/docs/router/how-to/configuring-bgp
 - https://docs.cloud.google.com/network-connectivity/docs/router/concepts/key-terms
