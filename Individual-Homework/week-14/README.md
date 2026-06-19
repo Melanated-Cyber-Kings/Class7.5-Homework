@@ -15,12 +15,12 @@ A group runbook was created to provide guidance to deploy a GCP to GCP cloud dep
 
 References
 
-•	https://docs.cloud.google.com/network-connectivity/docs/router/how-to/configuring-bgp
-•	https://docs.cloud.google.com/network-connectivity/docs/router/concepts/key-terms
-•	https://docs.cloud.google.com/network-connectivity/docs/router/concepts/how-cloud-router-works
-•	https://docs.cloud.google.com/network-connectivity/docs/vpn/how-to/creating-ha-vpn2
-•	https://docs.cloud.google.com/network-connectivity/docs/vpn/how-to/configuring-firewall-rules
-•	https://docs.cloud.google.com/network-connectivity/docs/network-connectivity-center/concepts/overview
-•	https://cloud.google.com/network-intelligence-center?hl=en
-•	https://docs.cloud.google.com/iam/docs/creating-custom-roles
-•	https://docs.cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws
+- https://docs.cloud.google.com/network-connectivity/docs/router/how-to/configuring-bgp
+- https://docs.cloud.google.com/network-connectivity/docs/router/concepts/key-terms
+- https://docs.cloud.google.com/network-connectivity/docs/router/concepts/how-cloud-router-works
+- https://docs.cloud.google.com/network-connectivity/docs/vpn/how-to/creating-ha-vpn2
+- https://docs.cloud.google.com/network-connectivity/docs/vpn/how-to/configuring-firewall-rules
+- https://docs.cloud.google.com/network-connectivity/docs/network-connectivity-center/concepts/overview
+- https://cloud.google.com/network-intelligence-center?hl=en
+- https://docs.cloud.google.com/iam/docs/creating-custom-roles
+- https://docs.cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws
