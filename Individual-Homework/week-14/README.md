@@ -9,7 +9,7 @@ Academic review included GCP Network Connectivity Center and Network Intelligenc
 
 Hands-on group study included going beyond assigned task of deployment of a HA VPN using two partners (cross-account).
 
-The group also deployed a multi-cloud HA VPN connecting GCP VPC in the UK (London) and AWS VPC in Europe (Frankfurt). Deployment was successful using separate service provider accounts. AWS VPN was used with BGP-based tunnels. Details are in the runbook.
+The study group also deployed a multi-cloud HA VPN connecting GCP VPC in the UK (London) and AWS VPC in Europe (Frankfurt). Deployment was successful using separate service provider accounts. AWS VPN was used with BGP-based tunnels. Details are in the runbook.
 
 A group runbook was created to provide guidance to deploy a GCP to GCP cloud deployment.
 
