@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(az account show *)",
+      "Bash(az account list *)",
+      "Bash(az group list *)",
+      "Bash(az resource list *)",
+      "Bash(az role assignment list *)",
+      "Bash(.venv/bin/python graph_test.py *)",
+      "Bash(.venv/Scripts/python.exe graph_test.py)",
+      "Bash(.venv/Scripts/python.exe graph_test.py *)"
+    ],
+    "ask": [
+      "Bash(az * create *)",
+      "Bash(az * update *)",
+      "Bash(az * set *)",
+      "Bash(az * start *)",
+      "Bash(az * stop *)",
+      "Bash(az * restart *)",
+      "Bash(az role *)",
+      "Bash(az rest *)"
+    ],
+    "deny": [
+      "Bash(az * delete*)",
+      "Bash(az * purge*)",
+      "Bash(az rest *--method delete*)",
+      "Bash(az rest *--method DELETE*)",
+      "Bash(az rest *-m delete*)",
+      "Bash(az rest *-m DELETE*)",
+      "Bash(az keyvault secret show *)",
+      "Bash(az ad app credential *)",
+      "Bash(az ad sp credential *)",
+      "Read(./.env)",
+      "Read(./*.pem)",
+      "Read(./*.key)"
+    ]
+  }
+}

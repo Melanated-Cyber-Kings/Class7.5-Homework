@@ -1,0 +1,6 @@
+.venv/
+.env
+*.pem
+*.key
+.claude/settings.local.json
+start-claude.sh
